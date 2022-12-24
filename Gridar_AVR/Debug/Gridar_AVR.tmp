@@ -24,6 +24,15 @@
   <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\OneWire/Files/OneWire_Constants.inc</FILE>
   <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\OneWire/Files/OneWire_Set_Macs.inc</FILE>
   <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\Configs/OneWire_config.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\ADC/Files/Constants.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\ADC/Sets/Prescaler.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\ADC/Sets/ReferenceSelection.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\ADC/Sets/LeftAdjustResult.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\ADC/Sets/ADCMode.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\ADC/Sets/ADCInterrupt.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\ADC/Sets/MControllers.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\ADC/Sets/ChannelSelection6bitGain.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\Configs/ADC_config.inc</FILE>
   <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\Main/Interrupts/Vectors.inc</FILE>
   <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\Main/Interrupts/Vectors8.inc</FILE>
   <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\Main/Interrupts/Vectors16.inc</FILE>
@@ -104,6 +113,17 @@
   <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\OneWire/Commands/OneWire_TemperatureDataConvertation.inc</FILE>
   <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\OneWire/Commands/OneWire_Temperature.inc</FILE>
   <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\OneWire/Labels.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\ADC/Includes.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\ADC/Interrupts.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\ADC/Files/Prescaler.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\ADC/Files/ReferenceSelection.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\ADC/Files/LeftAdjustResult.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\ADC/Files/ChannelSelection.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\ADC/Files/ADCMode.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\ADC/Files/ADCInterrupt.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\ADC/Files/DigitalInputDisable.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\ADC/Functions/ADC_Init.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\ADC/Functions/START.inc</FILE>
   <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\Main/Inits.inc</FILE>
   <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\Reset.inc</FILE>
  </INCLUDED_FILES>
@@ -134,6 +154,7 @@
   <OneWireLastFork><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\OneWire/Files/OneWire_Constants.inc</FILE><LINE>10</LINE></OneWireLastFork>
   <OneWireROMVar><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\OneWire/Files/OneWire_Constants.inc</FILE><LINE>11</LINE></OneWireROMVar>
   <RESET><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\main.asm</FILE><LINE>7</LINE></RESET>
+  <ADC_Conv_Comp><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\ADC/Interrupts.inc</FILE><LINE>4</LINE></ADC_Conv_Comp>
   <Time_Cycles><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\Main/Time_Cycles.inc</FILE><LINE>1</LINE></Time_Cycles>
   <TWSI_Delay_4_1ms_act><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\TWSI/Files/TWSI_Times.inc</FILE><LINE>10</LINE></TWSI_Delay_4_1ms_act>
   <TWSI_Status_act><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\TWSI/Functions/TWSI_TwiStatus.inc</FILE><LINE>12</LINE></TWSI_Status_act>
@@ -284,6 +305,7 @@
   <TempTable><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\OneWire/Commands/OneWire_TemperatureDataConvertation.inc</FILE><LINE>127</LINE></TempTable>
   <loop_10th><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\OneWire/Commands/OneWire_TemperatureDataConvertation.inc</FILE><LINE>103</LINE></loop_10th>
   <loop_10th_finish><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\OneWire/Commands/OneWire_TemperatureDataConvertation.inc</FILE><LINE>109</LINE></loop_10th_finish>
+  <ADCSTAR_act><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\ADC/Functions/START.inc</FILE><LINE>5</LINE></ADCSTAR_act>
   <LCD_TWSI_First_Page><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\main.asm</FILE><LINE>15</LINE></LCD_TWSI_First_Page>
   <Proga><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\main.asm</FILE><LINE>10</LINE></Proga>
  </LABELS>

@@ -3,6 +3,7 @@
 		а. TWSI
 		б. HD44780U
 		в. OneWire
+		г. ADC
 
 
 	1. Откройте файл Config.inc в папке Main:

@@ -71,6 +71,75 @@
     </ToolchainSettings>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="ADC\Files\ADCInterrupt.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ADC\Files\ADCMode.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ADC\Files\ChannelSelection.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ADC\Files\Constants.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ADC\Files\DigitalInputDisable.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ADC\Files\LeftAdjustResult.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ADC\Files\Prescaler.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ADC\Files\ReferenceSelection.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ADC\Functions\ADC_Init.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ADC\Functions\START.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ADC\Includes.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ADC\Interrupts.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ADC\Sets\ADCInterrupt.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ADC\Sets\ADCMode.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ADC\Sets\ChannelSelection4bit.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ADC\Sets\ChannelSelection5bit.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ADC\Sets\ChannelSelection5bitGain.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ADC\Sets\ChannelSelection6bitGain.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ADC\Sets\LeftAdjustResult.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ADC\Sets\MControllers.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ADC\Sets\Prescaler.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ADC\Sets\ReferenceSelection.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Configs\ADC_config.inc">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Configs\HD44780U_config.inc">
       <SubType>Code</SubType>
     </Compile>
@@ -376,6 +445,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="ADC\Files" />
+    <Folder Include="ADC\Functions" />
+    <Folder Include="ADC\Sets" />
     <Folder Include="HD44780U\Actions" />
     <Folder Include="HD44780U\Files" />
     <Folder Include="HD44780U\Functions" />
@@ -383,6 +455,7 @@
     <Folder Include="Main\Interrupts" />
     <Folder Include="Configs" />
     <Folder Include="HD44780U" />
+    <Folder Include="ADC" />
     <Folder Include="OneWire" />
     <Folder Include="OneWire\Commands" />
     <Folder Include="OneWire\Files" />

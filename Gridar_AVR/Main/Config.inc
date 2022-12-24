@@ -7,5 +7,5 @@
 #define TWSI
 #define HD44780U
 #define OneWire
-
+#define ADCMode
 
