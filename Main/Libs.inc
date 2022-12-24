@@ -29,6 +29,11 @@
 	.include "OneWire/Includes.inc"
 #endif
 
+// Файлы настройки Аналого-цифрового конвертера
+#ifdef ADCMode
+	.include "ADC/Includes.inc"
+#endif
+
 
 .include "Main/Inits.inc"
 

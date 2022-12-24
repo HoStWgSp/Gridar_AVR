@@ -12,10 +12,41 @@
     <logicalFolder name="SourceFiles"
                    displayName="Source Files"
                    projectFiles="true">
+      <logicalFolder name="ADC" displayName="ADC" projectFiles="true">
+        <logicalFolder name="Files" displayName="Files" projectFiles="true">
+          <itemPath>ADC/Files/ADCInterrupt.inc</itemPath>
+          <itemPath>ADC/Files/ADCMode.inc</itemPath>
+          <itemPath>ADC/Files/ChannelSelection.inc</itemPath>
+          <itemPath>ADC/Files/Constants.inc</itemPath>
+          <itemPath>ADC/Files/DigitalInputDisable.inc</itemPath>
+          <itemPath>ADC/Files/LeftAdjustResult.inc</itemPath>
+          <itemPath>ADC/Files/Prescaler.inc</itemPath>
+          <itemPath>ADC/Files/ReferenceSelection.inc</itemPath>
+        </logicalFolder>
+        <logicalFolder name="Functions" displayName="Functions" projectFiles="true">
+          <itemPath>ADC/Functions/ADC_Init.inc</itemPath>
+          <itemPath>ADC/Functions/START.inc</itemPath>
+        </logicalFolder>
+        <logicalFolder name="Sets" displayName="Sets" projectFiles="true">
+          <itemPath>ADC/Sets/ADCInterrupt.inc</itemPath>
+          <itemPath>ADC/Sets/ADCMode.inc</itemPath>
+          <itemPath>ADC/Sets/ChannelSelection4bit.inc</itemPath>
+          <itemPath>ADC/Sets/ChannelSelection5bit.inc</itemPath>
+          <itemPath>ADC/Sets/ChannelSelection5bitGain.inc</itemPath>
+          <itemPath>ADC/Sets/ChannelSelection6bitGain.inc</itemPath>
+          <itemPath>ADC/Sets/LeftAdjustResult.inc</itemPath>
+          <itemPath>ADC/Sets/MControllers.inc</itemPath>
+          <itemPath>ADC/Sets/Prescaler.inc</itemPath>
+          <itemPath>ADC/Sets/ReferenceSelection.inc</itemPath>
+        </logicalFolder>
+        <itemPath>ADC/Includes.inc</itemPath>
+        <itemPath>ADC/Interrupts.inc</itemPath>
+      </logicalFolder>
       <logicalFolder name="Configs" displayName="Configs" projectFiles="true">
         <itemPath>Configs/TWSI_config.inc</itemPath>
         <itemPath>Configs/HD44780U_config.inc</itemPath>
         <itemPath>Configs/OneWire_config.inc</itemPath>
+        <itemPath>Configs/ADC_config.inc</itemPath>
       </logicalFolder>
       <logicalFolder name="HD44780U" displayName="HD44780U" projectFiles="true">
         <logicalFolder name="Actions" displayName="Actions" projectFiles="true">
@@ -128,6 +159,7 @@
         <itemPath>README/TWSI_README.inc</itemPath>
         <itemPath>README/HD44780U_README.inc</itemPath>
         <itemPath>README/OneWire_README.inc</itemPath>
+        <itemPath>README/ADC_README.inc</itemPath>
       </logicalFolder>
       <logicalFolder name="TWSI" displayName="TWSI" projectFiles="true">
         <logicalFolder name="Files" displayName="Files" projectFiles="true">

@@ -15,5 +15,10 @@
 	#ifdef OneWire
 		OneWire_init
 	#endif
+	///////////////
+	#ifdef ADCMode
+		ADC_init
+	#endif
+
 
 .endm

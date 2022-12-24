@@ -14,6 +14,17 @@
 	.include "OneWire/Files/OneWire_Set_Macs.inc"
 	.include "Configs/OneWire_config.inc"
 #endif
+/////////////
+#ifdef ADCMode
+	.include "ADC/Files/Constants.inc"
+	.include "ADC/Sets/Prescaler.inc"
+	.include "ADC/Sets/ReferenceSelection.inc"
+	.include "ADC/Sets/LeftAdjustResult.inc"
+	.include "ADC/Sets/ADCMode.inc"
+	.include "ADC/Sets/ADCInterrupt.inc"
+	.include "ADC/Sets/MControllers.inc"
+	.include "Configs/ADC_config.inc"
+#endif
 
 
 
