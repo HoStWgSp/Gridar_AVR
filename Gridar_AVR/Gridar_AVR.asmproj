@@ -71,7 +71,7 @@
     </ToolchainSettings>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Config.inc">
+    <Compile Include="Configs\TWSI_config.inc">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="main.asm">
@@ -161,7 +161,46 @@
     <Compile Include="README\Macros_README.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Reset.asm">
+    <Compile Include="README\TWSI_README.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Reset.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TWSI\Files\TWSI_Const.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TWSI\Files\TWSI_Times.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TWSI\Functions\TWSI_Init.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TWSI\Functions\TWSI_Nack.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TWSI\Functions\TWSI_ReadingByte.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TWSI\Functions\TWSI_SendingByte.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TWSI\Functions\TWSI_Sla.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TWSI\Functions\TWSI_Start.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TWSI\Functions\TWSI_Stop.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TWSI\Functions\TWSI_TwintFlag.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TWSI\Functions\TWSI_TwiStatus.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TWSI\Includes.inc">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
@@ -169,7 +208,10 @@
     <Folder Include="Main" />
     <Folder Include="Main\Interrupts" />
     <Folder Include="Configs" />
+    <Folder Include="TWSI" />
     <Folder Include="README" />
+    <Folder Include="TWSI\Files" />
+    <Folder Include="TWSI\Functions" />
   </ItemGroup>
   <Import Project="$(AVRSTUDIO_EXE_PATH)\\Vs\\Assembler.targets" />
 </Project>

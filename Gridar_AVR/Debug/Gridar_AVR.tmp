@@ -1,0 +1,79 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.8</VERSION>
+ <DEVICE>"ATmega2560"</DEVICE>
+ <WORKING_DIR>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\Atmel\ATmega_DFP\1.7.374\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\Atmel\ATmega_DFP\1.7.374\avrasm\inc\m2560def.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\Main/Libs.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\Main/Constants.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\Main/MC_config.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\Main/Relative.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\Main/Config.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\Main/Conf_sets.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\TWSI/Files/TWSI_Const.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\Configs/TWSI_config.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\Main/Interrupts/Vectors.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\Main/Interrupts/Vectors8.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\Main/Interrupts/Vectors16.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\Main/Interrupts/Vectors32.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\Main/Interrupts/Vectors48_88_168.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\Main/Interrupts/Vectors64.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\Main/Interrupts/Vectors128.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\Main/Interrupts/Vectors162.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\Main/Interrupts/Vectors164_324_644.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\Main/Interrupts/Vectors165.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\Main/Interrupts/Vectors169.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\Main/Interrupts/Vectors325_3250_645_6450.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\Main/Interrupts/Vectors328.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\Main/Interrupts/Vectors329_3290_649_6490.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\Main/Interrupts/Vectors640_1280_1281_2560_2561.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\Main/Interrupts/Vectors1284.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\Main/Interrupts/Vectors8515.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\Main/Interrupts/Vectors8535.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\Main/Macros.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\Main/Time_Cycles.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\TWSI/Includes.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\TWSI/Files/TWSI_Times.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\TWSI/Functions/TWSI_Init.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\TWSI/Functions/TWSI_TwiStatus.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\TWSI/Functions/TWSI_TwintFlag.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\TWSI/Functions/TWSI_Nack.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\TWSI/Functions/TWSI_Start.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\TWSI/Functions/TWSI_SendingByte.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\TWSI/Functions/TWSI_ReadingByte.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\TWSI/Functions/TWSI_Sla.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\TWSI/Functions/TWSI_Stop.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\Main/Inits.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\Reset.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\Debug\Gridar_AVR.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>Gridar_AVR.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>Gridar_AVR.map</FILE>
+  <FILE>Gridar_AVR.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <RESET><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\main.asm</FILE><LINE>7</LINE></RESET>
+  <Time_Cycles><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\Main/Time_Cycles.inc</FILE><LINE>1</LINE></Time_Cycles>
+  <TWSI_Delay_4_1ms_act><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\TWSI/Files/TWSI_Times.inc</FILE><LINE>10</LINE></TWSI_Delay_4_1ms_act>
+  <TWSI_Status_act><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\TWSI/Functions/TWSI_TwiStatus.inc</FILE><LINE>12</LINE></TWSI_Status_act>
+  <TWSI_Status_act_1><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\TWSI/Functions/TWSI_TwiStatus.inc</FILE><LINE>14</LINE></TWSI_Status_act_1>
+  <TWSI_TWINT_Flag_act><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\TWSI/Functions/TWSI_TwintFlag.inc</FILE><LINE>9</LINE></TWSI_TWINT_Flag_act>
+  <TWSI_TWINT_Flag_act_1><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\TWSI/Functions/TWSI_TwintFlag.inc</FILE><LINE>11</LINE></TWSI_TWINT_Flag_act_1>
+  <TWSI_START_act><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\TWSI/Functions/TWSI_Start.inc</FILE><LINE>14</LINE></TWSI_START_act>
+  <TWSI_Sending_byte_act><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\TWSI/Functions/TWSI_SendingByte.inc</FILE><LINE>14</LINE></TWSI_Sending_byte_act>
+  <TWSI_NACK_act><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\TWSI/Functions/TWSI_SendingByte.inc</FILE><LINE>16</LINE></TWSI_NACK_act>
+  <TWSI_STOP_act><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\TWSI/Functions/TWSI_Stop.inc</FILE><LINE>9</LINE></TWSI_STOP_act>
+  <Proga><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\main.asm</FILE><LINE>10</LINE></Proga>
+ </LABELS>
+</ASSEMBLER_INFO>

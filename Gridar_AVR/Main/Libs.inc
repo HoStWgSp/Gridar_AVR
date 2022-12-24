@@ -6,7 +6,7 @@
 //.eseg ;сегмент EEPROM
 
 .cseg ;програмный сегмен
-.include "Config.inc"
+.include "Main/Config.inc"
 .include "Main/Conf_sets.inc"
 .include "Main/Interrupts/Vectors.inc"
 
@@ -15,34 +15,9 @@
 
 
 // Файлы библиотеки I2C
-//#ifdef 
-//	.include 
-//#endif
+#ifdef TWSI
+	.include "TWSI/Includes.inc"
+#endif
 
 .include "Main/Inits.inc"
 
-
-
-
-
-
-
-
-
-
-
-
-
-/*
-
-
-
-
-
-
-
-
-
-
-.include "Interrupts/Vectors.inc"
-.include "Inits.inc"*/
