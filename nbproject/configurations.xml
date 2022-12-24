@@ -14,6 +14,38 @@
                    projectFiles="true">
       <logicalFolder name="Configs" displayName="Configs" projectFiles="true">
         <itemPath>Configs/TWSI_config.inc</itemPath>
+        <itemPath>Configs/HD44780U_config.inc</itemPath>
+      </logicalFolder>
+      <logicalFolder name="HD44780U" displayName="HD44780U" projectFiles="true">
+        <logicalFolder name="Actions" displayName="Actions" projectFiles="true">
+          <itemPath>HD44780U/Actions/HD44780U_ChangeParams.inc</itemPath>
+          <itemPath>HD44780U/Actions/HD44780U_DDRAMincrement.inc</itemPath>
+          <itemPath>HD44780U/Actions/HD44780U_LcdClear.inc</itemPath>
+          <itemPath>HD44780U/Actions/HD44780U_Led.inc</itemPath>
+          <itemPath>HD44780U/Actions/HD44780U_SetCursor.inc</itemPath>
+          <itemPath>HD44780U/Actions/HD44780U_Writeregister.inc</itemPath>
+          <itemPath>HD44780U/Actions/HD44780U_Writestring.inc</itemPath>
+          <itemPath>HD44780U/Actions/HD44780U_WriteSymbol.inc</itemPath>
+        </logicalFolder>
+        <logicalFolder name="Files" displayName="Files" projectFiles="true">
+          <itemPath>HD44780U/Files/HD44780U_Constants.inc</itemPath>
+          <itemPath>HD44780U/Files/HD44780U_Cursor_or_display_shift.inc</itemPath>
+          <itemPath>HD44780U/Files/HD44780U_Display_on_off_control.inc</itemPath>
+          <itemPath>HD44780U/Files/HD44780U_Entry_mode_set.inc</itemPath>
+          <itemPath>HD44780U/Files/HD44780U_Function_set.inc</itemPath>
+          <itemPath>HD44780U/Files/HD44780U_SetMacs.inc</itemPath>
+          <itemPath>HD44780U/Files/HD44780U_Times.inc</itemPath>
+        </logicalFolder>
+        <logicalFolder name="Functions" displayName="Functions" projectFiles="true">
+          <itemPath>HD44780U/Functions/HD44780U_BFCheck.inc</itemPath>
+          <itemPath>HD44780U/Functions/HD44780U_Init.inc</itemPath>
+          <itemPath>HD44780U/Functions/HD44780U_Instr.inc</itemPath>
+          <itemPath>HD44780U/Functions/HD44780U_LedCheck.inc</itemPath>
+          <itemPath>HD44780U/Functions/HD44780U_SendData.inc</itemPath>
+          <itemPath>HD44780U/Functions/HD44780U_SendInstruction.inc</itemPath>
+          <itemPath>HD44780U/Functions/HD44780U_SetBytes.inc</itemPath>
+        </logicalFolder>
+        <itemPath>HD44780U/Includes.inc</itemPath>
       </logicalFolder>
       <logicalFolder name="Main" displayName="Main" projectFiles="true">
         <logicalFolder name="Interrupts" displayName="Interrupts" projectFiles="true">

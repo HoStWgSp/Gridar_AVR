@@ -3,7 +3,13 @@
 */
 
 .macro Inits_Begin
+
 	#ifdef TWSI
 		TWSI_init
 	#endif
+	///////////////
+	#ifdef HD44780U
+		HD44780U_init
+	#endif
+
 .endm
