@@ -15,6 +15,7 @@
       <logicalFolder name="Configs" displayName="Configs" projectFiles="true">
         <itemPath>Configs/TWSI_config.inc</itemPath>
         <itemPath>Configs/HD44780U_config.inc</itemPath>
+        <itemPath>Configs/OneWire_config.inc</itemPath>
       </logicalFolder>
       <logicalFolder name="HD44780U" displayName="HD44780U" projectFiles="true">
         <logicalFolder name="Actions" displayName="Actions" projectFiles="true">
@@ -78,9 +79,55 @@
         <itemPath>Main/Time_Cycles.inc</itemPath>
         <itemPath>Main/Config.inc</itemPath>
       </logicalFolder>
+      <logicalFolder name="OneWire" displayName="OneWire" projectFiles="true">
+        <logicalFolder name="Commands" displayName="Commands" projectFiles="true">
+          <itemPath>OneWire/Commands/OneWire_Temperature.inc</itemPath>
+          <itemPath>OneWire/Commands/OneWire_TemperatureDataConvertation.inc</itemPath>
+        </logicalFolder>
+        <logicalFolder name="Files" displayName="Files" projectFiles="true">
+          <itemPath>OneWire/Files/OneWire_Constants.inc</itemPath>
+          <itemPath>OneWire/Files/OneWire_Set_Macs.inc</itemPath>
+          <itemPath>OneWire/Files/OneWire_Times.inc</itemPath>
+        </logicalFolder>
+        <logicalFolder name="FunctionCommands"
+                       displayName="FunctionCommands"
+                       projectFiles="true">
+          <itemPath>OneWire/FunctionCommands/OneWire_ConvertTemperature.inc</itemPath>
+          <itemPath>OneWire/FunctionCommands/OneWire_CopyScratchpad.inc</itemPath>
+          <itemPath>OneWire/FunctionCommands/OneWire_PowerSupply.inc</itemPath>
+          <itemPath>OneWire/FunctionCommands/OneWire_ReadScratchpad.inc</itemPath>
+          <itemPath>OneWire/FunctionCommands/OneWire_Recall.inc</itemPath>
+          <itemPath>OneWire/FunctionCommands/OneWire_WriteScratchpad.inc</itemPath>
+        </logicalFolder>
+        <logicalFolder name="Functions" displayName="Functions" projectFiles="true">
+          <itemPath>OneWire/Functions/OneWire_CRCCheck.inc</itemPath>
+          <itemPath>OneWire/Functions/OneWire_DeviceBusy.inc</itemPath>
+          <itemPath>OneWire/Functions/OneWire_InitializationSequence.inc</itemPath>
+          <itemPath>OneWire/Functions/OneWire_ReadBit.inc</itemPath>
+          <itemPath>OneWire/Functions/OneWire_ReadBytes.inc</itemPath>
+          <itemPath>OneWire/Functions/OneWire_SearchROM.inc</itemPath>
+          <itemPath>OneWire/Functions/OneWire_SendByte.inc</itemPath>
+          <itemPath>OneWire/Functions/OneWire_SendCommand.inc</itemPath>
+          <itemPath>OneWire/Functions/OneWire_SendConfByte.inc</itemPath>
+          <itemPath>OneWire/Functions/OneWire_SendROMCode.inc</itemPath>
+          <itemPath>OneWire/Functions/OneWire_WriteBit.inc</itemPath>
+        </logicalFolder>
+        <logicalFolder name="ROMCommands" displayName="ROMCommands" projectFiles="true">
+          <itemPath>OneWire/ROMCommands/OneWire_AlarmSearch.inc</itemPath>
+          <itemPath>OneWire/ROMCommands/OneWire_MatchROM.inc</itemPath>
+          <itemPath>OneWire/ROMCommands/OneWire_ReadROM.inc</itemPath>
+          <itemPath>OneWire/ROMCommands/OneWire_SearchROM.inc</itemPath>
+          <itemPath>OneWire/ROMCommands/OneWire_SkipROM.inc</itemPath>
+        </logicalFolder>
+        <itemPath>OneWire/Includes.inc</itemPath>
+        <itemPath>OneWire/Labels.inc</itemPath>
+        <itemPath>OneWire/OneWire_init.inc</itemPath>
+      </logicalFolder>
       <logicalFolder name="README" displayName="README" projectFiles="true">
         <itemPath>README/Macros_README.inc</itemPath>
         <itemPath>README/TWSI_README.inc</itemPath>
+        <itemPath>README/HD44780U_README.inc</itemPath>
+        <itemPath>README/OneWire_README.inc</itemPath>
       </logicalFolder>
       <logicalFolder name="TWSI" displayName="TWSI" projectFiles="true">
         <logicalFolder name="Files" displayName="Files" projectFiles="true">
