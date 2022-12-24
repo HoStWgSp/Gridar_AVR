@@ -1,12 +1,12 @@
 .include "Main/Constants.inc"
 .include "Main/MC_config.inc"
 .include "Main/Relative.inc"
-//.dseg ;??????? ??????
+//.dseg ;сегмент данных
 
-//.eseg ;??????? EEPROM
+//.eseg ;сегмент EEPROM
 
-.cseg ;?????????? ??????
-.include "Config.inc"
+.cseg ;програмный сегмен
+.include "Main/Config.inc"
 .include "Main/Conf_sets.inc"
 .include "Main/Interrupts/Vectors.inc"
 
@@ -14,9 +14,10 @@
 .include "Main/Time_Cycles.inc"
 
 
-// ????? ?????????? I2C
-//#ifdef 
-//	.include 
-//#endif
+// Файлы библиотеки I2C
+#ifdef TWSI
+	.include "TWSI/Includes.inc"
+#endif
 
 .include "Main/Inits.inc"
+

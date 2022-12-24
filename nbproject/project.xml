@@ -6,7 +6,7 @@
             <name>Gridar_Lib</name>
             <creation-uuid>d497732c-0764-4d75-87f6-2acef1cb8ebf</creation-uuid>
             <make-project-type>0</make-project-type>
-            <sourceEncoding>ISO-8859-1</sourceEncoding>
+            <sourceEncoding>windows-1251</sourceEncoding>
             <make-dep-projects/>
             <sourceRootList>
                 <sourceRootElem>.</sourceRootElem>
