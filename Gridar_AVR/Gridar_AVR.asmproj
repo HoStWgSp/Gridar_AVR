@@ -71,7 +71,79 @@
     </ToolchainSettings>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Configs\HD44780U_config.inc">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Configs\TWSI_config.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="HD44780U\Actions\HD44780U_ChangeParams.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="HD44780U\Actions\HD44780U_DDRAMincrement.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="HD44780U\Actions\HD44780U_LcdClear.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="HD44780U\Actions\HD44780U_Led.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="HD44780U\Actions\HD44780U_SetCursor.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="HD44780U\Actions\HD44780U_Writeregister.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="HD44780U\Actions\HD44780U_Writestring.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="HD44780U\Actions\HD44780U_WriteSymbol.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="HD44780U\Files\HD44780U_Constants.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="HD44780U\Files\HD44780U_Cursor_or_display_shift.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="HD44780U\Files\HD44780U_Display_on_off_control.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="HD44780U\Files\HD44780U_Entry_mode_set.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="HD44780U\Files\HD44780U_Function_set.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="HD44780U\Files\HD44780U_SetMacs.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="HD44780U\Files\HD44780U_Times.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="HD44780U\Functions\HD44780U_BFCheck.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="HD44780U\Functions\HD44780U_Init.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="HD44780U\Functions\HD44780U_Instr.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="HD44780U\Functions\HD44780U_LedCheck.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="HD44780U\Functions\HD44780U_SendData.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="HD44780U\Functions\HD44780U_SendInstruction.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="HD44780U\Functions\HD44780U_SetBytes.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="HD44780U\Includes.inc">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="main.asm">
@@ -158,6 +230,9 @@
     <Compile Include="README.inc">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="README\HD44780U_README.inc">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="README\Macros_README.inc">
       <SubType>Code</SubType>
     </Compile>
@@ -205,9 +280,13 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="HD44780U\Actions" />
+    <Folder Include="HD44780U\Files" />
+    <Folder Include="HD44780U\Functions" />
     <Folder Include="Main" />
     <Folder Include="Main\Interrupts" />
     <Folder Include="Configs" />
+    <Folder Include="HD44780U" />
     <Folder Include="TWSI" />
     <Folder Include="README" />
     <Folder Include="TWSI\Files" />

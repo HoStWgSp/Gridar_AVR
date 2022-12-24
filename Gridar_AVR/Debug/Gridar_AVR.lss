@@ -1,5 +1,5 @@
 
-AVRASM ver. 2.2.8  C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\main.asm Sat Dec 24 14:49:12 2022
+AVRASM ver. 2.2.8  C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\main.asm Sat Dec 24 14:55:54 2022
 
 [builtin](2): Including file 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\Atmel\ATmega_DFP\1.7.374\avrasm\inc\m2560def.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\main.asm(5): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\Main/Libs.inc'
@@ -11,6 +11,9 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\Main
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\Main/Libs.inc(10): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\Main/Conf_sets.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\Main/Conf_sets.inc(2): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\TWSI/Files/TWSI_Const.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\Main/Conf_sets.inc(3): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\Configs/TWSI_config.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\Main/Conf_sets.inc(7): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\HD44780U/Files/HD44780U_Constants.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\Main/Conf_sets.inc(8): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\HD44780U/Files/HD44780U_SetMacs.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\Main/Conf_sets.inc(9): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\Configs/HD44780U_config.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\Main/Libs.inc(11): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\Main/Interrupts/Vectors.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\Main/Interrupts/Vectors.inc(2): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\Main/Interrupts/Vectors8.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\Main/Interrupts/Vectors.inc(3): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\Main/Interrupts/Vectors16.inc'
@@ -42,7 +45,28 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\TWSI
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\TWSI/Includes.inc(9): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\TWSI/Functions/TWSI_ReadingByte.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\TWSI/Includes.inc(10): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\TWSI/Functions/TWSI_Sla.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\TWSI/Includes.inc(11): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\TWSI/Functions/TWSI_Stop.inc'
-C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\Main/Libs.inc(22): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\Main/Inits.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\Main/Libs.inc(24): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\HD44780U/Includes.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\HD44780U/Includes.inc(1): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\HD44780U/Files/HD44780U_Times.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\HD44780U/Includes.inc(2): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\HD44780U/Files/HD44780U_Function_set.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\HD44780U/Includes.inc(3): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\HD44780U/Files/HD44780U_Display_on_off_control.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\HD44780U/Includes.inc(4): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\HD44780U/Files/HD44780U_Entry_mode_set.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\HD44780U/Includes.inc(5): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\HD44780U/Files/HD44780U_Cursor_or_display_shift.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\HD44780U/Includes.inc(7): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\HD44780U/Functions/HD44780U_LedCheck.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\HD44780U/Includes.inc(8): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\HD44780U/Functions/HD44780U_SetBytes.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\HD44780U/Includes.inc(9): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\HD44780U/Functions/HD44780U_BFCheck.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\HD44780U/Includes.inc(10): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\HD44780U/Functions/HD44780U_SendInstruction.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\HD44780U/Includes.inc(11): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\HD44780U/Functions/HD44780U_SendData.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\HD44780U/Includes.inc(12): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\HD44780U/Functions/HD44780U_Instr.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\HD44780U/Includes.inc(13): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\HD44780U/Functions/HD44780U_Init.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\HD44780U/Includes.inc(15): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\HD44780U/Actions/HD44780U_ChangeParams.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\HD44780U/Includes.inc(16): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\HD44780U/Actions/HD44780U_LcdClear.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\HD44780U/Includes.inc(17): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\HD44780U/Actions/HD44780U_SetCursor.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\HD44780U/Includes.inc(18): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\HD44780U/Actions/HD44780U_DDRAMincrement.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\HD44780U/Includes.inc(19): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\HD44780U/Actions/HD44780U_WriteString.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\HD44780U/Includes.inc(20): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\HD44780U/Actions/HD44780U_WriteSymbol.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\HD44780U/Includes.inc(21): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\HD44780U/Actions/HD44780U_Writeregister.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\HD44780U/Includes.inc(22): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\HD44780U/Actions/HD44780U_Led.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\Main/Libs.inc(28): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\Main/Inits.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\main.asm(8): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\Reset.inc'
 [builtin](2): Including file 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\Atmel\ATmega_DFP\1.7.374\avrasm\inc\m2560def.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\main.asm(5): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\Main/Libs.inc'
@@ -54,6 +78,9 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\Main
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\Main/Libs.inc(10): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\Main/Conf_sets.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\Main/Conf_sets.inc(2): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\TWSI/Files/TWSI_Const.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\Main/Conf_sets.inc(3): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\Configs/TWSI_config.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\Main/Conf_sets.inc(7): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\HD44780U/Files/HD44780U_Constants.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\Main/Conf_sets.inc(8): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\HD44780U/Files/HD44780U_SetMacs.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\Main/Conf_sets.inc(9): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\Configs/HD44780U_config.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\Main/Libs.inc(11): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\Main/Interrupts/Vectors.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\Main/Interrupts/Vectors.inc(2): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\Main/Interrupts/Vectors8.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\Main/Interrupts/Vectors.inc(3): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\Main/Interrupts/Vectors16.inc'
@@ -85,7 +112,28 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\TWSI
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\TWSI/Includes.inc(9): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\TWSI/Functions/TWSI_ReadingByte.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\TWSI/Includes.inc(10): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\TWSI/Functions/TWSI_Sla.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\TWSI/Includes.inc(11): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\TWSI/Functions/TWSI_Stop.inc'
-C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\Main/Libs.inc(22): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\Main/Inits.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\Main/Libs.inc(24): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\HD44780U/Includes.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\HD44780U/Includes.inc(1): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\HD44780U/Files/HD44780U_Times.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\HD44780U/Includes.inc(2): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\HD44780U/Files/HD44780U_Function_set.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\HD44780U/Includes.inc(3): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\HD44780U/Files/HD44780U_Display_on_off_control.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\HD44780U/Includes.inc(4): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\HD44780U/Files/HD44780U_Entry_mode_set.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\HD44780U/Includes.inc(5): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\HD44780U/Files/HD44780U_Cursor_or_display_shift.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\HD44780U/Includes.inc(7): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\HD44780U/Functions/HD44780U_LedCheck.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\HD44780U/Includes.inc(8): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\HD44780U/Functions/HD44780U_SetBytes.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\HD44780U/Includes.inc(9): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\HD44780U/Functions/HD44780U_BFCheck.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\HD44780U/Includes.inc(10): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\HD44780U/Functions/HD44780U_SendInstruction.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\HD44780U/Includes.inc(11): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\HD44780U/Functions/HD44780U_SendData.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\HD44780U/Includes.inc(12): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\HD44780U/Functions/HD44780U_Instr.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\HD44780U/Includes.inc(13): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\HD44780U/Functions/HD44780U_Init.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\HD44780U/Includes.inc(15): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\HD44780U/Actions/HD44780U_ChangeParams.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\HD44780U/Includes.inc(16): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\HD44780U/Actions/HD44780U_LcdClear.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\HD44780U/Includes.inc(17): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\HD44780U/Actions/HD44780U_SetCursor.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\HD44780U/Includes.inc(18): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\HD44780U/Actions/HD44780U_DDRAMincrement.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\HD44780U/Includes.inc(19): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\HD44780U/Actions/HD44780U_WriteString.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\HD44780U/Includes.inc(20): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\HD44780U/Actions/HD44780U_WriteSymbol.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\HD44780U/Includes.inc(21): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\HD44780U/Actions/HD44780U_Writeregister.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\HD44780U/Includes.inc(22): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\HD44780U/Actions/HD44780U_Led.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\Main/Libs.inc(28): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\Main/Inits.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\main.asm(8): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\Reset.inc'
                                  
                                  /*
@@ -1926,7 +1974,7 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\main
                                  
                                  ; ***** END OF FILE ******************************************************
                                  
-                                 * AVRGridar_V.1.01.12.22
+                                 * AVRGridar_V.2.01.12.22
                                  */
                                  
                                  .include "Main/Libs.inc"
@@ -2167,6 +2215,7 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\main
                                  // остальные закоментируйте
                                  
                                  #define TWSI
+                                 #define HD44780U
                                  
                                  
                                  .include "Main/Conf_sets.inc"
@@ -2185,6 +2234,783 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\main
                                  */
                                  .equ FreqSCL = 31250	; Скорость передачи по I2C 
                                  #endif
+                                 /////////////
+                                 #ifdef HD44780U
+                                 	.include "HD44780U/Files/HD44780U_Constants.inc"
+                                 
+                                 * Тут лежат все символические имена, используемые в библиотеке
+                                 * а также раздел .dseg с резервированный байтами в памяти
+                                 */
+                                 
+                                 .equ	HD44780U_LCDClear					=	$01		;очистка дисплея и установка курсора в первую ячейку первой строки
+                                 .equ	HD44780U_LCD_Home					=	$02		;установка курсора в первую ячейку первой строки
+                                 .equ	HD44780U_LCD_Entry_Mode_Set			=	$04		;установка направления перемещения курсора и сдвиг дисплея
+                                 .equ	HD44780U_Bit_I.D					=	1		;если 1-увеличение адреса DDRAM, 0-уменьшение адреса DDRAM
+                                 .equ	HD44780U_Bit_Shift_Display			=	0		;если 1-сдвиг дисплея, 0-сдвиг курсора
+                                 .equ	HD44780U_LCD_On_Off_Control			=	$08		;настройка дисплея
+                                 .equ	HD44780U_Bit_D						=	2		;если 1-дисплей включить, 0-дисплей выключить
+                                 .equ	HD44780U_Bit_C						=	1		;если 1-курсор виден, 0-не виден
+                                 .equ	HD44780U_Bit_B						=	0		;если 1-курсор мигает, 0-курсор не мигает
+                                 .equ    HD44780U_Cursor_or_Display_Shift	=	$10		;настройка движения дисплея или курсора
+                                 .equ    HD44780U_Bit_S.C					=	3		;если 1-сдвиг дисплей, 0-сдвиг курсора
+                                 .equ	HD44780U_Bit_R.L					=	2		;если 1-сдвиг вправо, 0-сдвиг влево
+                                 .equ	HD44780U_LCD_Function_Set			=	$20		;установки интерфейса
+                                 .equ	HD44780U_Bit_DL						=	4		;если 1-подключение по 8 бит, 0-по 4
+                                 .equ	HD44780U_Bit_N						=	3		;если 1-две линии в дисплее (4 строчки), 0-одна (2 строчки)
+                                 .equ	HD44780U_Bit_F						=	2		;если 1-буквы 5х10 точек, 0-5х8 точек
+                                 
+                                 .equ	HD44780U_LCD_RS						=	0		;если 1-пересылаем данные, 0-инструкции
+                                 .equ	HD44780U_LCD_RW						=	1		;если 1-читаем, 0-пишем
+                                 .equ	HD44780U_LCD_E						=	2		;если 1-готовим данные на отправку, 0-отправляем
+                                 .equ	HD44780U_LCD_LIGHT					=	3		;если 1-то экран горит, 0-не горит
+                                 .equ	HD44780U_LCD_D4						=	4
+                                 .equ	HD44780U_LCD_D5						=	5
+                                 .equ	HD44780U_LCD_D6						=	6
+                                 .equ	HD44780U_LCD_D7						=	7
+                                 
+                                 .dseg
+000200                           	HD44780U_Function_Set_byte:				.byte 1		; для хранения состояния настройки
+000201                           	HD44780U_Display_On_Off_Control_byte:	.byte 1		; для хранения состояния настройки
+000202                           	HD44780U_Entry_Mode_Set_byte:			.byte 1		; для хранения состояния настройки
+000203                           	HD44780U_Cursor_or_Display_Shift_byte:	.byte 1		; для хранения состояния настройки
+000204                           	HD44780U_flags:							.byte 1		; для хранения разных данных
+000205                           	HD44780U_Address_DDRAM:					.byte 1		; для хранения адреса DDRAM
+                                 .cseg
+                                 
+                                 	.include "HD44780U/Files/HD44780U_SetMacs.inc"
+                                 
+                                 * В данном файле лежать макросы, работающие на файл HD44780U_config, для первоначальных настроек 
+                                 * работы дисплея
+                                 */
+                                 ;------------------------------------
+                                 .macro HD44780U_RSpin
+                                 	.if @0 == 'A'
+                                 		.equ HD44780U_RS_DDR	= DDRA	
+                                 		.equ HD44780U_RS_PORT	= PORTA
+                                 	.elif @0 == 'B'	   
+                                 		.equ HD44780U_RS_DDR	= DDRB	
+                                 		.equ HD44780U_RS_PORT	= PORTB
+                                 	.elif @0 == 'C'	   
+                                 		.equ HD44780U_RS_DDR	= DDRC	
+                                 		.equ HD44780U_RS_PORT	= PORTC
+                                 	.elif @0 == 'D'	   
+                                 		.equ HD44780U_RS_DDR	= DDRD	
+                                 		.equ HD44780U_RS_PORT	= PORTD
+                                 	.elif @0 == 'E'	   
+                                 		.equ HD44780U_RS_DDR	= DDRE	
+                                 		.equ HD44780U_RS_PORT	= PORTE
+                                 	.elif @0 == 'F'	   
+                                 		.equ HD44780U_RS_DDR	= DDRF	
+                                 		.equ HD44780U_RS_PORT	= PORTF
+                                 	.elif @0 == 'G'	   
+                                 		.equ HD44780U_RS_DDR	= DDRG	
+                                 		.equ HD44780U_RS_PORT	= PORTG
+                                 	.elif @0 == 'H'	   
+                                 		.equ HD44780U_RS_DDR	= DDRH	
+                                 		.equ HD44780U_RS_PORT	= PORTH
+                                 	.elif @0 == 'J'	   
+                                 		.equ HD44780U_RS_DDR	= DDRJ	
+                                 		.equ HD44780U_RS_PORT	= PORTJ
+                                 	.elif @0 == 'K'	   
+                                 		.equ HD44780U_RS_DDR	= DDRK	
+                                 		.equ HD44780U_RS_PORT	= PORTK
+                                 	.elif @0 == 'L'	   
+                                 		.equ HD44780U_RS_DDR	= DDRL	
+                                 		.equ HD44780U_RS_PORT	= PORTL
+                                 	.endif
+                                 	.if @1 == 0
+                                 		.equ HD44780U_RS_bit = 0
+                                 	.elif @1 == 1	   
+                                 		.equ HD44780U_RS_bit = 1
+                                 	.elif @1 == 2	   
+                                 		.equ HD44780U_RS_bit = 2
+                                 	.elif @1 == 3	   
+                                 		.equ HD44780U_RS_bit = 3
+                                 	.elif @1 == 4	   
+                                 		.equ HD44780U_RS_bit = 4
+                                 	.elif @1 == 5	   
+                                 		.equ HD44780U_RS_bit = 5
+                                 	.elif @1 == 6	   
+                                 		.equ HD44780U_RS_bit = 6
+                                 	.elif @1 == 7	   
+                                 		.equ HD44780U_RS_bit = 7
+                                 	.endif
+                                 .endm
+                                 ;------------------------------------
+                                 .macro HD44780U_RWpin
+                                 	.if @0 == 'A'
+                                 		.equ HD44780U_RW_DDR	= DDRA	
+                                 		.equ HD44780U_RW_PORT	= PORTA
+                                 	.elif @0 == 'B'	   
+                                 		.equ HD44780U_RW_DDR	= DDRB	
+                                 		.equ HD44780U_RW_PORT	= PORTB
+                                 	.elif @0 == 'C'	   
+                                 		.equ HD44780U_RW_DDR	= DDRC	
+                                 		.equ HD44780U_RW_PORT	= PORTC
+                                 	.elif @0 == 'D'	   
+                                 		.equ HD44780U_RW_DDR	= DDRD	
+                                 		.equ HD44780U_RW_PORT	= PORTD
+                                 	.elif @0 == 'E'	   
+                                 		.equ HD44780U_RW_DDR	= DDRE	
+                                 		.equ HD44780U_RW_PORT	= PORTE
+                                 	.elif @0 == 'F'	   
+                                 		.equ HD44780U_RW_DDR	= DDRF	
+                                 		.equ HD44780U_RW_PORT	= PORTF
+                                 	.elif @0 == 'G'	   
+                                 		.equ HD44780U_RW_DDR	= DDRG	
+                                 		.equ HD44780U_RW_PORT	= PORTG
+                                 	.elif @0 == 'H'	   
+                                 		.equ HD44780U_RW_DDR	= DDRH	
+                                 		.equ HD44780U_RW_PORT	= PORTH
+                                 	.elif @0 == 'J'	   
+                                 		.equ HD44780U_RW_DDR	= DDRJ	
+                                 		.equ HD44780U_RW_PORT   = PORTJ
+                                 	.elif @0 == 'K'	   
+                                 		.equ HD44780U_RW_DDR	= DDRK	
+                                 		.equ HD44780U_RW_PORT	= PORTK
+                                 	.elif @0 == 'L'	   
+                                 		.equ HD44780U_RW_DDR	= DDRL	
+                                 		.equ HD44780U_RW_PORT	= PORTL
+                                 	.endif
+                                 	.if @1 == 0
+                                 		.equ HD44780U_RW_bit = 0
+                                 	.elif @1 == 1	   
+                                 		.equ HD44780U_RW_bit = 1
+                                 	.elif @1 == 2	   
+                                 		.equ HD44780U_RW_bit = 2
+                                 	.elif @1 == 3	   
+                                 		.equ HD44780U_RW_bit = 3
+                                 	.elif @1 == 4	   
+                                 		.equ HD44780U_RW_bit = 4
+                                 	.elif @1 == 5	   
+                                 		.equ HD44780U_RW_bit = 5
+                                 	.elif @1 == 6	   
+                                 		.equ HD44780U_RW_bit = 6
+                                 	.elif @1 == 7	   
+                                 		.equ HD44780U_RW_bit = 7
+                                 	.endif
+                                 .endm
+                                 ;------------------------------------
+                                 .macro HD44780U_Epin
+                                 	.if @0 == 'A'
+                                 		.equ HD44780U_E_DDR		= DDRA	
+                                 		.equ HD44780U_E_PORT	= PORTA
+                                 	.elif @0 == 'B'	  
+                                 		.equ HD44780U_E_DDR		= DDRB	
+                                 		.equ HD44780U_E_PORT	= PORTB
+                                 	.elif @0 == 'C'	  
+                                 		.equ HD44780U_E_DDR		= DDRC	
+                                 		.equ HD44780U_E_PORT	= PORTC
+                                 	.elif @0 == 'D'	  
+                                 		.equ HD44780U_E_DDR		= DDRD	
+                                 		.equ HD44780U_E_PORT	= PORTD
+                                 	.elif @0 == 'E'	  
+                                 		.equ HD44780U_E_DDR		= DDRE	
+                                 		.equ HD44780U_E_PORT	= PORTE
+                                 	.elif @0 == 'F'	  
+                                 		.equ HD44780U_E_DDR		= DDRF	
+                                 		.equ HD44780U_E_PORT	= PORTF
+                                 	.elif @0 == 'G'	  
+                                 		.equ HD44780U_E_DDR		= DDRG	
+                                 		.equ HD44780U_E_PORT	= PORTG
+                                 	.elif @0 == 'H'	  
+                                 		.equ HD44780U_E_DDR		= DDRH	
+                                 		.equ HD44780U_E_PORT	= PORTH
+                                 	.elif @0 == 'J'	  
+                                 		.equ HD44780U_E_DDR		= DDRJ	
+                                 		.equ HD44780U_E_PORT	= PORTJ
+                                 	.elif @0 == 'K'	  
+                                 		.equ HD44780U_E_DDR		= DDRK	
+                                 		.equ HD44780U_E_PORT	= PORTK
+                                 	.elif @0 == 'L'	  
+                                 		.equ HD44780U_E_DDR		= DDRL	
+                                 		.equ HD44780U_E_PORT	= PORTL
+                                 	.endif
+                                 	.if @1 == 0
+                                 		.equ HD44780U_E_bit = 0
+                                 	.elif @1 == 1   
+                                 		.equ HD44780U_E_bit = 1
+                                 	.elif @1 == 2   
+                                 		.equ HD44780U_E_bit = 2
+                                 	.elif @1 == 3   
+                                 		.equ HD44780U_E_bit = 3
+                                 	.elif @1 == 4   
+                                 		.equ HD44780U_E_bit = 4
+                                 	.elif @1 == 5   
+                                 		.equ HD44780U_E_bit = 5
+                                 	.elif @1 == 6   
+                                 		.equ HD44780U_E_bit = 6
+                                 	.elif @1 == 7   
+                                 		.equ HD44780U_E_bit = 7
+                                 	.endif
+                                 .endm
+                                 ;------------------------------------
+                                 .macro HD44780U_LIGHTpin
+                                 	.if @0 == 'A'
+                                 		.equ HD44780U_LIGHT_DDR		= DDRA	
+                                 		.equ HD44780U_LIGHT_PORT	= PORTA
+                                 	.elif @0 == 'B'	  
+                                 		.equ HD44780U_LIGHT_DDR		= DDRB	
+                                 		.equ HD44780U_LIGHT_PORT	= PORTB
+                                 	.elif @0 == 'C'	  
+                                 		.equ HD44780U_LIGHT_DDR		= DDRC	
+                                 		.equ HD44780U_LIGHT_PORT	= PORTC
+                                 	.elif @0 == 'D'	  
+                                 		.equ HD44780U_LIGHT_DDR		= DDRD	
+                                 		.equ HD44780U_LIGHT_PORT	= PORTD
+                                 	.elif @0 == 'E'	  
+                                 		.equ HD44780U_LIGHT_DDR		= DDRE	
+                                 		.equ HD44780U_LIGHT_PORT	= PORTE
+                                 	.elif @0 == 'F'	  
+                                 		.equ HD44780U_LIGHT_DDR		= DDRF	
+                                 		.equ HD44780U_LIGHT_PORT	= PORTF
+                                 	.elif @0 == 'G'	  
+                                 		.equ HD44780U_LIGHT_DDR		= DDRG	
+                                 		.equ HD44780U_LIGHT_PORT	= PORTG
+                                 	.elif @0 == 'H'	  
+                                 		.equ HD44780U_LIGHT_DDR		= DDRH	
+                                 		.equ HD44780U_LIGHT_PORT	= PORTH
+                                 	.elif @0 == 'J'	  
+                                 		.equ HD44780U_LIGHT_DDR		= DDRJ	
+                                 		.equ HD44780U_LIGHT_PORT	= PORTJ
+                                 	.elif @0 == 'K'	  
+                                 		.equ HD44780U_LIGHT_DDR		= DDRK	
+                                 		.equ HD44780U_LIGHT_PORT	= PORTK
+                                 	.elif @0 == 'L'	  
+                                 		.equ HD44780U_LIGHT_DDR		= DDRL	
+                                 		.equ HD44780U_LIGHT_PORT	= PORTL
+                                 	.endif
+                                 	.if @1 == 0
+                                 		.equ HD44780U_LIGHT_bit = 0
+                                 	.elif @1 == 1   
+                                 		.equ HD44780U_LIGHT_bit = 1
+                                 	.elif @1 == 2   
+                                 		.equ HD44780U_LIGHT_bit = 2
+                                 	.elif @1 == 3   
+                                 		.equ HD44780U_LIGHT_bit = 3
+                                 	.elif @1 == 4   
+                                 		.equ HD44780U_LIGHT_bit = 4
+                                 	.elif @1 == 5   
+                                 		.equ HD44780U_LIGHT_bit = 5
+                                 	.elif @1 == 6   
+                                 		.equ HD44780U_LIGHT_bit = 6
+                                 	.elif @1 == 7   
+                                 		.equ HD44780U_LIGHT_bit = 7
+                                 	.endif
+                                 .endm
+                                 ;------------------------------------
+                                 .macro HD44780U_D0pin
+                                 	.if @0 == 'A'
+                                 		.equ HD44780U_D0_DDR	= DDRA	
+                                 		.equ HD44780U_D0_PORT	= PORTA
+                                 	.elif @0 == 'B'	   
+                                 		.equ HD44780U_D0_DDR	= DDRB	
+                                 		.equ HD44780U_D0_PORT	= PORTB
+                                 	.elif @0 == 'C'	   
+                                 		.equ HD44780U_D0_DDR	= DDRC	
+                                 		.equ HD44780U_D0_PORT	= PORTC
+                                 	.elif @0 == 'D'	   
+                                 		.equ HD44780U_D0_DDR	= DDRD	
+                                 		.equ HD44780U_D0_PORT	= PORTD
+                                 	.elif @0 == 'E'	   
+                                 		.equ HD44780U_D0_DDR	= DDRE	
+                                 		.equ HD44780U_D0_PORT	= PORTE
+                                 	.elif @0 == 'F'	   
+                                 		.equ HD44780U_D0_DDR	= DDRF	
+                                 		.equ HD44780U_D0_PORT   = PORTF
+                                 	.elif @0 == 'G'	   
+                                 		.equ HD44780U_D0_DDR	= DDRG	
+                                 		.equ HD44780U_D0_PORT	= PORTG
+                                 	.elif @0 == 'H'	   
+                                 		.equ HD44780U_D0_DDR	= DDRH	
+                                 		.equ HD44780U_D0_PORT	= PORTH
+                                 	.elif @0 == 'J'	   
+                                 		.equ HD44780U_D0_DDR	= DDRJ	
+                                 		.equ HD44780U_D0_PORT	= PORTJ
+                                 	.elif @0 == 'K'	   
+                                 		.equ HD44780U_D0_DDR	= DDRK	
+                                 		.equ HD44780U_D0_PORT	= PORTK
+                                 	.elif @0 == 'L'	   
+                                 		.equ HD44780U_D0_DDR	= DDRL	
+                                 		.equ HD44780U_D0_PORT	= PORTL
+                                 	.endif
+                                 	.if @1 == 0
+                                 		.equ HD44780U_D0_bit = 0
+                                 	.elif @1 == 1	   
+                                 		.equ HD44780U_D0_bit = 1
+                                 	.elif @1 == 2	   
+                                 		.equ HD44780U_D0_bit = 2
+                                 	.elif @1 == 3	   
+                                 		.equ HD44780U_D0_bit = 3
+                                 	.elif @1 == 4	   
+                                 		.equ HD44780U_D0_bit = 4
+                                 	.elif @1 == 5	   
+                                 		.equ HD44780U_D0_bit = 5
+                                 	.elif @1 == 6	   
+                                 		.equ HD44780U_D0_bit = 6
+                                 	.elif @1 == 7	   
+                                 		.equ HD44780U_D0_bit = 7
+                                 	.endif
+                                 .endm
+                                 ;------------------------------------
+                                 .macro HD44780U_D1pin
+                                 	.if @0 == 'A'
+                                 		.equ HD44780U_D1_DDR	= DDRA	
+                                 		.equ HD44780U_D1_PORT	= PORTA
+                                 	.elif @0 == 'B'	   
+                                 		.equ HD44780U_D1_DDR	= DDRB	
+                                 		.equ HD44780U_D1_PORT	= PORTB
+                                 	.elif @0 == 'C'	   
+                                 		.equ HD44780U_D1_DDR	= DDRC	
+                                 		.equ HD44780U_D1_PORT	= PORTC
+                                 	.elif @0 == 'D'	   
+                                 		.equ HD44780U_D1_DDR	= DDRD	
+                                 		.equ HD44780U_D1_PORT	= PORTD
+                                 	.elif @0 == 'E'	   
+                                 		.equ HD44780U_D1_DDR	= DDRE	
+                                 		.equ HD44780U_D1_PORT	= PORTE
+                                 	.elif @0 == 'F'	   
+                                 		.equ HD44780U_D1_DDR	= DDRF	
+                                 		.equ HD44780U_D1_PORT	= PORTF
+                                 	.elif @0 == 'G'	   
+                                 		.equ HD44780U_D1_DDR	= DDRG	
+                                 		.equ HD44780U_D1_PORT	= PORTG
+                                 	.elif @0 == 'H'	   
+                                 		.equ HD44780U_D1_DDR	= DDRH	
+                                 		.equ HD44780U_D1_PORT	= PORTH
+                                 	.elif @0 == 'J'	   
+                                 		.equ HD44780U_D1_DDR	= DDRJ	
+                                 		.equ HD44780U_D1_PORT	= PORTJ
+                                 	.elif @0 == 'K'	   
+                                 		.equ HD44780U_D1_DDR	= DDRK	
+                                 		.equ HD44780U_D1_PORT	= PORTK
+                                 	.elif @0 == 'L'	   
+                                 		.equ HD44780U_D1_DDR	= DDRL	
+                                 		.equ HD44780U_D1_PORT	= PORTL
+                                 	.endif
+                                 	.if @1 == 0
+                                 		.equ HD44780U_D1_bit = 0
+                                 	.elif @1 == 1	   
+                                 		.equ HD44780U_D1_bit = 1
+                                 	.elif @1 == 2	   
+                                 		.equ HD44780U_D1_bit = 2
+                                 	.elif @1 == 3	   
+                                 		.equ HD44780U_D1_bit = 3
+                                 	.elif @1 == 4	   
+                                 		.equ HD44780U_D1_bit = 4
+                                 	.elif @1 == 5	   
+                                 		.equ HD44780U_D1_bit = 5
+                                 	.elif @1 == 6	   
+                                 		.equ HD44780U_D1_bit = 6
+                                 	.elif @1 == 7	   
+                                 		.equ HD44780U_D1_bit = 7
+                                 	.endif
+                                 .endm
+                                 ;------------------------------------
+                                 .macro HD44780U_D2pin
+                                 	.if @0 == 'A'
+                                 		.equ HD44780U_D2_DDR	= DDRA	
+                                 		.equ HD44780U_D2_PORT	= PORTA
+                                 	.elif @0 == 'B'	   
+                                 		.equ HD44780U_D2_DDR	= DDRB	
+                                 		.equ HD44780U_D2_PORT	= PORTB
+                                 	.elif @0 == 'C'	   
+                                 		.equ HD44780U_D2_DDR	= DDRC	
+                                 		.equ HD44780U_D2_PORT	= PORTC
+                                 	.elif @0 == 'D'	   
+                                 		.equ HD44780U_D2_DDR	= DDRD	
+                                 		.equ HD44780U_D2_PORT	= PORTD
+                                 	.elif @0 == 'E'	   
+                                 		.equ HD44780U_D2_DDR	= DDRE	
+                                 		.equ HD44780U_D2_PORT	= PORTE
+                                 	.elif @0 == 'F'	   
+                                 		.equ HD44780U_D2_DDR	= DDRF	
+                                 		.equ HD44780U_D2_PORT	= PORTF
+                                 	.elif @0 == 'G'	   
+                                 		.equ HD44780U_D2_DDR	= DDRG	
+                                 		.equ HD44780U_D2_PORT	= PORTG
+                                 	.elif @0 == 'H'	   
+                                 		.equ HD44780U_D2_DDR	= DDRH	
+                                 		.equ HD44780U_D2_PORT	= PORTH
+                                 	.elif @0 == 'J'	   
+                                 		.equ HD44780U_D2_DDR	= DDRJ	
+                                 		.equ HD44780U_D2_PORT	= PORTJ
+                                 	.elif @0 == 'K'	   
+                                 		.equ HD44780U_D2_DDR	= DDRK	
+                                 		.equ HD44780U_D2_PORT	= PORTK
+                                 	.elif @0 == 'L'	   
+                                 		.equ HD44780U_D2_DDR	= DDRL	
+                                 		.equ HD44780U_D2_PORT	= PORTL
+                                 	.endif
+                                 	.if @1 == 0
+                                 		.equ HD44780U_D2_bit = 0
+                                 	.elif @1 == 1	   
+                                 		.equ HD44780U_D2_bit = 1
+                                 	.elif @1 == 2	   
+                                 		.equ HD44780U_D2_bit = 2
+                                 	.elif @1 == 3	   
+                                 		.equ HD44780U_D2_bit = 3
+                                 	.elif @1 == 4	   
+                                 		.equ HD44780U_D2_bit = 4
+                                 	.elif @1 == 5	   
+                                 		.equ HD44780U_D2_bit = 5
+                                 	.elif @1 == 6	   
+                                 		.equ HD44780U_D2_bit = 6
+                                 	.elif @1 == 7	   
+                                 		.equ HD44780U_D2_bit = 7
+                                 	.endif
+                                 .endm
+                                 ;------------------------------------
+                                 .macro HD44780U_D3pin
+                                 	.if @0 == 'A'
+                                 		.equ HD44780U_D3_DDR	= DDRA	
+                                 		.equ HD44780U_D3_PORT	= PORTA
+                                 	.elif @0 == 'B'	   
+                                 		.equ HD44780U_D3_DDR	= DDRB	
+                                 		.equ HD44780U_D3_PORT	= PORTB
+                                 	.elif @0 == 'C'	   
+                                 		.equ HD44780U_D3_DDR	= DDRC	
+                                 		.equ HD44780U_D3_PORT	= PORTC
+                                 	.elif @0 == 'D'	   
+                                 		.equ HD44780U_D3_DDR	= DDRD	
+                                 		.equ HD44780U_D3_PORT	= PORTD
+                                 	.elif @0 == 'E'	   
+                                 		.equ HD44780U_D3_DDR	= DDRE	
+                                 		.equ HD44780U_D3_PORT	= PORTE
+                                 	.elif @0 == 'F'	   
+                                 		.equ HD44780U_D3_DDR	= DDRF	
+                                 		.equ HD44780U_D3_PORT	= PORTF
+                                 	.elif @0 == 'G'	   
+                                 		.equ HD44780U_D3_DDR	= DDRG	
+                                 		.equ HD44780U_D3_PORT	= PORTG
+                                 	.elif @0 == 'H'	   
+                                 		.equ HD44780U_D3_DDR	= DDRH	
+                                 		.equ HD44780U_D3_PORT	= PORTH
+                                 	.elif @0 == 'J'	   
+                                 		.equ HD44780U_D3_DDR	= DDRJ	
+                                 		.equ HD44780U_D3_PORT	= PORTJ
+                                 	.elif @0 == 'K'	   
+                                 		.equ HD44780U_D3_DDR	= DDRK	
+                                 		.equ HD44780U_D3_PORT	= PORTK
+                                 	.elif @0 == 'L'	   
+                                 		.equ HD44780U_D3_DDR	= DDRL	
+                                 		.equ HD44780U_D3_PORT	= PORTL
+                                 	.endif
+                                 	.if @1 == 0
+                                 		.equ HD44780U_D3_bit = 0
+                                 	.elif @1 == 1	   
+                                 		.equ HD44780U_D3_bit = 1
+                                 	.elif @1 == 2	   
+                                 		.equ HD44780U_D3_bit = 2
+                                 	.elif @1 == 3	   
+                                 		.equ HD44780U_D3_bit = 3
+                                 	.elif @1 == 4	   
+                                 		.equ HD44780U_D3_bit = 4
+                                 	.elif @1 == 5	   
+                                 		.equ HD44780U_D3_bit = 5
+                                 	.elif @1 == 6	   
+                                 		.equ HD44780U_D3_bit = 6
+                                 	.elif @1 == 7	   
+                                 		.equ HD44780U_D3_bit = 7
+                                 	.endif
+                                 .endm
+                                 ;------------------------------------
+                                 .macro HD44780U_D4pin
+                                 	.if @0 == 'A'
+                                 		.equ HD44780U_D4_DDR	= DDRA	
+                                 		.equ HD44780U_D4_PORT	= PORTA
+                                 	.elif @0 == 'B'	   
+                                 		.equ HD44780U_D4_DDR	= DDRB	
+                                 		.equ HD44780U_D4_PORT	= PORTB
+                                 	.elif @0 == 'C'	   
+                                 		.equ HD44780U_D4_DDR	= DDRC	
+                                 		.equ HD44780U_D4_PORT	= PORTC
+                                 	.elif @0 == 'D'	   
+                                 		.equ HD44780U_D4_DDR	= DDRD	
+                                 		.equ HD44780U_D4_PORT	= PORTD
+                                 	.elif @0 == 'E'	   
+                                 		.equ HD44780U_D4_DDR	= DDRE	
+                                 		.equ HD44780U_D4_PORT	= PORTE
+                                 	.elif @0 == 'F'	   
+                                 		.equ HD44780U_D4_DDR	= DDRF	
+                                 		.equ HD44780U_D4_PORT	= PORTF
+                                 	.elif @0 == 'G'	   
+                                 		.equ HD44780U_D4_DDR	= DDRG	
+                                 		.equ HD44780U_D4_PORT	= PORTG
+                                 	.elif @0 == 'H'	   
+                                 		.equ HD44780U_D4_DDR	= DDRH	
+                                 		.equ HD44780U_D4_PORT	= PORTH
+                                 	.elif @0 == 'J'	   
+                                 		.equ HD44780U_D4_DDR	= DDRJ	
+                                 		.equ HD44780U_D4_PORT	= PORTJ
+                                 	.elif @0 == 'K'	   
+                                 		.equ HD44780U_D4_DDR	= DDRK	
+                                 		.equ HD44780U_D4_PORT	= PORTK
+                                 	.elif @0 == 'L'	   
+                                 		.equ HD44780U_D4_DDR	= DDRL	
+                                 		.equ HD44780U_D4_PORT	= PORTL
+                                 	.endif
+                                 	.if @1 == 0
+                                 		.equ HD44780U_D4_bit = 0
+                                 	.elif @1 == 1	   
+                                 		.equ HD44780U_D4_bit = 1
+                                 	.elif @1 == 2	   
+                                 		.equ HD44780U_D4_bit = 2
+                                 	.elif @1 == 3	   
+                                 		.equ HD44780U_D4_bit = 3
+                                 	.elif @1 == 4	   
+                                 		.equ HD44780U_D4_bit = 4
+                                 	.elif @1 == 5	   
+                                 		.equ HD44780U_D4_bit = 5
+                                 	.elif @1 == 6	   
+                                 		.equ HD44780U_D4_bit = 6
+                                 	.elif @1 == 7	   
+                                 		.equ HD44780U_D4_bit = 7
+                                 	.endif
+                                 .endm
+                                 ;------------------------------------
+                                 .macro HD44780U_D5pin
+                                 	.if @0 == 'A'
+                                 		.equ HD44780U_D5_DDR	= DDRA	
+                                 		.equ HD44780U_D5_PORT	= PORTA
+                                 	.elif @0 == 'B'	   
+                                 		.equ HD44780U_D5_DDR	= DDRB	
+                                 		.equ HD44780U_D5_PORT	= PORTB
+                                 	.elif @0 == 'C'	   
+                                 		.equ HD44780U_D5_DDR	= DDRC	
+                                 		.equ HD44780U_D5_PORT	= PORTC
+                                 	.elif @0 == 'D'	   
+                                 		.equ HD44780U_D5_DDR	= DDRD	
+                                 		.equ HD44780U_D5_PORT	= PORTD
+                                 	.elif @0 == 'E'	   
+                                 		.equ HD44780U_D5_DDR	= DDRE	
+                                 		.equ HD44780U_D5_PORT	= PORTE
+                                 	.elif @0 == 'F'	   
+                                 		.equ HD44780U_D5_DDR	= DDRF	
+                                 		.equ HD44780U_D5_PORT	= PORTF
+                                 	.elif @0 == 'G'	   
+                                 		.equ HD44780U_D5_DDR	= DDRG	
+                                 		.equ HD44780U_D5_PORT	= PORTG
+                                 	.elif @0 == 'H'	   
+                                 		.equ HD44780U_D5_DDR	= DDRH	
+                                 		.equ HD44780U_D5_PORT	= PORTH
+                                 	.elif @0 == 'J'	   
+                                 		.equ HD44780U_D5_DDR	= DDRJ	
+                                 		.equ HD44780U_D5_PORT	= PORTJ
+                                 	.elif @0 == 'K'	   
+                                 		.equ HD44780U_D5_DDR	= DDRK	
+                                 		.equ HD44780U_D5_PORT	= PORTK
+                                 	.elif @0 == 'L'	   
+                                 		.equ HD44780U_D5_DDR	= DDRL	
+                                 		.equ HD44780U_D5_PORT	= PORTL
+                                 	.endif
+                                 	.if @1 == 0
+                                 		.equ HD44780U_D5_bit = 0
+                                 	.elif @1 == 1	   
+                                 		.equ HD44780U_D5_bit = 1
+                                 	.elif @1 == 2	   
+                                 		.equ HD44780U_D5_bit = 2
+                                 	.elif @1 == 3	   
+                                 		.equ HD44780U_D5_bit = 3
+                                 	.elif @1 == 4	   
+                                 		.equ HD44780U_D5_bit = 4
+                                 	.elif @1 == 5	   
+                                 		.equ HD44780U_D5_bit = 5
+                                 	.elif @1 == 6	   
+                                 		.equ HD44780U_D5_bit = 6
+                                 	.elif @1 == 7	   
+                                 		.equ HD44780U_D5_bit = 7
+                                 	.endif
+                                 .endm
+                                 ;------------------------------------
+                                 .macro HD44780U_D6pin
+                                 	.if @0 == 'A'
+                                 		.equ HD44780U_D6_DDR	= DDRA	
+                                 		.equ HD44780U_D6_PORT	= PORTA
+                                 	.elif @0 == 'B'	   
+                                 		.equ HD44780U_D6_DDR	= DDRB	
+                                 		.equ HD44780U_D6_PORT	= PORTB
+                                 	.elif @0 == 'C'	   
+                                 		.equ HD44780U_D6_DDR	= DDRC	
+                                 		.equ HD44780U_D6_PORT	= PORTC
+                                 	.elif @0 == 'D'	   
+                                 		.equ HD44780U_D6_DDR	= DDRD	
+                                 		.equ HD44780U_D6_PORT	= PORTD
+                                 	.elif @0 == 'E'	   
+                                 		.equ HD44780U_D6_DDR	= DDRE	
+                                 		.equ HD44780U_D6_PORT	= PORTE
+                                 	.elif @0 == 'F'	   
+                                 		.equ HD44780U_D6_DDR	= DDRF	
+                                 		.equ HD44780U_D6_PORT	= PORTF
+                                 	.elif @0 == 'G'	   
+                                 		.equ HD44780U_D6_DDR	= DDRG	
+                                 		.equ HD44780U_D6_PORT	= PORTG
+                                 	.elif @0 == 'H'	   
+                                 		.equ HD44780U_D6_DDR	= DDRH	
+                                 		.equ HD44780U_D6_PORT	= PORTH
+                                 	.elif @0 == 'J'	   
+                                 		.equ HD44780U_D6_DDR	= DDRJ	
+                                 		.equ HD44780U_D6_PORT	= PORTJ
+                                 	.elif @0 == 'K'	   
+                                 		.equ HD44780U_D6_DDR	= DDRK	
+                                 		.equ HD44780U_D6_PORT	= PORTK
+                                 	.elif @0 == 'L'	   
+                                 		.equ HD44780U_D6_DDR	= DDRL	
+                                 		.equ HD44780U_D6_PORT	= PORTL
+                                 	.endif
+                                 	.if @1 == 0
+                                 		.equ HD44780U_D6_bit = 0
+                                 	.elif @1 == 1	   
+                                 		.equ HD44780U_D6_bit = 1
+                                 	.elif @1 == 2	   
+                                 		.equ HD44780U_D6_bit = 2
+                                 	.elif @1 == 3	   
+                                 		.equ HD44780U_D6_bit = 3
+                                 	.elif @1 == 4	   
+                                 		.equ HD44780U_D6_bit = 4
+                                 	.elif @1 == 5	   
+                                 		.equ HD44780U_D6_bit = 5
+                                 	.elif @1 == 6	   
+                                 		.equ HD44780U_D6_bit = 6
+                                 	.elif @1 == 7	   
+                                 		.equ HD44780U_D6_bit = 7
+                                 	.endif
+                                 .endm
+                                 ;------------------------------------
+                                 .macro HD44780U_D7pin
+                                 	.if @0 == 'A'
+                                 		.equ HD44780U_D7_DDR	= DDRA	
+                                 		.equ HD44780U_D7_PORT	= PORTA
+                                 		.equ HD44780U_D7_PIN	= PINA
+                                 	.elif @0 == 'B'	   
+                                 		.equ HD44780U_D7_DDR	= DDRB	
+                                 		.equ HD44780U_D7_PORT	= PORTB
+                                 		.equ HD44780U_D7_PIN	= PINB
+                                 	.elif @0 == 'C'	   
+                                 		.equ HD44780U_D7_DDR	= DDRC	
+                                 		.equ HD44780U_D7_PORT	= PORTC
+                                 		.equ HD44780U_D7_PIN	= PINC
+                                 	.elif @0 == 'D'	   
+                                 		.equ HD44780U_D7_DDR	= DDRD	
+                                 		.equ HD44780U_D7_PORT	= PORTD
+                                 		.equ HD44780U_D7_PIN	= PIND
+                                 	.elif @0 == 'E'	   
+                                 		.equ HD44780U_D7_DDR	= DDRE	
+                                 		.equ HD44780U_D7_PORT	= PORTE
+                                 		.equ HD44780U_D7_PIN	= PINE
+                                 	.elif @0 == 'F'	   
+                                 		.equ HD44780U_D7_DDR	= DDRF	
+                                 		.equ HD44780U_D7_PORT	= PORTF
+                                 		.equ HD44780U_D7_PIN	= PINF
+                                 	.elif @0 == 'G'
+                                 		.equ HD44780U_D7_DDR	= DDRG	
+                                 		.equ HD44780U_D7_PORT	= PORTG
+                                 		.equ HD44780U_D7_PIN	= PING
+                                 	.elif @0 == 'H'   
+                                 		.equ HD44780U_D7_DDR	= DDRH	
+                                 		.equ HD44780U_D7_PORT	= PORTH
+                                 		.equ HD44780U_D7_PIN	= PINH
+                                 	.elif @0 == 'J'	   
+                                 		.equ HD44780U_D7_DDR	= DDRJ	
+                                 		.equ HD44780U_D7_PORT	= PORTJ
+                                 		.equ HD44780U_D7_PIN	= PINJ
+                                 	.elif @0 == 'K'	   
+                                 		.equ HD44780U_D7_DDR	= DDRK	
+                                 		.equ HD44780U_D7_PORT	= PORTK
+                                 		.equ HD44780U_D7_PIN	= PINK
+                                 	.elif @0 == 'L'	   
+                                 		.equ HD44780U_D7_DDR	= DDRL	
+                                 		.equ HD44780U_D7_PORT	= PORTL
+                                 		.equ HD44780U_D7_PIN	= PINL
+                                 	.endif
+                                 	.if @1 == 0
+                                 		.equ HD44780U_D7_bit = 0
+                                 	.elif @1 == 1     
+                                 		.equ HD44780U_D7_bit = 1
+                                 	.elif @1 == 2     
+                                 		.equ HD44780U_D7_bit = 2
+                                 	.elif @1 == 3     
+                                 		.equ HD44780U_D7_bit = 3
+                                 	.elif @1 == 4     
+                                 		.equ HD44780U_D7_bit = 4
+                                 	.elif @1 == 5     
+                                 		.equ HD44780U_D7_bit = 5
+                                 	.elif @1 == 6     
+                                 		.equ HD44780U_D7_bit = 6
+                                 	.elif @1 == 7     
+                                 		.equ HD44780U_D7_bit = 7
+                                 	.endif
+                                 .endm
+                                 ;------------------------------------
+                                 .macro HD44780U_SLA_Address
+                                 	.equ HD44780U_SLA_ = @0	
+                                 .endm
+                                 	.include "Configs/HD44780U_config.inc"
+                                 
+                                 //#define HD44780U_8_Wires				; подключение микроконтроллера по 8-ми битам
+                                 //#define HD44780U_4_Wires				; подключение микроконтроллера по 4-м битам
+                                 #define HD44780U_TWSI					; подключение через TWSI переходник по 8-ми битам
+                                 
+                                 // Настройки параметров работы дисплея
+                                 ;------------------------------------------------------------
+                                 ; Настройка (I/D) - Address Increment или Decrement
+                                 #define HD44780U_ID_Increment
+                                 //#define HD44780U_ID_Decrement
+                                 ;------------------------------------------------------------
+                                 ; Настройка (D) - дисплей включен или выключен
+                                 #define HD44780U_Display_On
+                                 //#define HD44780U_Display_Off
+                                 ;------------------------------------------------------------
+                                 ; Настройка (C) - курсор виден или нет
+                                 #define HD44780U_Cursor_On
+                                 //#define HD44780U_Cursor_Off
+                                 ;------------------------------------------------------------
+                                 ; Настройка (B) - курсор мигает или нет
+                                 #define HD44780U_Cursor_Blinking_On
+                                 //#define HD44780U_Cursor_Blinking_Off
+                                 ;------------------------------------------------------------
+                                 ; Настройка (S/C) - Display Shift или Cursor Move
+                                 //#define HD44780U_Display_Shift
+                                 #define HD44780U_Cursor_Move
+                                 ;------------------------------------------------------------
+                                 ; Настройка (R/L) - Shift to the right или Shift to the left
+                                 #define HD44780U_Shift_to_the_Right
+                                 //#define HD44780U_Shift_to_the_Left
+                                 ;------------------------------------------------------------
+                                 ; Настройка (N) - количество линий дисплея
+                                 #define Character_Front_5x8
+                                 //#define Character_Front_5x10
+                                 ;------------------------------------------------------------
+                                 ; LCD size
+                                 //#define HD44780U_LCD_2x16
+                                 #define HD44780U_LCD_Size_4x20
+                                 //____________________________________________________________________________________
+                                 
+                                 // Ноги для подключения
+                                 // Меняйте значения у тех ног, которые используете
+                                 // остальный можно не коментировать
+                                 
+                                 HD44780U_RSpin		'B', 0	; Нога для инструкции или данных
+                                 HD44780U_RWpin		'D', 2	; Нога записи или чтения
+                                 HD44780U_Epin		'D', 3	; Нога активации записи или чтения
+                                 HD44780U_LIGHTpin	'D', 4	; Нога (+) подсветки экрана
+                                 
+                                 HD44780U_D0pin		'C', 0
+                                 HD44780U_D1pin		'C', 1
+                                 HD44780U_D2pin		'C', 2
+                                 HD44780U_D3pin		'C', 3
+                                 HD44780U_D4pin		'C', 4
+                                 HD44780U_D5pin		'C', 5
+                                 HD44780U_D6pin		'D', 6
+                                 HD44780U_D7pin		'D', 7
+                                 //____________________________________________________________________________________
+                                 
+                                 // Для TWSI, адрес TWI девайса
+                                 HD44780U_SLA_Address	$70
+                                 
+                                 #endif
+                                 
+                                 
                                  
                                  .include "Main/Interrupts/Vectors.inc"
                                  
@@ -2229,7 +3055,7 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\main
                                  .endif
                                  .include "Main/Interrupts/Vectors640_1280_1281_2560_2561.inc"
                                  
-000000 940c 0035                 	.org 0x0000	 jmp RESET ; Reset Handler
+000000 940c 024c                 	.org 0x0000	 jmp RESET ; Reset Handler
                                  	//.org 0x0002 jmp EXT_INT0 ; IRQ0 Handler
                                  	//.org 0x0004 jmp EXT_INT1 ; IRQ1 Handler
                                  	//.org 0x0006 jmp EXT_INT2 ; IRQ2 Handler
@@ -2585,7 +3411,7 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\main
 000003 f7f1                      	brne	Time_Cycles ;если не равно 0, то переходим		2
 000004 9508                      
                                  
-                                 // Файлы библиотеки I2C
+                                 // Файлы Модуля TWSI
                                  #ifdef TWSI
                                  	.include "TWSI/Includes.inc"
                                  
@@ -2755,32 +3581,1094 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\main
 000034 9508                      ret	
                                  #endif
                                  
+                                 // Файлы модуля HD44780U
+                                 #ifdef HD44780U
+                                 	.include "HD44780U/Includes.inc"
+                                 
+                                 
+                                 * В данном файле все временные задержки которые использует данная библиотека
+                                 */
+                                 .macro HD44780U_Delay_5mks
+                                 	_call HD44780U_Delay_5mks_act
+                                 .endm
+                                 ;----------------------------
+                                 .macro HD44780U_Delay_20mks
+                                 	_call HD44780U_Delay_20mks_act
+                                 .endm
+                                 ;----------------------------
+                                 .macro HD44780U_Delay_100mks
+                                 	_call HD44780U_Delay_100mks_act
+                                 .endm
+                                 ;----------------------------
+                                 .macro HD44780U_Delay_4_1ms
+                                 	_call HD44780U_Delay_4_1ms_act
+                                 .endm
+                                 ;----------------------------
+                                 .macro HD44780U_Delay_15ms
+                                 	_call HD44780U_Delay_15ms_act
+                                 .endm
+                                 //____________________________________________________________________________________
+                                 //____________________________________________________________________________________
+                                 HD44780U_Delay_5mks_act:
+000035 e0b0                      	ldi		xh, HIGH(ATmegaFREQ/700000)
+000036 e1a6                      	ldi		xl, LOW(ATmegaFREQ/700000)
+000037 940e 0002                 	_call Time_Cycles
+000039 9508                      ret
+                                 ;----------------------------
+                                 HD44780U_Delay_20mks_act:
+00003a e0b0                      	ldi		xh, HIGH(ATmegaFREQ/175000)
+00003b e5ab                      	ldi		xl, LOW(ATmegaFREQ/175000)
+00003c 940e 0002                 	_call Time_Cycles
+00003e 9508                      ret
+                                 ;----------------------------
+                                 HD44780U_Delay_100mks_act:
+00003f e0b1                      	ldi		xh, HIGH(ATmegaFREQ/35000)
+000040 eca9                      	ldi		xl, LOW(ATmegaFREQ/35000)
+000041 940e 0002                 	_call Time_Cycles
+000043 9508                      ret
+                                 ;----------------------------
+                                 HD44780U_Delay_4_1ms_act:
+000044 e2b7                      	ldi		xh, HIGH(ATmegaFREQ/1600)
+000045 e1a0                      	ldi		xl, LOW(ATmegaFREQ/1600)
+000046 940e 0002                 	_call Time_Cycles
+000048 e2b7                      	ldi		xh, HIGH(ATmegaFREQ/1600)
+000049 e1a0                      	ldi		xl, LOW(ATmegaFREQ/1600)
+00004a 940e 0002                 	_call Time_Cycles
+00004c 9508                      ret
+                                 ;----------------------------
+                                 HD44780U_Delay_15ms_act:
+00004d e9bc                      	ldi		xh, HIGH(ATmegaFREQ/400)
+00004e e4a0                      	ldi		xl, LOW(ATmegaFREQ/400)
+00004f 940e 0002                 	_call Time_Cycles
+000051 e9bc                      	ldi		xh, HIGH(ATmegaFREQ/400)
+000052 e4a0                      	ldi		xl, LOW(ATmegaFREQ/400)
+000053 940e 0002                 	_call Time_Cycles
+000055 9508                      ret
+                                 .include "HD44780U/Files/HD44780U_Function_set.inc"
+                                 
+                                 * Устанавливает/очищает биты количества проводов подключения дисплея,
+                                 * количество строк дисплея и размера символов в конфигурационный байт дисплея
+                                 */
+                                 
+                                 .macro HD44780U_Function_set
+                                 	ldi r16, HD44780U_LCD_Function_Set
+                                 	#ifdef HD44780U_8_Wires
+                                 	#endif
+                                 	#ifdef HD44780U_LCD_Size_4x20
+                                 		SETRB r16, HD44780U_Bit_N
+                                 	#endif
+                                 	#ifdef Character_Front_5x10
+                                 	#endif
+                                 	sts HD44780U_Function_Set_byte, r16
+                                 .endm 
+                                 .include "HD44780U/Files/HD44780U_Display_on_off_control.inc"
+                                 
+                                 * Устанавливает/очищает биты включения/выключения дисплея, курсора 
+                                 * и мигания курсора в конфигурационный байт дисплея
+                                 */
+                                 
+                                 .macro HD44780U_Display_on_off_control
+                                 	ldi r16, HD44780U_LCD_On_Off_Control
+                                 	#ifdef HD44780U_Display_On
+                                 		SETRB r16, HD44780U_Bit_D
+                                 	#endif
+                                 	#ifdef HD44780U_Cursor_On
+                                 		SETRB r16, HD44780U_Bit_C
+                                 	#endif
+                                 	#ifdef HD44780U_Cursor_Blinking_On
+                                 		SETRB r16, HD44780U_Bit_B
+                                 	#endif
+                                 	sts HD44780U_Display_On_Off_Control_byte, r16
+                                 .endm 
+                                 .include "HD44780U/Files/HD44780U_Entry_mode_set.inc"
+                                 
+                                 * Устанавливает/очищает биты инкремента/дикремента адреса курсора или
+                                 * дисплея в конфигурационный байт дисплея
+                                 */
+                                 
+                                 .macro HD44780U_Entry_mode_set
+                                 	ldi r16, HD44780U_LCD_Entry_Mode_Set
+                                 	#ifdef HD44780U_ID_Increment
+                                 		SETRB r16, HD44780U_Bit_I.D
+                                 	#endif
+                                 	#ifdef HD44780U_Display_Shift
+                                 	#endif
+                                 	sts HD44780U_Entry_Mode_Set_byte, r16
+                                 .endm
+                                 .include "HD44780U/Files/HD44780U_Cursor_or_display_shift.inc"
+                                 
+                                 * Устанавливает/очищает бит выбора сдвига курсора иди экрана в конфигурационный байт дисплея
+                                 */
+                                 .macro HD44780U_Cursor_Display_shift
+                                 	ldi r16, HD44780U_Cursor_or_Display_Shift
+                                 	#ifdef HD44780U_Display_Shift
+                                 	#endif
+                                 	#ifdef HD44780U_Shift_to_the_Right
+                                 		SETRB r16, HD44780U_Bit_R.L
+                                 	#endif
+                                 	sts HD44780U_Cursor_or_Display_Shift_byte, r16
+                                 .endm
+                                 
+                                 
+                                 .include "HD44780U/Functions/HD44780U_LedCheck.inc"
+                                 
+                                 * Проверка состояния подсветки из сохраненного состояния
+                                 * для дальнейшей работы по модулю TWI
+                                 */
+                                 .macro HD44780U_led_check
+                                 
+                                 	push r19						; вталкиваем r19 в STACK
+                                 	push r20						; вталкиваем r20 в STACK
+                                 
+                                 	ldi r19, @0						; записывам @0 в r19
+                                 	ldi r20, @1 					; записывам @1 в r20
+                                 
+                                 	_call HD44780U_led_check_act	; переходим
+                                 		
+                                 	pop r20							; выталкиваем r20 из STACK
+                                 	pop r19							; выталкиваем r19 из STACK
+                                 
+                                 .endm
+                                 //____________________________________________________________________________________
+                                 //____________________________________________________________________________________
+                                 HD44780U_led_check_act:
+                                 
+000056 931f                      	push r17						; вталкиваем r17 в STACK
+                                 
+000057 9110 0204                 	READ_REG HD44780U_flags, r17	; записываем данные флага в r17
+                                 
+000059 ff13                      	sbrs r17, HD44780U_LCD_LIGHT
+00005a 2b03                      		or r16, r19					; логическое ИЛИ
+00005b fd13                      	sbrc r17, HD44780U_LCD_LIGHT
+00005c 2b04                      		or r16, r20					; логическое ИЛИ
+                                 
+00005d 911f                      	pop r17							; выталкиваем r17 из STACK
+                                 
+00005e 9508                      ret
+                                 .include "HD44780U/Functions/HD44780U_SetBytes.inc"
+                                 
+                                 * Настройка конфигурационных файлов при инициализации дисплея
+                                 */
+                                 
+                                 .macro HD44780U_Set_byte1	;устанавливаем биты в инструкции в соответствии с настройками
+                                 	.if HD44780U_Lines == 1				
+                                 		CLRRB r16, HD44780U_Bit_N
+                                 	.elif HD44780U_Lines == 2
+                                 		SETRB r16, HD44780U_Bit_N
+                                 	.endif
+                                 	.if HD44780U_Symbols == 8
+                                 		CLRRB r16, HD44780U_Bit_F
+                                 	.elif HD44780U_Symbols == 10
+                                 		SETRB r16, HD44780U_Bit_F
+                                 	.endif
+                                 .endm
+                                 ;-------------------------------------
+                                 .macro HD44780U_Set_byte2	;устанавливаем биты в инструкции в соответствии с настройками
+                                 	.if HD44780U_Display_On == HD44780U_D_On		
+                                 		SETRB r16, HD44780U_Bit_D
+                                 	.elif HD44780U_Display_On == HD44780U_D_Off
+                                 		CLRRB r16, HD44780U_Bit_D
+                                 	.endif
+                                 	.if HD44780U_Cursor_Vis == HD44780U_C_On
+                                 		SETRB r16, HD44780U_Bit_C
+                                 	.elif HD44780U_Cursor_Vis == HD44780U_C_Off
+                                 		CLRRB r16, HD44780U_Bit_C
+                                 	.endif
+                                 	.if HD44780U_Cursor_Blink == HD44780U_B_On
+                                 		SETRB r16, HD44780U_Bit_B
+                                 	.elif HD44780U_Cursor_Blink == HD44780U_B_Off
+                                 		CLRRB r16, HD44780U_Bit_B
+                                 	.endif
+                                 .endm
+                                 ;-------------------------------------
+                                 .macro HD44780U_Set_byte3	;устанавливаем биты в инструкции в соответствии с настройками
+                                 	.if HD44780U_DDRAM == HD44780U_ID_Increment			
+                                 		SETRB r16, HD44780U_Bit_I.D
+                                 	.elif HD44780U_DDRAM == HD44780U_ID_Decrement
+                                 		CLRRB r16, HD44780U_Bit_I.D
+                                 	.endif
+                                 	.if HD44780U_Display_or_Cursor == HD44780U_Display
+                                 		SETRB r16, HD44780U_Bit_Shift_Display
+                                 	.elif HD44780U_Display_or_Cursor == HD44780U_Cursor
+                                 		CLRRB r16, HD44780U_Bit_Shift_Display
+                                 	.endif
+                                 .endm
+                                 .include "HD44780U/Functions/HD44780U_BFCheck.inc"
+                                 
+                                 * Данный макрос проверяет флаг занятости дисплея
+                                 */
+                                 .macro HD44780U_BF_Check
+                                 	_call HD44780U_BF_Check_act	; переходим
+                                 .endm
+                                 //____________________________________________________________________________________
+                                 //____________________________________________________________________________________
+                                 #ifdef HD44780U_8_Wires
+                                 #elif HD44780U_4_Wires
+                                 #elif HD44780U_TWSI
+                                 	HD44780U_BF_Check_act:								; подпрограмма проверяет флаг занятости
+                                 	
+00005f 930f                      		push r16										; вталкиваем r16 в STACK
+000060 931f                      		push r17										; вталкиваем r17 в STACK
+                                 
+000061 e00a                      		ldi		r16, 0x0A								; держим подсветку LCD на +5 и поднимаем RW на +5
+000062 930f
+000063 2f00
+000064 940e 0025
+000066 931f
+000067 e218
+000068 940e 000e
+00006a 911f
+00006b 910f                      		TWSI_Sending_byte r16							; отсылаем байт								
+00006c ef0e                      		ldi		r16, 0xFE								; держим подсветку LCD и RW на +5, Е и биты DB4-DB7 поднимаем на +5 (производим чтение из LCD)
+00006d 930f
+00006e 2f00
+00006f 940e 0025
+000071 931f
+000072 e218
+000073 940e 000e
+000075 911f
+000076 910f                      		TWSI_Sending_byte r16							; отсылаем байт	
+000077 940e 0035                 		HD44780U_Delay_5mks								; задержка
+000079 940e 001d
+00007b 930f
+00007c e700
+00007d 6001
+00007e 940e 0025
+000080 931f
+000081 e410
+000082 940e 000e
+000084 911f
+000085 910f                      		TWSI_START TWSI_Address, 'R'				; отсылаем START (рестартуем для чтения)
+000086 9110 00bb                 		TWSI_Reading_byte r17							; читаем байт из I2C в r17
+000088 940e 0027                 		TWSI_NACK										; больше не принимаем байты
+00008a 940e 001d
+00008c 930f
+00008d e700
+00008e 940e 0025
+000090 931f
+000091 e118
+000092 940e 000e
+000094 911f
+000095 910f                      		TWSI_START TWSI_Address, 'W'				; отсылаем START (рестартуем для записи)
+000096 e00a                      		ldi		r16, 0x0A								; держим подсветку LCD на +5 и поднимаем RW на +5
+000097 930f
+000098 2f00
+000099 940e 0025
+00009b 931f
+00009c e218
+00009d 940e 000e
+00009f 911f
+0000a0 910f                      		TWSI_Sending_byte r16							; отсылаем байт	
+0000a1 ef0e                      		ldi		r16, 0xFE								; держим подсветку LCD и RW на +5, Е и биты DB4-DB7 поднимаем на +5 (производим чтение из LCD)
+0000a2 930f
+0000a3 2f00
+0000a4 940e 0025
+0000a6 931f
+0000a7 e218
+0000a8 940e 000e
+0000aa 911f
+0000ab 910f                      		TWSI_Sending_byte r16							; отсылаем байт	
+0000ac 940e 0035                 		HD44780U_Delay_5mks								; задержка
+0000ae e00a                      		ldi		r16, 0x0A								; держим подсветку LCD на +5 и RW на +5, остальное на 0
+0000af 930f
+0000b0 2f00
+0000b1 940e 0025
+0000b3 931f
+0000b4 e218
+0000b5 940e 000e
+0000b7 911f
+0000b8 910f                      		TWSI_Sending_byte r16							; отсылаем байт
+0000b9 e008                      		ldi		r16, 0x08								; оставляем только подсветку LCD
+0000ba 930f
+0000bb 2f00
+0000bc 940e 0025
+0000be 931f
+0000bf e218
+0000c0 940e 000e
+0000c2 911f
+0000c3 910f                      		TWSI_Sending_byte r16							; отсылаем байт
+0000c4 fd17                      		sbrc	r17, 7									; если седьмой бит равен 0, то пропускаем след строку
+0000c5 cf99                      			rjmp	HD44780U_BF_Check_act				; переходим по метке
+                                 
+0000c6 911f                      		pop r17											; выталкиваем r17 из STACK
+0000c7 910f                      		pop r16											; выталкиваем r16 из STACK
+0000c8 9508                      	ret													; выход из подпрограммы
+                                 #endif
+                                 
+                                 .include "HD44780U/Functions/HD44780U_SendInstruction.inc"
+                                 
+                                 * Отправка инструкций дисплею
+                                 * Принимает один аргумент - регистр с инструкцией для отправки дисплею
+                                 */
+                                 .macro HD44780U_Send_instruction
+                                 	
+                                 	push r16							; вталкиваем r16 в STACK
+                                 	
+                                 	mov r16, @0							; копируем @0 в R16
+                                 	_call HD44780U_Send_instruction_act	; переходим
+                                 
+                                 	pop r16								; выталкиваем r16 из STACK
+                                 
+                                 .endm
+                                 ;-------------------------------------
+                                 .macro HD44780U_Command
+                                 	_call HD44780U_Command_act
+                                 .endm
+                                 ;-------------------------------------
+                                 .macro HD44780U_Command1
+                                 	_call HD44780U_Command1_act
+                                 .endm
+                                 ;-------------------------------------
+                                 .macro HD44780U_Command2
+                                 	_call HD44780U_Command2_act
+                                 .endm
+                                 ;-------------------------------------
+                                 .macro HD44780U_Send_instr_byte_high
+                                 	_call HD44780U_Send_instr_byte_high_act
+                                 .endm
+                                 ;-------------------------------------
+                                 .macro HD44780U_Send_instr_byte_low
+                                 	_call HD44780U_Send_instr_byte_low_act
+                                 .endm
+                                 //____________________________________________________________________________________
+                                 //____________________________________________________________________________________
+                                 #ifdef HD44780U_8_Wires
+                                 #elif HD44780U_4_Wires
+                                 #elif HD44780U_TWSI
+                                 	HD44780U_Send_instruction_act:
+0000c9 940e 00ce                 		HD44780U_Send_instr_byte_high			; переходим по метке
+0000cb 940e 00fa                 		HD44780U_Send_instr_byte_low			; переходим по метке
+0000cd 9508                      	ret											; выход из подпрограммы
+                                 	;----------------------------------------------------------------
+                                 	HD44780U_Send_instr_byte_high_act:			; метка
+0000ce 930f                      		push	r16								; записываем в стек
+0000cf 7f00                      		andi	r16, $f0						; обнуляем первые 4 бита
+0000d0 930f                      		push	r16								; записываем в стек
+0000d1 933f
+0000d2 934f
+0000d3 e034
+0000d4 e04c
+0000d5 940e 0056
+0000d7 914f
+0000d8 913f                      		HD44780U_led_check $04, $0c
+0000d9 930f
+0000da 2f00
+0000db 940e 0025
+0000dd 931f
+0000de e218
+0000df 940e 000e
+0000e1 911f
+0000e2 910f                      		TWSI_Sending_byte r16					; отсылаем байт
+0000e3 910f                      		pop		r16								; извлекаем из стека
+0000e4 933f
+0000e5 934f
+0000e6 e030
+0000e7 e048
+0000e8 940e 0056
+0000ea 914f
+0000eb 913f                      		HD44780U_led_check $00, $08
+0000ec 940e 0035                 		HD44780U_Delay_5mks						; задержка
+0000ee 930f
+0000ef 2f00
+0000f0 940e 0025
+0000f2 931f
+0000f3 e218
+0000f4 940e 000e
+0000f6 911f
+0000f7 910f                      		TWSI_Sending_byte r16					; отсылаем байт
+0000f8 910f                      		pop		r16								; извлекаем из стека
+0000f9 9508                      	ret											; выход из подпрограммы
+                                 	;--------------------------------------------------------------
+                                 	HD44780U_Send_instr_byte_low_act:
+0000fa 9502                      		swap	r16								; меняем тетрады местами
+0000fb 7f00                      		andi	r16, 0xF0						; обнуляем первые 4 бита
+0000fc 930f                      		push	r16								; записываем в стек
+0000fd 933f
+0000fe 934f
+0000ff e034
+000100 e04c
+000101 940e 0056
+000103 914f
+000104 913f                      		HD44780U_led_check $04, $0c
+000105 930f
+000106 2f00
+000107 940e 0025
+000109 931f
+00010a e218
+00010b 940e 000e
+00010d 911f
+00010e 910f                      		TWSI_Sending_byte r16					; отсылаем байт
+00010f 910f                      		pop		r16								; извлекаем из стека
+000110 933f
+000111 934f
+000112 e030
+000113 e048
+000114 940e 0056
+000116 914f
+000117 913f                      		HD44780U_led_check $00, $08
+000118 940e 0035                 		HD44780U_Delay_5mks						; задержка
+00011a 930f
+00011b 2f00
+00011c 940e 0025
+00011e 931f
+00011f e218
+000120 940e 000e
+000122 911f
+000123 910f                      		TWSI_Sending_byte r16					; отсылаем байт
+000124 9508                      	ret											; выход из подпрограммы
+                                 #endif
+                                 
+                                 .include "HD44780U/Functions/HD44780U_SendData.inc"
+                                 
+                                 * Отправка данных дисплею
+                                 * Принимает один аргуммент - регистр с данными для отправки
+                                 */
+                                 .macro HD44780U_Send_data
+                                 
+                                 	push r16						; вталкиваем r16 в STACK
+                                 
+                                 	mov r16, @0						; копируем @0 в r16
+                                 	_call HD44780U_Send_data_act	; переходим
+                                 
+                                 	pop r16							; выталкиваем r16 из STACK
+                                 
+                                 .endm
+                                 ;-------------------------------------
+                                 .macro HD44780U_Send_data_byte_high
+                                 	_call HD44780U_Send_data_byte_high_act
+                                 .endm
+                                 ;-------------------------------------
+                                 .macro HD44780U_Send_data_byte_low
+                                 	_call HD44780U_Send_data_byte_low_act
+                                 .endm
+                                 //____________________________________________________________________________________
+                                 //____________________________________________________________________________________
+                                 #ifdef HD44780U_8_Wires
+                                 #elif HD44780U_4_Wires
+                                 #elif HD44780U_TWSI
+                                 	HD44780U_Send_data_act:
+000125 940e 012a                 		HD44780U_Send_data_byte_high	; переходим по метке
+000127 940e 0158                 		HD44780U_Send_data_byte_low		; переходим по метке
+000129 9508                      	ret									; выход из подпрограммы
+                                 	;----------------------------------------------------------------
+                                 	HD44780U_Send_data_byte_high_act:
+00012a 930f                      		push	r16						; записываем в стек
+00012b 7f00                      		andi	r16, $f0				; обнуляем первые 4 бита
+00012c 930f                      		push	r16						; записываем в стек
+00012d 933f
+00012e 934f
+00012f e035
+000130 e04d
+000131 940e 0056
+000133 914f
+000134 913f                      		HD44780U_led_check $05, $0d
+000135 930f
+000136 2f00
+000137 940e 0025
+000139 931f
+00013a e218
+00013b 940e 000e
+00013d 911f
+00013e 910f                      		TWSI_Sending_byte r16			; отсылаем байт
+00013f 910f                      		pop		r16						; извлекаем из стека
+000140 933f
+000141 934f
+000142 e031
+000143 e049
+000144 940e 0056
+000146 914f
+000147 913f                      		HD44780U_led_check $01, $09
+000148 940e 0035                 		HD44780U_Delay_5mks				; задержка
+00014a 940e 0035                 		HD44780U_Delay_5mks				; задержка
+00014c 930f
+00014d 2f00
+00014e 940e 0025
+000150 931f
+000151 e218
+000152 940e 000e
+000154 911f
+000155 910f                      		TWSI_Sending_byte r16			; отсылаем байт
+000156 910f                      		pop		r16						; извлекаем из стека
+000157 9508                      	ret									; выход из подпрограммы
+                                 	;----------------------------------------------------------------
+                                 	HD44780U_Send_data_byte_low_act:
+000158 9502                      		swap	r16						; меняем тетрады местами
+000159 7f00                      		andi	r16, $f0				; обнуляем первые 4 бита
+00015a 930f                      		push	r16						; помещаем в стек
+00015b 933f
+00015c 934f
+00015d e035
+00015e e04d
+00015f 940e 0056
+000161 914f
+000162 913f                      		HD44780U_led_check $05, $0d
+000163 930f
+000164 2f00
+000165 940e 0025
+000167 931f
+000168 e218
+000169 940e 000e
+00016b 911f
+00016c 910f                      		TWSI_Sending_byte r16			; отсылаем байт
+00016d 910f                      		pop		r16						; извлекаем из стека r16
+00016e 933f
+00016f 934f
+000170 e031
+000171 e049
+000172 940e 0056
+000174 914f
+000175 913f                      		HD44780U_led_check $01, $09
+000176 940e 0035                 		HD44780U_Delay_5mks				; задержка
+000178 940e 0035                 		HD44780U_Delay_5mks				; задержка
+00017a 930f
+00017b 2f00
+00017c 940e 0025
+00017e 931f
+00017f e218
+000180 940e 000e
+000182 911f
+000183 910f                      		TWSI_Sending_byte r16			; отсылаем байт
+000184 9508                      	ret									; выход из подпрограммы	
+                                 #endif
+                                 .include "HD44780U/Functions/HD44780U_Instr.inc"
+                                 
+                                 * Отсылает первоначальные инструкции дисплею при инициализации
+                                 */
+                                 .macro HD44780U_instr
+                                 	_call HD44780U_instr_Act
+                                 .endm
+                                 //____________________________________________________________________________________
+                                 #ifdef HD44780U_8_Wires
+                                 #elif HD44780U_4_Wires
+                                 #endif
+                                 .include "HD44780U/Functions/HD44780U_Init.inc"
+                                 
+                                 * Инициализация дисплея
+                                 */
+                                 .macro HD44780U_init
+                                 	HD44780U_Function_set
+                                 	HD44780U_Display_on_off_control
+                                 	HD44780U_Entry_mode_set
+                                 	HD44780U_Cursor_Display_shift
+                                 	.equ TWSI_Address = HD44780U_SLA_
+                                 	_call HD44780U_init_Act
+                                 .endm
+                                 //____________________________________________________________________________________
+                                 //____________________________________________________________________________________
+                                 #ifdef HD44780U_8_Wires				; подключение микроконтроллера по 8-ми битам
+                                 #elif HD44780U_4_Wires
+                                 #elif HD44780U_TWSI
+                                 	HD44780U_init_Act:
+000185 e003                      	ldi r16,$03
+000186 940e 004d                 		HD44780U_Delay_15ms											; ждем 15-40 ms
+000188 940e 001d
+00018a 930f
+00018b e700
+00018c 940e 0025
+00018e 931f
+00018f e118
+000190 940e 000e
+000192 911f
+000193 910f                      		TWSI_START TWSI_Address, 'W'									; начинаем передачу по шине I2C
+000194 e300                      		ldi	r16, (1<<HD44780U_LCD_D4) | (1<<HD44780U_LCD_D5)		; формируем первую инструкцию инициализации				
+000195 940e 00ce                 		HD44780U_Send_instr_byte_high		 						; передаем старшую тетраду байта инструкции
+000197 940e 0044                 		HD44780U_Delay_4_1ms										; ждем больше 4,1 ms
+000199 e300                      		ldi	r16, (1<<HD44780U_LCD_D4) | (1<<HD44780U_LCD_D5)		; формируем вторую инструкцию инициализации
+00019a 940e 00ce                 		HD44780U_Send_instr_byte_high								; передаем старшую тетраду байта инструкции
+00019c 940e 003f                 		HD44780U_Delay_100mks										; ждем больше 100 mks
+00019e e300                      		ldi	r16, (1<<HD44780U_LCD_D4) | (1<<HD44780U_LCD_D5)		; формируем третью инструкцию инициализации
+00019f 940e 00ce                 		HD44780U_Send_instr_byte_high								; передаем старшую тетраду байта инструкции
+0001a1 e200                      		ldi	r16, (1<<HD44780U_LCD_D5)								; формируем четвертую инструкцию инициализации
+0001a2 940e 00ce                 		HD44780U_Send_instr_byte_high								; передаем старшую тетраду байта инструкции
+0001a4 940e 005f                 		HD44780U_BF_Check											; проверка занятости LCD
+                                 
+0001a6 9100 0200                 		lds r16, HD44780U_Function_Set_byte				; Читаем Function Set в r16
+0001a8 930f
+0001a9 2f00
+0001aa 940e 00c9
+0001ac 910f                      		HD44780U_Send_instruction r16					; скармливаем инструкцию
+0001ad 940e 005f                 		HD44780U_BF_Check								; проверка занятости LCD
+                                 
+0001af 9100 0201                 		lds r16, HD44780U_Display_On_Off_Control_byte	; Читаем Display On/Off Control в r16
+                                 		
+0001b1 940e 003f                 		HD44780U_Delay_100mks							; ждем больше 100 mks
+0001b3 930f
+0001b4 2f00
+0001b5 940e 00c9
+0001b7 910f                      		HD44780U_Send_instruction r16					; отсылаем байт инструкции
+0001b8 940e 005f                 		HD44780U_BF_Check								; проверка занятости LCD
+                                 
+0001ba e001                      		ldi	r16, HD44780U_LCDClear						; LCD_Clear
+0001bb 940e 003f                 		HD44780U_Delay_100mks							; ждем больше 100 mks
+0001bd 930f
+0001be 2f00
+0001bf 940e 00c9
+0001c1 910f                      		HD44780U_Send_instruction r16					; отсылаем байт инструкции
+0001c2 940e 005f                 		HD44780U_BF_Check								; проверка занятости LCD
+                                 
+0001c4 9100 0202                 		lds r16, HD44780U_Entry_Mode_Set_byte			; Читаем Entry Mode Set в r16
+                                 		
+0001c6 940e 003f                 		HD44780U_Delay_100mks							; ждем больше 100 mks
+0001c8 930f
+0001c9 2f00
+0001ca 940e 00c9
+0001cc 910f                      		HD44780U_Send_instruction r16					; отсылаем байт инструкции
+                                 
+0001cd 9100 0010                 		lds r16, HD44780U_Cursor_or_display_shift		; Читаем Cursor or display shift в r16
+0001cf 930f
+0001d0 2f00
+0001d1 940e 00c9
+0001d3 910f                      		HD44780U_Send_instruction r16					; скармливаем инструкцию
+                                 
+0001d4 940e 002d                 		TWSI_STOP										; отсылаем команду STOP
+0001d6 9508                      	ret													; выход из подпрограммы
+                                 #endif
+                                 
+                                 
+                                 .include "HD44780U/Actions/HD44780U_ChangeParams.inc"
+                                 
+                                 * Данные макросы вносят изменения в конфигурационные файлы дисплей
+                                 */
+                                 .macro HD44780U_Cursor_Blinking
+                                 	.if @0 == enabled
+                                 		HD44780U_Change_params HD44780U_Display_On_Off_Control_byte, 1, HD44780U_Bit_B
+                                 	.elif @0 == disabled
+                                 		HD44780U_Change_params HD44780U_Display_On_Off_Control_byte, 0, HD44780U_Bit_B
+                                 	.endif
+                                 .endm
+                                 ;-------------------------------------
+                                 .macro HD44780U_Cursor_visible
+                                 	.if @0 == enabled
+                                 		HD44780U_Change_params HD44780U_Display_On_Off_Control_byte, 1, HD44780U_Bit_C
+                                 	.elif @0 == disabled
+                                 		HD44780U_Change_params HD44780U_Display_On_Off_Control_byte, 0, HD44780U_Bit_C
+                                 	.endif
+                                 .endm
+                                 ;-------------------------------------
+                                 .macro HD44780U_Shift
+                                 	.if @0 == HD44780U_Cursor
+                                 		HD44780U_Change_params HD44780U_Entry_Mode_Set_byte, 0, HD44780U_Bit_Shift_Display
+                                 	.elif @0 == HD44780U_Display
+                                 		HD44780U_Change_params HD44780U_Entry_Mode_Set_byte, 1, HD44780U_Bit_Shift_Display
+                                 	.endif
+                                 .endm
+                                 ;-------------------------------------
+                                 .macro HD44780U_DDRAM_Address
+                                 	.if @0 == HD44780U_ID_Increment
+                                 		HD44780U_Change_params HD44780U_Entry_Mode_Set_byte, 1, HD44780U_Bit_I.D
+                                 	.elif @0 == HD44780U_ID_Decrement
+                                 		HD44780U_Change_params HD44780U_Entry_Mode_Set_byte, 0, HD44780U_Bit_I.D
+                                 	.endif
+                                 .endm
+                                 //____________________________________________________________________________________
+                                 //____________________________________________________________________________________
+                                 .macro HD44780U_Change_params
+                                 
+                                 	push r16						; вталкиваем r16 в STACK
+                                 	lds r16, @0						; выгружаем @0 в r16
+                                 
+                                 	.if @1 == 1
+                                 		SETRB r16, @2				; устанавливаем бит @2 в r16
+                                 	.elif @1 == 0
+                                 		CLRRB r16, @2				; очищаем бит @2 в r16
+                                 	.endif
+                                 
+                                 	sts @0, r16						; загружаем r16 в @0
+                                 
+                                 	HD44780U_Send_instruction r16	; отсылаем инструкцию
+                                 	pop r16							; выталкиваем r16 из STACK
+                                 
+                                 .endm
+                                 .include "HD44780U/Actions/HD44780U_LcdClear.inc"
+                                 
+                                 * Данный макрос используется для очистки дисплея (каретка вернется в положение 1, 1)
+                                 */
+                                 .macro HD44780U_LCD_Clear
+                                 	
+                                 	push r16						; вталкиваем r16 в STACK
+                                 
+                                 	ldi	r16, 0x01					; записываем 1 в r16
+                                 	HD44780U_Send_instruction r16	; отсылаем инструкцию
+                                 
+                                 	pop r16							; выталкиваем r16 из STACK
+                                 
+                                 .endm
+                                 .include "HD44780U/Actions/HD44780U_SetCursor.inc"
+                                 
+                                 * Данный макрос используется для установки курсора в нужное положение на дисплее
+                                 */
+                                 .macro HD44780U_Set_Cursor
+                                 	
+                                 	push r16						; вталкиваем r16 в STACK
+                                 	push r17						; вталкиваем r17 в STACK
+                                 
+                                 	ldi	r17, @0						; записываем @0 в r17
+                                 	ldi	r16, @1						; записываем @1 в r16
+                                 
+                                 	_call HD44780U_SetCursor_act	; переходим
+                                 
+                                 	pop r17							; выталкиваем r17 из STACK
+                                 	pop r16							; выталкиваем r16 из STACK
+                                 
+                                 .endm
+                                 //____________________________________________________________________________________
+                                 //____________________________________________________________________________________
+                                 HD44780U_SetCursor_act:
+                                 
+0001d7 3011                      	cpi		r17, 1								; сравниваем r17 с 1
+0001d8 f031                      	breq	FirstRow							; переходим если равны
+                                 												
+0001d9 3012                      	cpi		r17, 2								; сравниваем r17 с 2
+0001da f039                      	breq	SecondRow							; переходим если равны
+                                 												
+0001db 3013                      	cpi		r17, 3								; сравниваем r17 с 3
+0001dc f041                      	breq	ThirdRow							; переходим если равны
+                                 												
+0001dd 3014                      	cpi		r17, 4								; сравниваем r17 с 4
+0001de f049                      	breq	FourthRow							; переходим если равны
+                                 
+                                 	FirstRow:
+0001df e71f                      		ldi		r17, 128 - 1					; записываем 127 в r17
+0001e0 0f01                      		add		r16, r17						; суммируем r16 и r17
+0001e1 c008                      		rjmp	end								; перепрыгиваем
+                                 												
+                                 	SecondRow:									
+0001e2 eb1f                      		ldi		r17, 192 - 1					; записываем 191 в r17
+0001e3 0f01                      		add		r16, r17						; суммируем r16 и r17
+0001e4 c005                      		rjmp	end								; перепрыгиваем
+                                 
+                                 	ThirdRow:
+0001e5 e913                      		ldi		r17, 128 + $14 - 1				; записываем 147 в r17
+0001e6 0f01                      		add		r16, r17						; суммируем r16 и r17
+0001e7 c002                      		rjmp	end								; перепрыгиваем
+                                 
+                                 	FourthRow:
+0001e8 ed13                      		ldi		r17, 192 + $14 - 1				; записываем 211 в r17
+0001e9 0f01                      		add		r16, r17						; суммируем r16 и r17
+                                 
+                                 	end:
+0001ea 2f10                      		mov r17, r16							; копируем r16 в r17
+0001eb 5810                      		subi r17, $80							; вычитаем 128 из r17
+0001ec 9310 0205                 		WRITE_REG HD44780U_Address_DDRAM, r17	; записываем адрес курсора в HD44780U_Address_DDRAM
+                                 	
+0001ee 930f
+0001ef 2f00
+0001f0 940e 00c9
+0001f2 910f                      	HD44780U_Send_instruction r16				; отсылаем инструкцию
+                                 
+0001f3 9508                      ret
+                                 .include "HD44780U/Actions/HD44780U_DDRAMincrement.inc"
+                                 
+                                 * Данный макрос используется для проверки окончания строки дисплея
+                                 * и если закончиласть, то перемещает курсор на начало следующей строки
+                                 */
+                                 .macro HD44780U_DDRAM_Increment
+                                 	_call HD44780U_Address_DDRAM_Increment_act
+                                 .endm
+                                 //____________________________________________________________________________________
+                                 //____________________________________________________________________________________
+                                 HD44780U_Address_DDRAM_Increment_act:
+                                 
+0001f4 933f                      	push r19									; вталкиваем r19 в STACK
+                                 
+0001f5 9130 0205                 	READ_REG HD44780U_Address_DDRAM, r19		; выгружаем HD44780U_Address_DDRAM в r19
+                                 
+0001f7 9533                      	inc r19										; увеличиваем r19 на 1
+                                 
+                                 	#ifdef HD44780U_LCD_2x16
+                                 	#elif HD44780U_LCD_Size_4x20
+0001f8 3134                      		cpi r19, $14							; сравниваем r19 с 20
+0001f9 f451                      		brne row2								; если не равны, то переходим
+                                 
+                                 		row1:
+0001fa 930f
+0001fb 931f
+0001fc e012
+0001fd e001
+0001fe 940e 01d7
+000200 911f
+000201 910f                      			HD44780U_Set_Cursor 2, 1			; устанавливаем курсор на вторую строку на первый символ
+000202 913f                      			pop r19								; выталкиваем r16 из STACK
+000203 9508                      			ret									; выходим из подпрограммы
+                                 
+                                 		row2:
+000204 3534                      			cpi r19, $54						; сравниваем r19 с 84
+000205 f451                      			brne row3							; если не равны, то переходим
+000206 930f
+000207 931f
+000208 e013
+000209 e001
+00020a 940e 01d7
+00020c 911f
+00020d 910f                      			HD44780U_Set_Cursor 3, 1			; устанавливаем курсор на третью строку на первый символ
+00020e 913f                      			pop r19								; выталкиваем r16 из STACK
+00020f 9508                      			ret									; выходим из подпрограммы
+                                 
+                                 		row3:
+000210 3238                      			cpi r19, $28						; сравниваем r19 с 40
+000211 f451                      			brne row4							; если не равны, то переходим
+000212 930f
+000213 931f
+000214 e014
+000215 e001
+000216 940e 01d7
+000218 911f
+000219 910f                      			HD44780U_Set_Cursor 4, 1			; устанавливаем курсор на четвертую строку на первый символ
+00021a 913f                      			pop r19								; выталкиваем r16 из STACK
+00021b 9508                      			ret									; выходим из подпрограммы
+                                 
+                                 		row4:
+00021c 3638                      			cpi r19, $68						; сравниваем r19 с 104
+00021d f451                      			brne finish							; если не равны, то переходим
+00021e 930f
+00021f 931f
+000220 e011
+000221 e001
+000222 940e 01d7
+000224 911f
+000225 910f                      			HD44780U_Set_Cursor 1, 1			; устанавливаем курсор на первую строку на первый символ
+000226 913f                      			pop r19								; выталкиваем r16 из STACK
+000227 9508                      			ret									; выходим из подпрограммы
+                                 
+                                 	#endif
+                                 
+                                 	finish:
+000228 9330 0205                 		WRITE_REG HD44780U_Address_DDRAM, r19	; загружаем r16 в HD44780U_Address_DDRAM
+00022a 913f                      		pop r19									; выталкиваем r16 из STACK
+00022b 9508                      ret												; выходим из подпрограммы 
+                                 .include "HD44780U/Actions/HD44780U_WriteString.inc"
+                                 
+                                 * Данный макрос используется для вывода на дисплей строки из програмной памяти
+                                 * Не забываем данные регистра привести в соответствие с ASCII
+                                 */
+                                 .macro HD44780U_Write_cseg_String
+                                 	
+                                 	push zh									; вталкиваем zh в STACK
+                                 	push zl									; вталкиваем zl в STACK
+                                 	
+                                 	ldi	zh, high(@0*2)						; записываем старший байт адреса @0 в zh
+                                 	ldi	zl, low(@0*2)						; записываем младший байт адреса @0 в zl
+                                 
+                                 	_call HD44780U_Write_cseg_String_act	; переходим
+                                 
+                                 	pop zl									; выталкиваем zl из STACK
+                                 	pop zh									; выталкиваем zh из STACK
+                                 
+                                 .endm
+                                 //------------------------------------------------------------------------------------
+                                 .macro HD44780U_Write_dseg_String
+                                 	
+                                 	push zh									; вталкиваем zh в STACK
+                                 	push zl									; вталкиваем zl в STACK
+                                 	
+                                 	ldi	zh, high(@0)						; записываем старший байт адреса @0 в zh
+                                 	ldi	zl, low(@0)							; записываем младший байт адреса @0 в zl
+                                 
+                                 	_call HD44780U_Write_dseg_String_act	; переходим
+                                 
+                                 	pop zl									; выталкиваем zl из STACK
+                                 	pop zh									; выталкиваем zh из STACK
+                                 
+                                 .endm
+                                 //____________________________________________________________________________________
+                                 //____________________________________________________________________________________
+                                 HD44780U_Write_cseg_String_act:
+                                 	
+00022c 931f                      	push r17						; вталкиваем r17 в STACK
+00022d 930f                      	push r16						; вталкиваем r16 в STACK
+                                 
+00022e 9115                      	lpm	r17, z+						; загружаем байт из z с пост-инкрементом в r17
+                                 
+                                 	Typing_cseg_String:
+00022f 9105                      		lpm	r16, z+					; загружаем байт из z с пост-инкрементом в r16
+000230 930f
+000231 2f00
+000232 940e 0125
+000234 910f                      		HD44780U_Send_data r16		; отсылаем данные
+000235 940e 01f4                 		HD44780U_DDRAM_Increment	; проверяем на окончание строки
+000237 951a                      		dec	r17						; уменьшаем r17 на 1
+000238 f7b1                      		brne Typing_cseg_String		; если не равно 0, то переходим
+                                 
+000239 910f                      	pop r16							; выталкиваем r16 из STACK
+00023a 911f                      	pop r17							; выталкиваем r17 из STACK
+                                 
+00023b 9508                      ret									; выход из подпрограммы
+                                 //------------------------------------------------------------------------------------
+                                 HD44780U_Write_dseg_String_act:
+                                 	
+00023c 931f                      	push r17						; вталкиваем r17 в STACK
+00023d 930f                      	push r16						; вталкиваем r16 в STACK
+                                 
+00023e 9111                      	ld	r17, z+						; загружаем байт из z с пост-инкрементом в r17
+                                 
+                                 	Typing_dseg_String:
+00023f 9101                      		ld	r16, z+					; загружаем байт из z с пост-инкрементом в r16
+000240 930f
+000241 2f00
+000242 940e 0125
+000244 910f                      		HD44780U_Send_data r16		; отсылаем данные
+000245 940e 01f4                 		HD44780U_DDRAM_Increment	; проверяем на окончание строки
+000247 951a                      		dec	r17						; уменьшаем r17 на 1
+000248 f7b1                      		brne Typing_dseg_String		; если не равно 0, то переходим
+                                 
+000249 910f                      	pop r16							; выталкиваем r16 из STACK
+00024a 911f                      	pop r17							; выталкиваем r17 из STACK
+                                 
+00024b 9508                      ret	
+                                 .include "HD44780U/Actions/HD44780U_WriteSymbol.inc"
+                                 
+                                 * Данный макрос используется для вывода на дисплей символа
+                                 * из таблицы ASCII, заключенный в одиночные апострофы
+                                 */
+                                 .macro HD44780U_Write_Symbol
+                                 
+                                 	push r16					; вталкиваем r16 в STACK
+                                 
+                                 	ldi r16, @0					; записываем @0 в r16
+                                 	HD44780U_Send_data r16		; отсылаем данные
+                                 	HD44780U_DDRAM_Increment	; проверяем на окончание строки
+                                 
+                                 	pop r16						; выталкиваем r16 из STACK
+                                 
+                                 .endm
+                                 .include "HD44780U/Actions/HD44780U_Writeregister.inc"
+                                 
+                                 * Данный макрос используется для вывода на дисплей символа из регистра.
+                                 * Не забываем данные регистра привести в соответствие с ASCII
+                                 */
+                                 .macro HD44780U_Write_Reg
+                                 	
+                                 	push r16					; вталкиваем r16 в STACK
+                                 
+                                 	mov r16, @0					; копируем @0 в r16
+                                 	HD44780U_Send_data r16		; отправляем r16
+                                 	HD44780U_DDRAM_Increment	; проверяем на окончание строки
+                                 
+                                 	pop r16						; выталкиваем r16 из STACK
+                                 
+                                 .endm
+                                 .include "HD44780U/Actions/HD44780U_Led.inc"
+                                 
+                                 * Данный макрос используется для управления работой подсветки дисплея
+                                 */
+                                 .macro HD44780U_LCD_LED
+                                 
+                                 	#if defined HD44780U_8_Wires || HD44780U_4_Wires
+                                 	#elif HD44780U_TWSI
+                                 
+                                 		push r16									; вталкиваем r16 в STACK
+                                 
+                                 		.if @0 == enabled
+                                 			ldi r16, (1<<HD44780U_LCD_LIGHT)		; устанавливаем в r16 бит HD44780U_LCD_LIGHT в 1
+                                 			SETB HD44780U_flags, HD44780U_LCD_LIGHT	; устанавливаем в регистре флагов HD44780U_LCD_LIGHT в 1
+                                 		.elif @0 == disabled
+                                 			clr r16									; очищаем r16
+                                 			CLRB HD44780U_flags, HD44780U_LCD_LIGHT	; устанавливаем в регистре флагов HD44780U_LCD_LIGHT в 0
+                                 		.endif
+                                 
+                                 		TWSI_Sending_byte r16						; отправляем байт в I2C
+                                 
+                                 		pop r16										; выталкиваем r16 из STACK
+                                 
+                                 	#endif
+                                 
+                                 .endm
+                                 
+                                 #endif
+                                 
+                                 
                                  .include "Main/Inits.inc"
                                  
                                  	Данный макрос инициализирует ту библиотеку, которую выбрали в файле Config.inc
                                  */
                                  
                                  .macro Inits_Begin
+                                 
                                  	#ifdef TWSI
                                  		TWSI_init
                                  	#endif
+                                 	///////////////
+                                 	#ifdef HD44780U
+                                 		HD44780U_init
+                                 	#endif
+                                 
                                  .endm
                                  
                                  ///////////////////////////////////////////////////////////////////////
                                  Reset:
                                  .include "Reset.inc"
-000035 ef0f
-000036 bf0d
-000037 e201
-000038 bf0e                      
-000039 9478                      sei
-00003a e30e
-00003b 9300 00b8                 Inits_Begin		// Инициализация выбранных библиотек
+00024c ef0f
+00024d bf0d
+00024e e201
+00024f bf0e                      
+000250 9478                      sei
+000251 e30e
+000252 9300 00b8
+000254 e200
+000255 6008
+000256 9300 0200
+000258 e008
+000259 6004
+00025a 6002
+00025b 6001
+00025c 9300 0201
+00025e e004
+00025f 6002
+000260 9300 0202
+000262 e100
+000263 6004
+000264 9300 0203
+000266 940e 0185                 Inits_Begin		// Инициализация выбранных библиотек
+                                 
+000268 940e 026b                 _call LCD_TWSI_First_Page
                                  
                                  Proga:
                                  // Читайте README файл
                                  // Ваша программа
-00003d cfff                      rjmp Proga
+00026a cfff                      rjmp Proga
+                                 
+                                 LCD_TWSI_First_Page:
+                                 	//message: .db $0b, 'T', 'e', 'm', 'p', 'e', 'r', 't', 'u', 'r', 'e', ':'
+00026b 480c
+00026c 6c65
+00026d 6f6c
+00026e 5720
+00026f 726f
+000270 646c
+000271 2021                      	message1: .db $0c, 'H', 'e', 'l', 'l', 'o', ' ', 'W', 'o', 'r', 'l', 'd', '!', ' '
+000272 940e 001d
+000274 930f
+000275 e700
+000276 940e 0025
+000278 931f
+000279 e118
+00027a 940e 000e
+00027c 911f
+00027d 910f                      	TWSI_START TWSI_Address, 'W'
+00027e 930f
+00027f 931f
+000280 e012
+000281 e001
+000282 940e 01d7
+000284 911f
+000285 910f                      	HD44780U_Set_Cursor 2, 1
+000286 93ff
+000287 93ef
+000288 e0f4
+000289 ede6
+00028a 940e 022c
+00028c 91ef
+00028d 91ff                      	HD44780U_Write_cseg_String message1
+                                 	//HD44780U_Set_Cursor 2, 15
+                                 	//HD44780U_Write_Symbol $2e
+                                 	//HD44780U_Set_Cursor 2, 18
+                                 	//HD44780U_Write_Symbol $df
+                                 	//HD44780U_Write_Symbol 'C'
+                                 	//HD44780U_Cursor_Blinking disabled
+                                 	//HD44780U_Cursor_visible disabled
+                                 
+                                 	//HD44780U_LCD_LED enabled
+00028e 940e 002d                 	TWSI_STOP
 
 
 RESOURCE USE INFORMATION
@@ -2798,41 +4686,41 @@ counted separately from r26..r31 here.
 .dseg memory usage only counts static data declared with .byte
 
 "ATmega2560" register use summary:
-x  :   0 y  :   0 z  :   0 r0 :   0 r1 :   0 r2 :   0 r3 :   0 r4 :   0 
+x  :   0 y  :   0 z  :   4 r0 :   0 r1 :   0 r2 :   0 r3 :   0 r4 :   0 
 r5 :   0 r6 :   0 r7 :   0 r8 :   0 r9 :   0 r10:   0 r11:   0 r12:   0 
-r13:   0 r14:   0 r15:   0 r16:  26 r17:   1 r18:   0 r19:   0 r20:   0 
-r21:   0 r22:   0 r23:   0 r24:   0 r25:   0 r26:   3 r27:   3 r28:   0 
-r29:   0 r30:   0 r31:   0 
-Registers used: 4 out of 35 (11.4%)
+r13:   0 r14:   0 r15:   0 r16: 205 r17: 102 r18:   0 r19:  38 r20:  25 
+r21:   0 r22:   0 r23:   0 r24:   0 r25:   0 r26:  10 r27:  10 r28:   0 
+r29:   0 r30:   3 r31:   3 
+Registers used: 9 out of 35 (25.7%)
 
 "ATmega2560" instruction use summary:
-.lds  :   0 .sts  :   0 adc   :   0 add   :   0 adiw  :   0 and   :   0 
-andi  :   1 asr   :   0 bclr  :   0 bld   :   0 brbc  :   0 brbs  :   0 
-brcc  :   0 brcs  :   0 break :   0 breq  :   0 brge  :   0 brhc  :   0 
+.lds  :   0 .sts  :   0 adc   :   0 add   :   4 adiw  :   0 and   :   0 
+andi  :   5 asr   :   0 bclr  :   0 bld   :   0 brbc  :   0 brbs  :   0 
+brcc  :   0 brcs  :   0 break :   0 breq  :   4 brge  :   0 brhc  :   0 
 brhs  :   0 brid  :   0 brie  :   0 brlo  :   0 brlt  :   0 brmi  :   0 
-brne  :   1 brpl  :   0 brsh  :   0 brtc  :   0 brts  :   0 brvc  :   0 
-brvs  :   0 bset  :   0 bst   :   0 call  :   5 cbi   :   0 cbr   :   0 
+brne  :   7 brpl  :   0 brsh  :   0 brtc  :   0 brts  :   0 brvc  :   0 
+brvs  :   0 bset  :   0 bst   :   0 call  : 107 cbi   :   0 cbr   :   0 
 clc   :   0 clh   :   0 cli   :   0 cln   :   0 clr   :   0 cls   :   0 
 clt   :   0 clv   :   0 clz   :   0 com   :   0 cp    :   0 cpc   :   0 
-cpi   :   0 cpse  :   1 dec   :   0 eicall:   0 eijmp :   0 elpm  :   0 
+cpi   :   8 cpse  :   1 dec   :   2 eicall:   0 eijmp :   0 elpm  :   0 
 eor   :   0 fmul  :   0 fmuls :   0 fmulsu:   0 icall :   0 ijmp  :   0 
-in    :   0 inc   :   0 jmp   :   1 ld    :   0 ldd   :   0 ldi   :  10 
-lds   :   2 lpm   :   0 lsl   :   0 lsr   :   0 mov   :   0 movw  :   0 
-mul   :   0 muls  :   0 mulsu :   0 neg   :   0 nop   :   0 or    :   0 
-ori   :   0 out   :   2 pop   :   4 push  :   4 rcall :   0 ret   :   7 
-reti  :   0 rjmp  :   3 rol   :   0 ror   :   0 sbc   :   0 sbci  :   0 
-sbi   :   0 sbic  :   0 sbis  :   0 sbiw  :   1 sbr   :   0 sbrc  :   0 
-sbrs  :   1 sec   :   0 seh   :   0 sei   :   1 sen   :   0 ser   :   0 
+in    :   0 inc   :   1 jmp   :   1 ld    :   2 ldd   :   0 ldi   :  94 
+lds   :   9 lpm   :   2 lsl   :   0 lsr   :   0 mov   :  23 movw  :   0 
+mul   :   0 muls  :   0 mulsu :   0 neg   :   0 nop   :   0 or    :   2 
+ori   :   0 out   :   2 pop   :  94 push  :  90 rcall :   0 ret   :  30 
+reti  :   0 rjmp  :   7 rol   :   0 ror   :   0 sbc   :   0 sbci  :   0 
+sbi   :   0 sbic  :   0 sbis  :   0 sbiw  :   1 sbr   :   7 sbrc  :   2 
+sbrs  :   2 sec   :   0 seh   :   0 sei   :   1 sen   :   0 ser   :   0 
 ses   :   0 set   :   0 sev   :   0 sez   :   0 sleep :   0 spm   :   0 
-st    :   0 std   :   0 sts   :   5 sub   :   0 subi  :   0 swap  :   0 
+st    :   0 std   :   0 sts   :  11 sub   :   0 subi  :   1 swap  :   2 
 tst   :   0 wdr   :   0 
-Instructions used: 16 out of 116 (13.8%)
+Instructions used: 29 out of 116 (25.0%)
 
 "ATmega2560" memory use summary [bytes]:
 Segment   Begin    End      Code   Data   Used    Size   Use%
 ---------------------------------------------------------------
-[.cseg] 0x000000 0x00007c    124      0    124  262144   0.0%
-[.dseg] 0x000200 0x000200      0      0      0    8192   0.0%
+[.cseg] 0x000000 0x000522   1300     14   1314  262144   0.5%
+[.dseg] 0x000200 0x000206      0      6      6    8192   0.1%
 [.eseg] 0x000000 0x000000      0      0      0    4096   0.0%
 
 Assembly complete, 0 errors, 0 warnings

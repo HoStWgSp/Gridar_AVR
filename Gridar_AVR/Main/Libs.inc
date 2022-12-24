@@ -14,10 +14,16 @@
 .include "Main/Time_Cycles.inc"
 
 
-// Файлы библиотеки I2C
+// Файлы Модуля TWSI
 #ifdef TWSI
 	.include "TWSI/Includes.inc"
 #endif
+
+// Файлы модуля HD44780U
+#ifdef HD44780U
+	.include "HD44780U/Includes.inc"
+#endif
+
 
 .include "Main/Inits.inc"
 
