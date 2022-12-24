@@ -11,9 +11,9 @@
     <OutputFileExtension>.obj</OutputFileExtension>
     <OutputDirectory>$(MSBuildProjectDirectory)\$(Configuration)</OutputDirectory>
     <Language>ASSEMBLY</Language>
-    <AssemblyName>Gridar_Lib</AssemblyName>
-    <Name>Gridar_Lib</Name>
-    <RootNamespace>Gridar_Lib</RootNamespace>
+    <AssemblyName>Gridar_AVR</AssemblyName>
+    <Name>Gridar_AVR</Name>
+    <RootNamespace>Gridar_AVR</RootNamespace>
     <ToolchainFlavour>Native</ToolchainFlavour>
     <EntryFile>$(MSBuildProjectDirectory)\main.asm</EntryFile>
     <KeepTimersRunning>true</KeepTimersRunning>
