@@ -1,5 +1,5 @@
 
-AVRASM ver. 2.2.8  C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\main.asm Sat Dec 24 14:55:54 2022
+AVRASM ver. 2.2.8  C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\main.asm Sat Dec 24 15:50:41 2022
 
 [builtin](2): Including file 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\Atmel\ATmega_DFP\1.7.374\avrasm\inc\m2560def.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\main.asm(5): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\Main/Libs.inc'
@@ -14,6 +14,9 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\Main
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\Main/Conf_sets.inc(7): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\HD44780U/Files/HD44780U_Constants.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\Main/Conf_sets.inc(8): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\HD44780U/Files/HD44780U_SetMacs.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\Main/Conf_sets.inc(9): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\Configs/HD44780U_config.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\Main/Conf_sets.inc(13): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\OneWire/Files/OneWire_Constants.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\Main/Conf_sets.inc(14): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\OneWire/Files/OneWire_Set_Macs.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\Main/Conf_sets.inc(15): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\Configs/OneWire_config.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\Main/Libs.inc(11): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\Main/Interrupts/Vectors.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\Main/Interrupts/Vectors.inc(2): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\Main/Interrupts/Vectors8.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\Main/Interrupts/Vectors.inc(3): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\Main/Interrupts/Vectors16.inc'
@@ -66,7 +69,35 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\HD44
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\HD44780U/Includes.inc(20): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\HD44780U/Actions/HD44780U_WriteSymbol.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\HD44780U/Includes.inc(21): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\HD44780U/Actions/HD44780U_Writeregister.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\HD44780U/Includes.inc(22): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\HD44780U/Actions/HD44780U_Led.inc'
-C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\Main/Libs.inc(28): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\Main/Inits.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\Main/Libs.inc(29): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\OneWire/Includes.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\OneWire/Includes.inc(2): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\OneWire/OneWire_init.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\OneWire/Includes.inc(3): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\OneWire/Files/OneWire_Times.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\OneWire/Includes.inc(5): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\OneWire/Functions/OneWire_CRCCheck.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\OneWire/Includes.inc(6): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\OneWire/Functions/OneWire_WriteBit.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\OneWire/Includes.inc(7): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\OneWire/Functions/OneWire_ReadBit.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\OneWire/Includes.inc(8): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\OneWire/Functions/OneWire_InitializationSequence.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\OneWire/Includes.inc(9): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\OneWire/Functions/OneWire_SendByte.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\OneWire/Includes.inc(10): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\OneWire/Functions/OneWire_SendROMCode.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\OneWire/Includes.inc(11): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\OneWire/Functions/OneWire_SendCommand.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\OneWire/Includes.inc(12): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\OneWire/Functions/OneWire_ReadBytes.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\OneWire/Includes.inc(13): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\OneWire/Functions/OneWire_SendConfByte.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\OneWire/Includes.inc(14): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\OneWire/Functions/OneWire_DeviceBusy.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\OneWire/Includes.inc(15): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\OneWire/Functions/OneWire_SearchROM.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\OneWire/Includes.inc(17): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\OneWire/ROMCommands/OneWire_ReadROM.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\OneWire/Includes.inc(18): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\OneWire/ROMCommands/OneWire_MatchROM.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\OneWire/Includes.inc(19): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\OneWire/ROMCommands/OneWire_SearchROM.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\OneWire/Includes.inc(20): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\OneWire/ROMCommands/OneWire_AlarmSearch.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\OneWire/Includes.inc(21): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\OneWire/ROMCommands/OneWire_SkipROM.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\OneWire/Includes.inc(23): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\OneWire/FunctionCommands/OneWire_PowerSupply.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\OneWire/Includes.inc(24): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\OneWire/FunctionCommands/OneWire_ConvertTemperature.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\OneWire/Includes.inc(25): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\OneWire/FunctionCommands/OneWire_WriteScratchpad.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\OneWire/Includes.inc(26): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\OneWire/FunctionCommands/OneWire_CopyScratchpad.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\OneWire/Includes.inc(27): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\OneWire/FunctionCommands/OneWire_ReadScratchpad.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\OneWire/Includes.inc(28): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\OneWire/FunctionCommands/OneWire_Recall.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\OneWire/Includes.inc(31): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\OneWire/Commands/OneWire_TemperatureDataConvertation.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\OneWire/Includes.inc(32): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\OneWire/Commands/OneWire_Temperature.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\OneWire/Includes.inc(33): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\OneWire/Labels.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\Main/Libs.inc(33): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\Main/Inits.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\main.asm(8): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\Reset.inc'
 [builtin](2): Including file 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\Atmel\ATmega_DFP\1.7.374\avrasm\inc\m2560def.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\main.asm(5): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\Main/Libs.inc'
@@ -81,6 +112,9 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\Main
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\Main/Conf_sets.inc(7): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\HD44780U/Files/HD44780U_Constants.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\Main/Conf_sets.inc(8): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\HD44780U/Files/HD44780U_SetMacs.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\Main/Conf_sets.inc(9): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\Configs/HD44780U_config.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\Main/Conf_sets.inc(13): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\OneWire/Files/OneWire_Constants.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\Main/Conf_sets.inc(14): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\OneWire/Files/OneWire_Set_Macs.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\Main/Conf_sets.inc(15): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\Configs/OneWire_config.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\Main/Libs.inc(11): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\Main/Interrupts/Vectors.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\Main/Interrupts/Vectors.inc(2): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\Main/Interrupts/Vectors8.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\Main/Interrupts/Vectors.inc(3): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\Main/Interrupts/Vectors16.inc'
@@ -133,7 +167,35 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\HD44
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\HD44780U/Includes.inc(20): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\HD44780U/Actions/HD44780U_WriteSymbol.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\HD44780U/Includes.inc(21): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\HD44780U/Actions/HD44780U_Writeregister.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\HD44780U/Includes.inc(22): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\HD44780U/Actions/HD44780U_Led.inc'
-C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\Main/Libs.inc(28): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\Main/Inits.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\Main/Libs.inc(29): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\OneWire/Includes.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\OneWire/Includes.inc(2): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\OneWire/OneWire_init.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\OneWire/Includes.inc(3): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\OneWire/Files/OneWire_Times.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\OneWire/Includes.inc(5): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\OneWire/Functions/OneWire_CRCCheck.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\OneWire/Includes.inc(6): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\OneWire/Functions/OneWire_WriteBit.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\OneWire/Includes.inc(7): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\OneWire/Functions/OneWire_ReadBit.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\OneWire/Includes.inc(8): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\OneWire/Functions/OneWire_InitializationSequence.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\OneWire/Includes.inc(9): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\OneWire/Functions/OneWire_SendByte.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\OneWire/Includes.inc(10): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\OneWire/Functions/OneWire_SendROMCode.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\OneWire/Includes.inc(11): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\OneWire/Functions/OneWire_SendCommand.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\OneWire/Includes.inc(12): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\OneWire/Functions/OneWire_ReadBytes.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\OneWire/Includes.inc(13): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\OneWire/Functions/OneWire_SendConfByte.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\OneWire/Includes.inc(14): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\OneWire/Functions/OneWire_DeviceBusy.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\OneWire/Includes.inc(15): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\OneWire/Functions/OneWire_SearchROM.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\OneWire/Includes.inc(17): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\OneWire/ROMCommands/OneWire_ReadROM.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\OneWire/Includes.inc(18): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\OneWire/ROMCommands/OneWire_MatchROM.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\OneWire/Includes.inc(19): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\OneWire/ROMCommands/OneWire_SearchROM.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\OneWire/Includes.inc(20): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\OneWire/ROMCommands/OneWire_AlarmSearch.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\OneWire/Includes.inc(21): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\OneWire/ROMCommands/OneWire_SkipROM.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\OneWire/Includes.inc(23): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\OneWire/FunctionCommands/OneWire_PowerSupply.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\OneWire/Includes.inc(24): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\OneWire/FunctionCommands/OneWire_ConvertTemperature.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\OneWire/Includes.inc(25): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\OneWire/FunctionCommands/OneWire_WriteScratchpad.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\OneWire/Includes.inc(26): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\OneWire/FunctionCommands/OneWire_CopyScratchpad.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\OneWire/Includes.inc(27): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\OneWire/FunctionCommands/OneWire_ReadScratchpad.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\OneWire/Includes.inc(28): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\OneWire/FunctionCommands/OneWire_Recall.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\OneWire/Includes.inc(31): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\OneWire/Commands/OneWire_TemperatureDataConvertation.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\OneWire/Includes.inc(32): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\OneWire/Commands/OneWire_Temperature.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\OneWire/Includes.inc(33): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\OneWire/Labels.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\Main/Libs.inc(33): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\Main/Inits.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\main.asm(8): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\Reset.inc'
                                  
                                  /*
@@ -1974,7 +2036,7 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\main
                                  
                                  ; ***** END OF FILE ******************************************************
                                  
-                                 * AVRGridar_V.2.01.12.22
+                                 * GridarAVR V.3.01.12.22
                                  */
                                  
                                  .include "Main/Libs.inc"
@@ -2216,6 +2278,7 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\main
                                  
                                  #define TWSI
                                  #define HD44780U
+                                 #define OneWire
                                  
                                  
                                  .include "Main/Conf_sets.inc"
@@ -3009,6 +3072,198 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\main
                                  HD44780U_SLA_Address	$70
                                  
                                  #endif
+                                 /////////////
+                                 #ifdef OneWire
+                                 	.include "OneWire/Files/OneWire_Constants.inc"
+                                 
+000206                           OneWireROMCode:					.byte 8
+00020e                           OneWireAlarmROMCode:			.byte 8
+000216                           OneWireScratchpad:				.byte 9
+00021f                           OneWireTemperature:				.byte 2
+                                 
+000221                           OneWireFlags:					.byte 1
+000222                           OneWireZeroFork:				.byte 1
+000223                           OneWireStep:					.byte 1
+000224                           OneWireLastFork:				.byte 1
+000225                           OneWireROMVar:					.byte 1
+                                 
+                                 .cseg
+                                 
+                                 // OneWireFlags
+                                 .equ OneWireDeviceNotDetected	= 0
+                                 .equ OneWireROMCodeCRCInvalid	= 1
+                                 .equ OneWireNegativeTemperature = 2
+                                 .equ OneWireOneHundredDegrees	= 3
+                                 .equ OneWireLastDevice			= 4
+                                 .equ OneWireSlaveBit			= 5
+                                 .equ OneWireMasterBit			= 6
+                                 .equ OneWireExternalPower		= 7
+                                 
+                                 // ROM Commands
+                                 .equ OneWireReadROMCommand = $33
+                                 .equ OneWireMachROMCommand = $55
+                                 .equ OneWireSearchROMCommand = $f0
+                                 .equ OneWireAlarmSearchCommand = $ec
+                                 .equ OneWireSkipROMCommand = $cc
+                                 
+                                 // Function Commands
+                                 .equ OneWireConvertTemperatureCommand = $44
+                                 .equ OneWireCopyScratchpadCommand = $48
+                                 .equ OneWireWriteScratchpadCommand = $4e
+                                 .equ OneWireReadScreatchpadCommand = $be
+                                 .equ OneWireRecallCommand = $b8
+                                 .equ OneWirePowerSupplyCommand = $b4
+                                 
+                                 .equ OneWireCRC_polynom = $8c
+                                 
+                                 .equ DS1820 = 0
+                                 .equ DS18S20 = 0
+                                 .equ DS18B20 = 1
+                                 .equ DS1822 = 1
+                                 
+                                 .equ ExternalPower = 0
+                                 .equ ParasitePower = 1
+                                 	.include "OneWire/Files/OneWire_Set_Macs.inc"
+                                 
+                                 	.if @0 == 'A'
+                                 		.equ OneWire_DDR	= DDRA	
+                                 		.equ OneWire_PORT	= PORTA
+                                 		.equ OneWire_PIN	= PINA
+                                 	.elif @0 == 'B'	   
+                                 		.equ OneWire_DDR	= DDRB	
+                                 		.equ OneWire_PORT	= PORTB
+                                 		.equ OneWire_PIN	= PINB
+                                 	.elif @0 == 'C'	   
+                                 		.equ OneWire_DDR	= DDRC	
+                                 		.equ OneWire_PORT	= PORTC
+                                 		.equ OneWire_PIN	= PINC
+                                 	.elif @0 == 'D'	   
+                                 		.equ OneWire_DDR	= DDRD	
+                                 		.equ OneWire_PORT	= PORTD
+                                 		.equ OneWire_PIN	= PIND
+                                 	.elif @0 == 'E'	   
+                                 		.equ OneWire_DDR	= DDRE	
+                                 		.equ OneWire_PORT	= PORTE
+                                 		.equ OneWire_PIN	= PINE
+                                 	.elif @0 == 'F'	   
+                                 		.equ OneWire_DDR	= DDRF	
+                                 		.equ OneWire_PORT	= PORTF
+                                 		.equ OneWire_PIN	= PINF
+                                 	.elif @0 == 'G'
+                                 		.equ OneWire_DDR	= DDRG	
+                                 		.equ OneWire_PORT	= PORTG
+                                 		.equ OneWire_PIN	= PING
+                                 	.elif @0 == 'H'   
+                                 		.equ OneWire_DDR	= DDRH	
+                                 		.equ OneWire_PORT	= PORTH
+                                 		.equ OneWire_PIN	= PINH
+                                 	.elif @0 == 'J'	   
+                                 		.equ OneWire_DDR	= DDRJ	
+                                 		.equ OneWire_PORT	= PORTJ
+                                 		.equ OneWire_PIN	= PINJ
+                                 	.elif @0 == 'K'	   
+                                 		.equ OneWire_DDR	= DDRK	
+                                 		.equ OneWire_PORT	= PORTK
+                                 		.equ OneWire_PIN	= PINK
+                                 	.elif @0 == 'L'	   
+                                 		.equ OneWire_DDR	= DDRL	
+                                 		.equ OneWire_PORT	= PORTL
+                                 		.equ OneWire_PIN	= PINL
+                                 	.endif
+                                 	.if @1 == 0
+                                 		.equ OneWire_bit = 0
+                                 	.elif @1 == 1     
+                                 		.equ OneWire_bit = 1
+                                 	.elif @1 == 2     
+                                 		.equ OneWire_bit = 2
+                                 	.elif @1 == 3     
+                                 		.equ OneWire_bit = 3
+                                 	.elif @1 == 4     
+                                 		.equ OneWire_bit = 4
+                                 	.elif @1 == 5     
+                                 		.equ OneWire_bit = 5
+                                 	.elif @1 == 6     
+                                 		.equ OneWire_bit = 6
+                                 	.elif @1 == 7     
+                                 		.equ OneWire_bit = 7
+                                 	.endif
+                                 .endm
+                                 ;------------------------------
+                                 .macro NumberOfSlaves
+                                 	.equ NumberOfSlavesD = @0
+                                 .endm
+                                 ;------------------------------
+                                 .macro One_Wire_MOSFET_Pin
+                                 	.if @0 == 'A'
+                                 		.equ OneWireMOSFET_DDR	= DDRA	
+                                 		.equ OneWireMOSFET_PORT	= PORTA
+                                 		.equ OneWireMOSFET_PIN	= PINA
+                                 	.elif @0 == 'B'	   
+                                 		.equ OneWireMOSFET_DDR	= DDRB	
+                                 		.equ OneWireMOSFET_PORT	= PORTB
+                                 		.equ OneWireMOSFET_PIN	= PINB
+                                 	.elif @0 == 'C'	   
+                                 		.equ OneWireMOSFET_DDR	= DDRC	
+                                 		.equ OneWireMOSFET_PORT	= PORTC
+                                 		.equ OneWireMOSFET_PIN	= PINC
+                                 	.elif @0 == 'D'	   
+                                 		.equ OneWireMOSFET_DDR	= DDRD	
+                                 		.equ OneWireMOSFET_PORT	= PORTD
+                                 		.equ OneWireMOSFET_PIN	= PIND
+                                 	.elif @0 == 'E'	   
+                                 		.equ OneWireMOSFET_DDR	= DDRE	
+                                 		.equ OneWireMOSFET_PORT	= PORTE
+                                 		.equ OneWireMOSFET_PIN	= PINE
+                                 	.elif @0 == 'F'	   
+                                 		.equ OneWireMOSFET_DDR	= DDRF	
+                                 		.equ OneWireMOSFET_PORT	= PORTF
+                                 		.equ OneWireMOSFET_PIN	= PINF
+                                 	.elif @0 == 'G'
+                                 		.equ OneWireMOSFET_DDR	= DDRG	
+                                 		.equ OneWireMOSFET_PORT	= PORTG
+                                 		.equ OneWireMOSFET_PIN	= PING
+                                 	.elif @0 == 'H'   
+                                 		.equ OneWireMOSFET_DDR	= DDRH	
+                                 		.equ OneWireMOSFET_PORT	= PORTH
+                                 		.equ OneWireMOSFET_PIN	= PINH
+                                 	.elif @0 == 'J'	   
+                                 		.equ OneWireMOSFET_DDR	= DDRJ	
+                                 		.equ OneWireMOSFET_PORT	= PORTJ
+                                 		.equ OneWireMOSFET_PIN	= PINJ
+                                 	.elif @0 == 'K'	   
+                                 		.equ OneWireMOSFET_DDR	= DDRK	
+                                 		.equ OneWireMOSFET_PORT	= PORTK
+                                 		.equ OneWireMOSFET_PIN	= PINK
+                                 	.elif @0 == 'L'	   
+                                 		.equ OneWireMOSFET_DDR	= DDRL	
+                                 		.equ OneWireMOSFET_PORT	= PORTL
+                                 		.equ OneWireMOSFET_PIN	= PINL
+                                 	.endif
+                                 	.if @1 == 0
+                                 		.equ OneWireMOSFET_bit = 0
+                                 	.elif @1 == 1     
+                                 		.equ OneWireMOSFET_bit = 1
+                                 	.elif @1 == 2     
+                                 		.equ OneWireMOSFET_bit = 2
+                                 	.elif @1 == 3     
+                                 		.equ OneWireMOSFET_bit = 3
+                                 	.elif @1 == 4     
+                                 		.equ OneWireMOSFET_bit = 4
+                                 	.elif @1 == 5     
+                                 		.equ OneWireMOSFET_bit = 5
+                                 	.elif @1 == 6     
+                                 		.equ OneWireMOSFET_bit = 6
+                                 	.elif @1 == 7     
+                                 		.equ OneWireMOSFET_bit = 7
+                                 	.endif	
+                                 .endm
+                                 	.include "Configs/OneWire_config.inc"
+                                 
+                                 One_Wire_MOSFET_Pin 'B', 2		; буква порта, номер ножки порта
+                                 
+                                 #define ExternalPowerSupply		; Если используете паразитное питание, то закоментируйте строку
+                                 
+                                 #endif
                                  
                                  
                                  
@@ -3055,7 +3310,7 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\main
                                  .endif
                                  .include "Main/Interrupts/Vectors640_1280_1281_2560_2561.inc"
                                  
-000000 940c 024c                 	.org 0x0000	 jmp RESET ; Reset Handler
+000000 940c 059a                 	.org 0x0000	 jmp RESET ; Reset Handler
                                  	//.org 0x0002 jmp EXT_INT0 ; IRQ0 Handler
                                  	//.org 0x0004 jmp EXT_INT1 ; IRQ1 Handler
                                  	//.org 0x0006 jmp EXT_INT2 ; IRQ2 Handler
@@ -4576,6 +4831,1393 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\main
                                  
                                  #endif
                                  
+                                 // Файлы модуля OneWire
+                                 #ifdef OneWire
+                                 	.include "OneWire/Includes.inc"
+                                 
+                                 .include "OneWire/OneWire_init.inc"
+                                 
+                                 * Устанавливает/очищает флаг внешнего питания
+                                 */
+                                 
+                                 .macro OneWire_init
+                                 	#ifdef ExternalPowerSupply
+                                 		SETB OneWireFlags, OneWireExternalPower			; устанавливаем флаг внешнего питания
+                                 	#else
+                                 	#endif
+                                 .endm
+                                 
+                                 .include "OneWire/Files/OneWire_Times.inc"
+                                 
+                                 	_call OneWire_DelayA_act
+                                 .endm
+                                 ;----------------------------
+                                 .macro OneWire_DelayB
+                                 	_call OneWire_DelayB_act
+                                 .endm
+                                 ;----------------------------
+                                 .macro OneWire_DelayC
+                                 	_call OneWire_DelayC_act
+                                 .endm
+                                 ;----------------------------
+                                 .macro OneWire_DelayD
+                                 	_call OneWire_DelayD_act
+                                 .endm
+                                 ;----------------------------
+                                 .macro OneWire_DelayE
+                                 	_call OneWire_DelayE_act
+                                 .endm
+                                 ;----------------------------
+                                 .macro OneWire_DelayF
+                                 	_call OneWire_DelayF_act
+                                 .endm
+                                 ;----------------------------
+                                 .macro OneWire_DelayH
+                                 	_call OneWire_DelayH_act
+                                 .endm
+                                 ;----------------------------
+                                 .macro OneWire_DelayI
+                                 	_call OneWire_DelayI_act
+                                 .endm
+                                 ;----------------------------
+                                 .macro OneWire_DelayJ
+                                 	_call OneWire_DelayJ_act
+                                 .endm
+                                 ;----------------------------
+                                 .macro OneWire_Delay_10ms
+                                 	_call OneWire_Delay_10ms_act
+                                 .endm
+                                 ;----------------------------
+                                 .macro OneWire_Delay_750ms
+                                 	_call OneWire_Delay_750ms_act
+                                 .endm
+                                 //____________________________________________________________________________________
+                                 //____________________________________________________________________________________
+                                 OneWire_DelayA_act:
+00024c e0b0                      	ldi		xh, HIGH(ATmegaFREQ/760000)
+00024d e1a5                      	ldi		xl, LOW(ATmegaFREQ/760000)
+00024e ddb3                      	rcall Time_Cycles
+00024f 9508                      ret
+                                 ;----------------------------
+                                 OneWire_DelayB_act:
+000250 e0b0                      	ldi		xh, HIGH(ATmegaFREQ/63000)
+000251 efad                      	ldi		xl, LOW(ATmegaFREQ/63000)
+000252 ddaf                      	rcall Time_Cycles
+000253 9508                      ret
+                                 ;----------------------------
+                                 OneWire_DelayC_act:
+000254 e0b0                      	ldi		xh, HIGH(ATmegaFREQ/67500)
+000255 eead                      	ldi		xl, LOW(ATmegaFREQ/67500)
+000256 ddab                      	rcall Time_Cycles
+000257 9508                      ret
+                                 ;----------------------------
+                                 OneWire_DelayD_act:
+000258 e0b0                      	ldi		xh, HIGH(ATmegaFREQ/425000)
+000259 e2a5                      	ldi		xl, LOW(ATmegaFREQ/425000)
+00025a dda7                      	rcall Time_Cycles
+00025b 9508                      ret
+                                 ;----------------------------
+                                 OneWire_DelayE_act:
+00025c e0b0                      	ldi		xh, HIGH(ATmegaFREQ/480000)
+00025d e2a1                      	ldi		xl, LOW(ATmegaFREQ/480000)
+00025e dda3                      	rcall Time_Cycles
+00025f 9508                      ret
+                                 ;----------------------------
+                                 OneWire_DelayF_act:
+000260 e0b0                      	ldi		xh, HIGH(ATmegaFREQ/73500)
+000261 eda9                      	ldi		xl, LOW(ATmegaFREQ/73500)
+000262 dd9f                      	rcall Time_Cycles
+000263 9508                      ret
+                                 ;----------------------------
+                                 OneWire_DelayH_act:
+000264 e0b7                      	ldi		xh, HIGH(ATmegaFREQ/8345)
+000265 e7ad                      	ldi		xl, LOW(ATmegaFREQ/8345)
+000266 dd9b                      	rcall	Time_Cycles
+000267 9508                      ret
+                                 ;----------------------------
+                                 OneWire_DelayI_act:
+000268 e0b1                      	ldi		xh, HIGH(ATmegaFREQ/57575)
+000269 e1a5                      	ldi		xl, LOW(ATmegaFREQ/57575)
+00026a dd97                      	rcall	Time_Cycles
+00026b 9508                      ret
+                                 ;----------------------------
+                                 OneWire_DelayJ_act:
+00026c e0b6                      	ldi		xh, HIGH(ATmegaFREQ/9770)
+00026d e6a5                      	ldi		xl, LOW(ATmegaFREQ/9770)
+00026e dd93                      	rcall	Time_Cycles
+00026f 9508                      ret
+                                 ;----------------------------
+                                 OneWire_Delay_10ms_act:
+000270 e9bc                      	ldi		xh, HIGH(ATmegaFREQ/400)
+000271 e4a0                      	ldi		xl, LOW(ATmegaFREQ/400)
+000272 dd8f                      	rcall	Time_Cycles
+000273 9508                      ret
+                                 ;----------------------------
+                                 OneWire_Delay_750ms_act:
+000274 930f                      	push r16
+000275 e40b                      	ldi r16, $4b
+                                 	Cont_750ms:
+000276 940e 0270                 		OneWire_Delay_10ms
+000278 950a                      	dec r16
+000279 f7e1                      	brne Cont_750ms
+00027a 910f                      	pop r16
+00027b 9508                      ret
+                                 
+                                 .include "OneWire/Functions/OneWire_CRCCheck.inc"
+                                 
+                                 * Команда принимает аргумент - число байт для проверки 
+                                 * - если это чтение ROM Code то аргумент равен количеству байт в этом коде (стандарт 8)
+                                 * - если это чтение Scretch Pad - количество байт в нем (стандарт 9)
+                                 * Также необходим адрес байта (в zh:zl) следущего за последним из строки для проверки
+                                 * строка для проверки начинается с 0-го байта
+                                 */
+                                 
+                                 .macro OneWireCRCCheck
+                                 	push r16									; вталкиваем r16 в STACK
+                                 	push r17									; вталкиваем r17 в STACK
+                                 	push r18									; вталкиваем r18 в STACK
+                                 	push r19									; вталкиваем r19 в STACK
+                                 	push r20									; вталкиваем r20 в STACK
+                                 	push r21									; вталкиваем r21 в STACK
+                                 	push r22									; вталкиваем r22 в STACK
+                                 	
+                                 	ldi r19, @0									; записываем количество байт для сверки
+                                 	ldi r20, @0									; записываем количество байт для сверки
+                                 	
+                                 	sbiw zh:zl, @0								; вичитаем 8 из слова
+                                 	_call OneWireCRCCheck_act
+                                 	
+                                 	pop r22										; выталкиваем r22 из STACK
+                                 	pop r21										; выталкиваем r21 из STACK
+                                 	pop r20										; выталкиваем r20 из STACK
+                                 	pop r19										; выталкиваем r19 из STACK	
+                                 	pop r18										; выталкиваем r18 из STACK	
+                                 	pop r17										; выталкиваем r17 из STACK	
+                                 	pop r16										; выталкиваем r16 из STACK
+                                 .endm
+                                 //____________________________________________________________________________________
+                                 //____________________________________________________________________________________
+                                 OneWireCRCCheck_act:
+                                 	
+00027c 9100 0221                 	READ_REG OneWireFlags, r16					; копируем регистр флагов в r16
+00027e fd00                      	sbrc r16, OneWireDeviceNotDetected			; проверяем флат присутствия на шине
+00027f 940c 02aa                 		_jump OneWireCRCCheck_act_finish		; перепрыгиваем
+                                 	
+000281 930f
+000282 9100 0221
+000284 7f0d
+000285 9300 0221
+000287 910f                      	CLRB OneWireFlags, OneWireROMCodeCRCInvalid	; очищаем флаг ошибки данных в регистре флагов
+000288 9101                      	ld r16, z+									; копируем первый байт в регистр r16
+000289 e81c                      	ldi r17, OneWireCRC_polynom					; записываем перевернутый зщлином для вычисления CRC
+00028a 953a                      	dec r19										; уменьшаем количество регистров для проверки
+                                 
+                                 OneWireCRCCheckBegin:							; метка
+00028b 9121                      	ld r18, z+									; копируем байт в регистр r18
+00028c 940e 02ab                 	_call OneWireCRCCheckCalc					; переходим
+00028e 953a                      	dec r19										; уменьшаем количество регистров для проверки
+00028f f7d9                      	brne OneWireCRCCheckBegin					; если не равно 0, то переходим по метке
+000290 3000                      	cpi r16, 0									; сравниваем с 0
+000291 f009                      	breq OneWireCRCCheckCorrect					; если равно то переходм
+000292 f411                      	brne OneWireCRCCheckNotCorrect				; если не равно то переходим
+                                 	
+                                 OneWireCRCCheckCorrect:							; метка
+000293 940c 02aa                 	_jump OneWireCRCCheck_act_finish			; перепрыгиваем
+                                 	
+                                 OneWireCRCCheckNotCorrect:
+000295 2f04                      	mov r16, r20								; записываем количество байт в области памяти для стирания	
+000296 2711                      	clr r17										; очищаем регистр r17
+000297 9738                      	sbiw zh:zl, $08								; вичитаем 8 из слова
+                                 
+                                 OneWireDataClean:
+000298 9311                      	st z+, r17									; очищаем байт в памяти
+000299 950a                      	dec r16										; уменьшаем количество количество байт в области памяти для стирания	
+00029a f7e9                      	brne OneWireDataClean						; переходим, если байты не закончились
+00029b 930f
+00029c 9100 0221
+00029e 6002
+00029f 9300 0221
+0002a1 910f                      	SETB OneWireFlags, OneWireROMCodeCRCInvalid	; устанавливаем флаг ошибки данных в регистре флагов
+0002a2 3048                      	cpi r20, 8
+0002a3 f421                      	brne OneWire_ScretchpadCRC
+0002a4 940e 0598                 	_call ROMCodeCRCError
+0002a6 940c 02aa                 	_jump OneWireCRCCheck_act_finish
+                                 
+                                 OneWire_ScretchpadCRC:
+0002a8 940e 0599                 	_call ScretchpadCRCError
+                                 
+                                 OneWireCRCCheck_act_finish:								
+                                 
+0002aa 9508                      ret
+                                 //----------------------------------------------------------
+                                 OneWireCRCCheckCalc:
+                                 
+0002ab 94f8                      	cli											; выключаем прерывания	
+                                 			
+0002ac e058                      	ldi r21, $08								; количество повторений сдвигов
+                                 
+                                 OneWireCRCCheckAct:
+0002ad 955a                      	dec r21						; уменьшаем количество сдвигов
+0002ae f04c                      	brlt OneWireCRCCheckEnd		; если меньше 0, то переходим
+0002af 9527                      	ror r18						; сдвигаем байт вправо через С
+0002b0 9507                      	ror r16						; сдвигаем байт вправо через С
+0002b1 b76f                      	READ_REG SREG, r22			; копируем SREG в R22
+0002b2 ff60                      	sbrs r22, 0					; проверяем состояние флага С
+0002b3 940c 02ad                 	_jump OneWireCRCCheckAct	; переходим если флаг опущен
+0002b5 2701                      	eor r16, r17				; побитовое исключающее ИЛИ двух регистров
+0002b6 940c 02ad                 	_jump OneWireCRCCheckAct	; переходим
+                                 
+                                 OneWireCRCCheckEnd:
+                                 
+0002b8 9478                      	sei							; включаем прерывания
+0002b9 9508                      ret
+                                 .include "OneWire/Functions/OneWire_WriteBit.inc"
+                                 
+                                 * Посылка одного бита девайсу
+                                 */
+                                 .macro OneWireWriteBit
+                                 	.if @0 == 1
+                                 		_call OneWireWriteBit1_act
+                                 	.elif @0 == 0
+                                 		_call OneWireWriteBit0_act
+                                 	.endif
+                                 .endm
+                                 //____________________________________________________________________________________
+                                 //____________________________________________________________________________________
+                                 OneWireWriteBit1_act:
+0002ba 94f8                      	cli
+0002bb 930f
+0002bc 9a38
+0002bd 910f                      	SETB OneWire_DDR, OneWire_bit
+0002be 930f
+0002bf 9840
+0002c0 910f                      	CLRB OneWire_PORT, OneWire_bit 
+0002c1 940e 024c                 	OneWire_DelayA
+0002c3 930f
+0002c4 9838
+0002c5 910f                      	CLRB OneWire_DDR, OneWire_bit
+0002c6 940e 0250                 	OneWire_DelayB
+0002c8 9478                      	sei
+0002c9 9508                      ret
+                                 ;----------------------------
+                                 OneWireWriteBit0_act:
+0002ca 94f8                      	cli
+0002cb 930f
+0002cc 9a38
+0002cd 910f                      	SETB OneWire_DDR, OneWire_bit
+0002ce 930f
+0002cf 9840
+0002d0 910f                      	CLRB OneWire_PORT, OneWire_bit 
+0002d1 940e 0254                 	OneWire_DelayC
+0002d3 930f
+0002d4 9838
+0002d5 910f                      	CLRB OneWire_DDR, OneWire_bit
+0002d6 940e 0258                 	OneWire_DelayD
+0002d8 9478                      	sei
+0002d9 9508                      ret
+                                 .include "OneWire/Functions/OneWire_ReadBit.inc"
+                                 
+                                 * Чтение одного бита из девайса и запись его во флаг T
+                                 */
+                                 
+                                 .macro OneWireReadBit
+                                 	_call OneWireReadBit_act
+                                 .endm
+                                 //____________________________________________________________________________________
+                                 //____________________________________________________________________________________
+                                 OneWireReadBit_act:
+0002da 94f8                      	cli								; выключаем прерывания
+0002db 930f
+0002dc 9a38
+0002dd 910f                      	SETB OneWire_DDR, OneWire_bit	; ножку на выход
+0002de 930f
+0002df 9840
+0002e0 910f                      	CLRB OneWire_PORT, OneWire_bit	; роняем ногу на 0
+0002e1 940e 024c                 	OneWire_DelayA					; задержка А
+0002e3 930f
+0002e4 9838
+0002e5 910f                      	CLRB OneWire_DDR, OneWire_bit	; ножку на вход
+0002e6 940e 025c                 	OneWire_DelayE					; задержка Е
+0002e8 9b30                      	sbis OneWire_PIN, OneWire_bit	; проверяем ножку на +
+0002e9 94e8                      	clt								; обнуляем флаг T
+0002ea 9930                      	sbic OneWire_PIN, OneWire_bit	; проверяем ножку на -
+0002eb 9468                      	set								; устанавливаем флаг T
+0002ec 940e 0260                 	OneWire_DelayF					; задержка F
+0002ee 9478                      	sei								; запускаем прерывания
+0002ef 9508                      ret
+                                 .include "OneWire/Functions/OneWire_InitializationSequence.inc"
+                                 
+                                 * Для проверки присутствия девайса на шине 1Wire 
+                                 * На выходе состояние будет записано во флаг присутствия
+                                 */
+                                 
+                                 .macro OneWire_InitializationSequence
+                                 	_call OneWire_InitializationSequence_act
+                                 .endm
+                                 //____________________________________________________________________________________
+                                 //____________________________________________________________________________________
+                                 OneWire_InitializationSequence_act:
+0002f0 94f8                      	cli											; выключаем прерывания
+0002f1 930f
+0002f2 9a38
+0002f3 910f                      	SETB OneWire_DDR, OneWire_bit				; ножку на выход
+0002f4 930f
+0002f5 9840
+0002f6 910f                      	CLRB OneWire_PORT, OneWire_bit				; роняем ногу на 0
+0002f7 940e 0264                 	OneWire_DelayH								; задержка А
+0002f9 930f
+0002fa 9838
+0002fb 910f                      	CLRB OneWire_DDR, OneWire_bit				; ножку на вход
+0002fc 940e 0268                 	OneWire_DelayI								; задержка Е
+                                 	
+0002fe 9930                      	sbic OneWire_PIN, OneWire_bit				; проверяем ножку на -
+0002ff 940c 030a                 	_jump OneWireDeviceNotDetect				; переходим если на ноге + (устройств нет)
+                                 
+                                 OneWireDeviceDetect:	
+000301 930f
+000302 9100 0221
+000304 7f0e
+000305 9300 0221
+000307 910f                      	CLRB OneWireFlags, OneWireDeviceNotDetected	; очищаем флаг отсутствия на шине
+000308 940c 0313                 	_jump OneWireInitializationSequenceFinish	; переходим
+                                 
+                                 OneWireDeviceNotDetect:							; метка, когда устройство не обнаружено
+00030a 930f
+00030b 9100 0221
+00030d 6001
+00030e 9300 0221
+000310 910f                      	SETB OneWireFlags, OneWireDeviceNotDetected	; поднимаем флаг отсутствия на шине
+000311 940e 0594                 	_call DeviceNotDetected						; вызывается функция когда устройства не обнаружены
+                                 
+                                 OneWireInitializationSequenceFinish:			; метка
+000313 940e 026c                 	OneWire_DelayJ								; задержка J
+000315 9478                      	sei											; запускаем прерывания
+000316 9508                      ret
+                                 .include "OneWire/Functions/OneWire_SendByte.inc"
+                                 
+                                 * Отсылает один байт девайсу
+                                 * Принимает один аргумент - регистр для отправки
+                                 */
+                                 .macro OneWireSendByte
+                                 	
+                                 	push r16							; вталкиваем r16 в STACK
+                                 
+                                 	mov r16, @0							; копируем @0 в r16
+                                 	_call OneWireSendByte_act	; переходим
+                                 	
+                                 	pop r16								; выталкиваем r16 из STACK
+                                 
+                                 .endm
+                                 //____________________________________________________________________________________
+                                 //____________________________________________________________________________________
+                                 OneWireSendByte_act:
+                                 
+000317 931f                      	push r17									; вталкиваем r17 в STACK
+                                 
+000318 9110 0221                 	READ_REG OneWireFlags, r17					; копируем регистр флагов в r16
+00031a fd10                      	sbrc r17, OneWireDeviceNotDetected			; проверяем флат присутствия на шине
+00031b 940c 0327                 		_jump OneWireSendByte_act_finish	; перепрыгиваем
+00031d e018                      	ldi r17, $08								; записываем 8 в r17
+                                 
+                                 SendBiteLoop:
+00031e fd00                      	sbrc r16, 0
+00031f 940e 02ba                 		OneWireWriteBit 1						; отсылаем высокий сигнал в шину
+000321 ff00                      	sbrs r16, 0
+000322 940e 02ca                 		OneWireWriteBit 0						; отсылаем низкий сигнал в шину
+000324 9506                      	lsr r16										; сдвигаем байт вправо
+000325 951a                      	dec r17										; уменьшаем r17 на 1
+000326 f7b9                      	brne SendBiteLoop							; если r17 не равен 0, то переходим
+                                 
+                                 OneWireSendByte_act_finish:
+000327 911f                      	pop r17										; выталкиваем r17 из STACK
+                                 
+000328 9508                      ret 
+                                 .include "OneWire/Functions/OneWire_SendROMCode.inc"
+                                 
+                                 * Отсылает 64 бит из адреса @0 девайсу
+                                 * Использует r16, r17, r18
+                                 */
+                                 .macro OneWireSendROMCode
+                                 	
+                                 	push r16						; вталкиваем r16 в STACK
+                                 	push r17						; вталкиваем r17 в STACK
+                                 	
+                                 	_call OneWireSendROMCode_act	; переходим
+                                 
+                                 	pop r17							; выталкиваем r17 из STACK
+                                 	pop r16							; выталкиваем r16 из STACK
+                                 
+                                 .endm
+                                 //____________________________________________________________________________________
+                                 //____________________________________________________________________________________
+                                 OneWireSendROMCode_act:
+                                 	
+000329 9100 0221                 	READ_REG OneWireFlags, r16				; копируем регистр флагов в r16
+00032b fd00                      	sbrc r16, OneWireDeviceNotDetected		; проверяем флат присутствия на шине
+00032c 940c 0337                 		_jump OneWireSendROMCode_act_finish	; переходим
+00032e e018                      	ldi r17, $08							; записываем количество передаваемых байт
+                                 
+                                 	OneWireSendROMCodeLoop:
+00032f 9101                      		ld	r16, z+							; читаем первый байт в r16
+000330 930f
+000331 2f00
+000332 940e 0317
+000334 910f                      		OneWireSendByte	r16					; Использует r16, r17
+000335 951a                      		dec r17								; уменьшаем количество байт для отправки
+000336 f7c1                      		brne OneWireSendROMCodeLoop			; если не 0, то переходим
+                                 
+                                 	OneWireSendROMCode_act_finish:
+                                 
+000337 9508                      ret
+                                 .include "OneWire/Functions/OneWire_SendCommand.inc"
+                                 
+                                 * Для отправки команды команды девайсу
+                                 * Принимает один аргумент
+                                 */
+                                 .macro OneWireSendCommand
+                                 	
+                                 	push r16						; вталкиваем r16 в STACK
+                                 
+                                 	ldi	r16, @0						; записываем @0 в r16
+                                 	_call OneWireSendCommand_act	; переходим
+                                 	
+                                 	pop r16							; выталкиваем r16 из STACK
+                                 
+                                 .endm
+                                 //____________________________________________________________________________________
+                                 //____________________________________________________________________________________
+                                 OneWireSendCommand_act:
+000338 931f                      	push r17
+000339 9110 0221                 	READ_REG OneWireFlags, r17				; копируем регистр SREG в r17
+00033b fd10                      	sbrc r17, OneWireDeviceNotDetected		; проверяем флат отсутствия
+00033c 940c 0343                 		_jump OneWireSendCommand_act_finish
+00033e 930f
+00033f 2f00
+000340 940e 0317
+000342 910f                      	OneWireSendByte	r16						; Использует r16 и r17
+                                 
+                                 OneWireSendCommand_act_finish:
+000343 911f                      	pop r17
+000344 9508                      ret
+                                 .include "OneWire/Functions/OneWire_ReadBytes.inc"
+                                 
+                                 * Принимает два аргумента
+                                 * 1 - Метку, указывающую на начало строки. Фукция возьмет адрес метки в памяти
+                                 * 2 - Количество байт для чтения и записи в строку
+                                 * По выходу получим область памяти с данными по адресу метки
+                                 * Если проверка целостности данных пройдет с ошибкой, то
+                                 * данные из памяти будут удалены
+                                 */
+                                 .macro OneWireReadBytes
+                                 
+                                 	push zh								; вталкиваем zh в STACK
+                                 	push zl								; вталкиваем zl в STACK
+                                 	push r18							; вталкиваем r18 в STACK
+                                 
+                                 	ldi zh, high(@0)					; записываем старший байт адреса данной области памяти
+                                 	ldi zl, low(@0)						; записываем младший байт адреса данной области памяти
+                                 	ldi r18, @1							; количество байт для записи
+                                 	_call OneWireReadBytes_act			; переходим
+                                 	OneWireCRCCheck @1					; проверка правильности получения данных
+                                 	pop r18								; выталкиваем r18 из STACK
+                                 	pop zl								; выталкиваем zl из STACK
+                                 	pop zh								; выталкиваем zh из STACK
+                                 
+                                 .endm
+                                 //____________________________________________________________________________________
+                                 //____________________________________________________________________________________
+                                 OneWireReadBytes_act:
+                                 
+000345 930f                      	push r16									; вталкиваем r16 в STACK
+000346 931f                      	push r17									; вталкиваем r17 в STACK
+000347 933f                      	push r19									; вталкиваем r19 в STACK
+000348 2700                      	clr r16										; сюда записываем данные сдвига
+000349 e018                      	ldi r17, $08								; количество бит для чтения
+                                 	OneWireReadROMCode_:
+00034a 940e 02da                 		OneWireReadBit							; прочитали бит, он в Т
+00034c b73f                      		READ_REG SREG, r19						; копируем SREG в r19
+00034d ff36                      		sbrs r19, 6								; проверяем Т
+00034e 9488                      		clc										; очищаем С
+00034f fd36                      		sbrc r19, 6								; проверяем Т
+000350 9408                      		sec										; устанавливаем С
+000351 9507                      		ror r16									; сдвигаем r16 вправо
+000352 951a                      		dec r17									; уменьшаем количество бит для чтения
+000353 f7b1                      		brne OneWireReadROMCode_				; если r17 не равно 0
+000354 9301                      		st z+, r16								; записываем r16 по адресу памяти с пре-декрементом
+000355 e018                      		ldi r17, $08							; количество бит для чтения
+000356 952a                      		dec r18									; уменьшаем количество байт для записи
+000357 f791                      		brne OneWireReadROMCode_				; если r18 не равно 0
+                                 
+                                 	OneWireRead64Bits_act_finish:
+000358 913f                      		pop r19									; выталкиваем r19 из STACK
+000359 911f                      		pop r17									; выталкиваем r17 из STACK
+00035a 910f                      		pop r16									; выталкиваем r16 из STACK
+                                 
+00035b 9508                      ret
+                                 .include "OneWire/Functions/OneWire_SendConfByte.inc"
+                                 
+                                 * Отсылает 3 байта девайсу, главный байт configuration
+                                 * Принимает один аргумент равный 9, 10, 11 или 12 - количество бит для вычисления температуры
+                                 */
+                                 .macro OneWireSendConfByte
+                                 	
+                                 	push r17						; вталкиваем r17 в STACK
+                                 
+                                 	.if @0 == 9
+                                 		ldi r17, $1f				; записываем в r17
+                                 	.elif @0 == 10
+                                 		ldi r17, $3f				; записываем в r17
+                                 	.elif @0 == 11
+                                 		ldi r17, $5f				; записываем в r17
+                                 	.else
+                                 		ldi r17, $7f				; записываем в r17
+                                 	.endif
+                                 	_call OneWireSendConfByte_act	; переходим
+                                 	
+                                 	pop r17							; выталкиваем r17 из STACK
+                                 
+                                 .endm
+                                 //____________________________________________________________________________________
+                                 //____________________________________________________________________________________
+                                 OneWireSendConfByte_act:
+                                 
+00035c 930f                      	push r16									; вталкиваем r16 в STACK
+                                 
+00035d 9100 0221                 	READ_REG OneWireFlags, r16					; копируем регистр флагов
+00035f fd00                      	sbrc r16, OneWireDeviceNotDetected			; проверяем флат присутствия на шине
+000360 940c 0373                 		_jump OneWireSendConfByte_act_finish	; перепрыгиваем
+000362 ef0f                      	ldi r16, $ff								; записываем $ff в r16
+000363 930f
+000364 2f00
+000365 940e 0317
+000367 910f                      	OneWireSendByte	r16							; использует r16, r17
+000368 930f
+000369 2f00
+00036a 940e 0317
+00036c 910f                      	OneWireSendByte	r16							; использует r16, r17
+00036d 2f01                      	mov r16, r17								; копируем r18 в r16
+00036e 930f
+00036f 2f00
+000370 940e 0317
+000372 910f                      	OneWireSendByte	r16							; использует r16, r17
+                                 
+                                 OneWireSendConfByte_act_finish:
+000373 910f                      	pop r16										; выталкиваем r16 из STACK
+                                 	
+000374 9508                      ret
+                                 .include "OneWire/Functions/OneWire_DeviceBusy.inc"
+                                 
+                                 * Проверка занятости девайса
+                                 * Принимает аргумент - команда на:
+                                 *					1. Конвертацию теспература
+                                 *					2. Копирование scretch pad
+                                 * Вл время выполнения проверяет байта флагов (бит OneWireExternalPower)
+                                 */
+                                 .macro OneWire_DeviceBusy
+                                 	push r16
+                                 	push r17
+                                 
+                                 	.if @0 == OneWireConvertTemperatureCommand
+                                 		ldi r16, $01
+                                 	.else
+                                 		clr r16
+                                 	.endif
+                                 
+                                 	READ_REG OneWireFlags, r17								; копируем регистр SREG в r17
+                                 	sbrc r17, OneWireExternalPower							; проверяем флат отсутствия
+                                 		OneWire_ExternalPowerDeviceBusy
+                                 		OneWire_ParasitePowerDeviceBusy
+                                 	
+                                 	pop r17
+                                 	pop r16
+                                 .endm
+                                 
+                                 .macro OneWire_ExternalPowerDeviceBusy
+                                 	_call OneWire_ExternalPowerDeviceBusy_act
+                                 .endm
+                                 .macro OneWire_ParasitePowerDeviceBusy
+                                 	_call OneWire_ParasitePowerDeviceBusy_act
+                                 .endm
+                                 //____________________________________________________________________________________
+                                 //____________________________________________________________________________________
+                                 OneWire_ParasitePowerDeviceBusy_act:
+000375 3001                      	cpi r16, $01
+000376 f009                      	breq Temp
+000377 f411                      	brne Scre
+                                 
+                                 	Temp:
+000378 940e 03a1                 		_call OneWire_ParasiteConvertTemperature_act
+                                 
+                                 	Scre:
+00037a 940e 038b                 		_call OneWire_ParasiteCopyScratchpad_act
+00037c 9508                      ret
+                                 //____________________________________________________________________________________
+                                 //____________________________________________________________________________________
+                                 OneWire_ExternalPowerDeviceBusy_act:
+00037d 930f                      	push r16											; вталкиваем r16 в STACK
+                                 
+                                 	OneWireDeviceBusy_act_1:
+00037e 9100 0221                 		READ_REG OneWireFlags, r16						; копируем регистр
+000380 fd00                      		sbrc r16, OneWireDeviceNotDetected				; проверяем флат присутствия
+000381 940c 0389                 			_jump OneWireDeviceBusy_act_finish
+000383 940e 02da                 		OneWireReadBit									; считываем бит	(записывается в SREG (Т))
+000385 b70f                      		READ_REG SREG, r16								; копируем регистр
+000386 ff06                      		sbrs r16, 6										; проверяем флаг Т
+000387 940c 037e                 			_jump OneWireDeviceBusy_act_1
+                                 
+                                 OneWireDeviceBusy_act_finish:
+000389 910f                      	pop r16												; выталкиваем r16 из STACK
+00038a 9508                      ret
+                                 //-----------------------------------------------------
+                                 OneWire_ParasiteCopyScratchpad_act:
+00038b 930f                      	push r16											; вталкиваем r16 в STACK
+                                 	
+00038c 930f
+00038d 9a22
+00038e 910f                      	SETB OneWireMOSFET_DDR, OneWireMOSFET_bit			; устанавливаем ногу на выход
+00038f 930f
+000390 9a2a
+000391 910f                      	SETB OneWireMOSFET_PORT, OneWireMOSFET_bit			; +5 на ногу с мосфетом
+000392 940e 0258                 	OneWire_DelayD										; задержка
+000394 e40b                      	ldi r16, 75											
+                                 	OneWire_Parasite_1:
+000395 940e 0270                 		OneWire_Delay_10ms
+000397 950a                      		dec r16
+000398 f7e1                      		brne OneWire_Parasite_1
+                                 
+000399 930f
+00039a 982a
+00039b 910f                      	CLRB OneWireMOSFET_PORT, OneWireMOSFET_bit			; 0 на ногу с мосфетом
+00039c 930f
+00039d 9822
+00039e 910f                      	CLRB OneWireMOSFET_DDR, OneWireMOSFET_bit			; устанавливаем ногу на вход 
+00039f 910f                      	pop r16
+0003a0 9508                      ret
+                                 //-----------------------------------------------------
+                                 OneWire_ParasiteConvertTemperature_act:
+0003a1 930f
+0003a2 9a22
+0003a3 910f                      	SETB OneWireMOSFET_DDR, OneWireMOSFET_bit			// устанавливаем ногу на выход
+0003a4 930f
+0003a5 9a2a
+0003a6 910f                      	SETB OneWireMOSFET_PORT, OneWireMOSFET_bit			// устанавливаем на ноге +
+0003a7 940e 0274                 	OneWire_Delay_750ms
+0003a9 930f
+0003aa 982a
+0003ab 910f                      	CLRB OneWireMOSFET_PORT, OneWireMOSFET_bit			// роняем ногу на 0
+0003ac 930f
+0003ad 9822
+0003ae 910f                      	CLRB OneWireMOSFET_DDR, OneWireMOSFET_bit			// устанавливаем ногу на вход 
+0003af 9508                      ret
+                                 .include "OneWire/Functions/OneWire_SearchROM.inc"
+                                 
+                                 * Принимает один аргумент - OneWireSearchROMCommand или OneWireAlarmSearchCommand
+                                 * После каждого найденного ROM или ALARM попадаем по метке ROMCodeNormal или ROMCodeAlarm
+                                 */
+                                 
+                                 .macro OneWireROMSearching
+                                 	push r20											; вталкиваем r20 в STACK
+                                 	ldi r20, @0
+                                 	_call OneWireROMSearching_act
+                                 	pop r20												; выталкиваем r20 из STACK
+                                 .endm 
+                                 //____________________________________________________________________________________
+                                 //____________________________________________________________________________________
+                                 OneWireROMSearching_act:
+                                 	
+0003b0 93ff                      	push zh												; вталкиваем zh в STACK
+0003b1 93ef                      	push zl												; вталкиваем zl в STACK
+0003b2 930f                      	push r16											; вталкиваем r16 в STACK
+0003b3 931f                      	push r17											; вталкиваем r17 в STACK
+0003b4 932f                      	push r18											; вталкиваем r18 в STACK
+                                 
+0003b5 930f
+0003b6 e000
+0003b7 9300 0221
+0003b9 910f                      	WRITE_BYTE OneWireFlags, $00						; обнуляем переменные ROM поиска
+                                 	
+                                 OneWireMainLoop:
+0003ba 9100 0221                 	READ_REG OneWireFlags, r16						; копируем регистр флагов в r16
+0003bc fd00                      	sbrc r16, OneWireDeviceNotDetected				; проверяем флат присутствия на шине
+0003bd 940c 0488                 		_jump OneWireROMSearching_act_fihish	; заканчиваем поиск
+                                 	
+0003bf 3f40                      	cpi r20, OneWireSearchROMCommand
+0003c0 f421                      	brne AlarmSearchROMString
+0003c1 e0f2                      	ldi zh, high(OneWireROMCode)			; копируем старший байт адреса OneWireROMCode
+0003c2 e0e6                      	ldi zl, low(OneWireROMCode)				; копируем младший байт адреса OneWireROMCode
+0003c3 940c 03c7                 	_jump DevicesIs
+                                 
+                                 AlarmSearchROMString:
+0003c5 e0f2                      	ldi zh, high(OneWireAlarmROMCode)		; копируем старший байт адреса OneWireAlarmROMCode
+0003c6 e0ee                      	ldi zl, low(OneWireAlarmROMCode)		; копируем младший байт адреса OneWireAlarmROMCode
+                                 
+                                 DevicesIs:
+                                 	// Проверяем остались еще девайсы или нет
+0003c7 9100 0221                 	READ_REG OneWireFlags, r16
+0003c9 fd04                      	sbrc r16, OneWireLastDevice
+0003ca 940c 0488                 		_jump OneWireROMSearching_act_fihish	; переходми если поднят
+                                 
+0003cc 930f
+0003cd ef0f
+0003ce 9300 0222
+0003d0 910f                      	WRITE_BYTE OneWireZeroFork, $ff					; пишем 255 в переменную
+0003d1 930f
+0003d2 e000
+0003d3 9300 0223
+0003d5 910f                      	WRITE_BYTE OneWireStep, $00						; обнуляем переменную
+                                 
+0003d6 3f40                      	cpi r20, OneWireSearchROMCommand
+0003d7 f439                      	brne AlarmSearch
+0003d8 930f
+0003d9 ef00
+0003da 940e 0338
+0003dc 910f                      	OneWireSendCommand OneWireSearchROMCommand		; приказываем начать поиск
+0003dd 940c 03e4                 	_jump TwoBitsRead
+                                 
+                                 AlarmSearch:
+0003df 930f
+0003e0 ee0c
+0003e1 940e 0338
+0003e3 910f                      	OneWireSendCommand OneWireAlarmSearchCommand
+                                 
+                                 TwoBitsRead:
+0003e4 940e 02da                 	OneWireReadBit							; читаем первый бит
+0003e6 b70f                      	READ_REG SREG, r16						; смотрим флаг Т
+0003e7 9110 0221                 	READ_REG OneWireFlags, r17				; считываем байт флагов поиска ROM
+0003e9 ff06                      	sbrs r16, 6
+0003ea 7d1f                      		cbr r17, (1<<OneWireSlaveBit)		; очищаем флаг первого бита
+0003eb fd06                      	sbrc r16, 6
+0003ec 6210                      		sbr r17, (1<<OneWireSlaveBit)		; устанавливаем флаг первого бита
+0003ed 9310 0221                 	WRITE_REG OneWireFlags, r17				; записываем байт флагов в память
+0003ef 940e 02da                 	OneWireReadBit							; читаем второй бит и сохраняем его в SREG T
+                                 
+                                 TwoBitsMatch:
+                                 	// Сравниваем два бита и переходим
+0003f1 b70f                      	READ_REG SREG, r16						; смотрим флаг Т
+0003f2 9110 0221                 	READ_REG OneWireFlags, r17				; считываем байт флагов поиска ROM
+                                 	// Проверяем равенство прочтенных 2-х битов
+0003f4 fd15                      	sbrc r17, OneWireSlaveBit				; проверяем состояние флага
+0003f5 940c 03fc                 		_jump OneWireSlaveBit1				; переходми если поднят
+                                 
+                                 OneWireSlaveBit0:
+0003f7 fd06                      	sbrc r16, 6								; проверяем состояние флага Т
+0003f8 940c 0433                 		_jump BitsNotAqual					; переходми если поднят
+0003fa 940c 0401                 		_jump BitsAqual						; переходми если очищен
+                                 
+                                 OneWireSlaveBit1:
+0003fc fd06                      	sbrc r16, 6
+0003fd 940c 0401                 		_jump BitsAqual						; переходми если поднят
+0003ff 940c 0433                 		_jump BitsNotAqual					; переходми если очищен
+                                 
+                                 BitsAqual:
+000401 9110 0221                 	READ_REG OneWireFlags, r17				; считываем байт флагов поиска ROM
+000403 fd15                      	sbrc r17, OneWireSlaveBit				; если SlaveBit равен 0, то пропускаем след строку
+000404 940c 048e                 		_jump OneWire_SearchROMError		; переходми если поднят
+                                 
+                                 StepMatchLastFork1:
+000406 9100 0223                 	READ_REG OneWireStep, r16				; читаем Step
+000408 9110 0224                 	READ_REG OneWireLastFork, r17			; читаем LastFork
+00040a 1701                      	cp r16, r17								; сравниваем Step и LastFork
+00040b f449                      	brne StepMatchLastFork2					; если не равны, то переходим
+                                 
+                                 MasterBitSet1:
+00040c 930f
+00040d 9100 0221
+00040f 6400
+000410 9300 0221
+000412 910f                      	SETB OneWireFlags, OneWireMasterBit		; устанавливаем MasterBit в 1
+000413 940c 043b                 	_jump ROMVarAddBit						; перепрыгиваем
+                                 
+                                 StepMatchLastFork2:
+000415 1701                      	cp r16, r17								; сравниваем r16 и r17
+000416 f048                      	brlo MasterBitSetLastROMBit				; если меньше то переходим
+000417 930f
+000418 9100 0221
+00041a 7b0f
+00041b 9300 0221
+00041d 910f                      	CLRB OneWireFlags, OneWireMasterBit		; устанавливаем MasterBit в 0
+00041e 940c 042a                 	_jump MasterBitCheck					; перепрыгиваем
+                                 
+                                 MasterBitSetLastROMBit:
+000420 9100 0221                 	READ_REG OneWireFlags, r16				; копируем байт флагов ROM
+000422 9110 0225                 	READ_REG OneWireROMVar, r17				; копируем переменную ROM
+000424 ff17                      	sbrs r17, 7		
+000425 7b0f                      		cbr r16, (1<<OneWireMasterBit)		; очищаем мастер бит
+000426 fd17                      	sbrc r17, 7
+000427 6400                      		sbr r16, (1<<OneWireMasterBit)		; устанавливаем мастер бит
+000428 9300 0221                 	WRITE_REG OneWireFlags, r16				; записываем бай флагов ROM в память
+                                 
+                                 MasterBitCheck:
+00042a 9110 0221                 	READ_REG OneWireFlags, r17				; копируем байт флагов ROM
+00042c 9100 0223                 	READ_REG OneWireStep, r16				; копируем байт шагов
+00042e ff16                      	sbrs r17, OneWireMasterBit				; если VasterBit равен единице, то пропускаем следующую строку
+00042f 9300 0222                 		WRITE_REG OneWireZeroFork, r16		; записываем регистр в память
+000431 940c 043b                 	_jump ROMVarAddBit						; перепрыгиваем
+                                 
+                                 // Биты не равны
+                                 BitsNotAqual:
+                                 	// Устанавливаем MasterBit таким же как был SlaveBit
+000433 9110 0221                 	READ_REG OneWireFlags, r17						; считываем байт флагов поиска ROM
+000435 ff15                      	sbrs r17, OneWireSlaveBit
+000436 7b1f                      		cbr r17, (1<<OneWireMasterBit)
+000437 fd15                      	sbrc r17, OneWireSlaveBit
+000438 6410                      		sbr r17, (1<<OneWireMasterBit)
+000439 9310 0221                 	WRITE_REG OneWireFlags, r17						; записываем байт флагов в память
+                                 		
+                                 // Записываем бит в байт для записи в память
+                                 ROMVarAddBit:
+00043b 9110 0221                 	READ_REG OneWireFlags, r17						; считываем байт флагов поиска ROM
+00043d 9100 0225                 	READ_REG OneWireROMVar, r16						; копируем переменную байта ROM в r16
+00043f 9506                      	lsr r16											; сдвигаем r16 вправо для записи младшего бита
+                                 	// Добавляем MasteBit в переменную байта ROM
+000440 ff16                      	sbrs r17, OneWireMasterBit
+000441 770f                      		cbr r16, (1<<7)
+000442 fd16                      	sbrc r17, OneWireMasterBit
+000443 6800                      		sbr r16, (1<<7)
+000444 9513                      	inc r17									; увеличиваем количество сдвигов
+000445 9300 0225                 	WRITE_REG OneWireROMVar, r16			; записываем r16 в переменную байта ROM
+000447 9310 0221                 	WRITE_REG OneWireFlags, r17				; сохраняем состояния байт
+                                 	// Проверяем закончился ли байт
+000449 2f21                      	mov r18, r17							; копируем r17 в r18
+00044a 702f                      	andi r18, $0f							; обнуляем старшую тетраду
+00044b 3028                      	cpi r18, $08							; сравниваем с 8
+00044c f421                      	brne MasterBitSending					; если не равно, то переходим
+00044d 9301                      	st z+, r16								; записываем в память с пост-инкрементом
+00044e 7f10                      	andi r17, $f0							; обнуляем младшую тетраду
+00044f 9310 0221                 	WRITE_REG OneWireFlags, r17				; сохраняем состояния байт
+                                 
+                                 MasterBitSending:
+000451 9110 0221                 	READ_REG OneWireFlags, r17				; считываем байт флагов поиска ROM
+                                 	// Посылаем MasterBit в шину
+000453 ff16                      	sbrs r17, OneWireMasterBit
+000454 940e 02ca                 		OneWireWriteBit 0
+000456 fd16                      	sbrc r17, OneWireMasterBit
+000457 940e 02ba                 		OneWireWriteBit 1
+                                 
+                                 IncreaseStep:
+000459 9110 0223                 	READ_REG OneWireStep, r17				; читаем байт с количеством шагов
+00045b 9513                      	inc r17									; увеличиваем r17 на 1
+00045c 9310 0223                 	WRITE_REG OneWireStep, r17				; записываем в память
+                                 
+                                 StepCheck:
+00045e 9110 0223                 	READ_REG OneWireStep, r17				; читаем байт с количеством шагов
+000460 3410                      	cpi r17, 64								; сравниваем шаг с 64
+000461 f410                      	brsh OneWireStepLoopContinue			; переходим если равно или больше
+                                 	// Усли меньше, то возвращаемся для чтения следующих бит
+000462 940c 03e4                 	_jump TwoBitsRead						; перепрыгиваем
+                                 
+                                 OneWireStepLoopContinue:
+000464 9100 0222                 	READ_REG OneWireZeroFork, r16			; копируем байт из памяти
+000466 9300 0224                 	WRITE_REG OneWireLastFork, r16			; записываем байт в память
+000468 3f0f                      	cpi r16, $ff							; сравниваем R16 с 255
+000469 f439                      	brne CheckCRC							; переходим если не равно
+00046a 930f
+00046b 9100 0221
+00046d 6100
+00046e 9300 0221
+000470 910f                      	SETB OneWireFlags, OneWireLastDevice	; устанавливаем флаг в регистре флагов
+                                 
+                                 CheckCRC:
+000471 930f
+000472 931f
+000473 932f
+000474 933f
+000475 934f
+000476 935f
+000477 936f
+000478 e038
+000479 e048
+00047a 9738
+00047b 940e 027c
+00047d 916f
+00047e 915f
+00047f 914f
+000480 913f
+000481 912f
+000482 911f
+000483 910f                      	OneWireCRCCheck	8						; запускаем проверку CRC
+000484 940e 0492                 	_call OneWire_ROM
+000486 940c 03ba                 	_jump OneWireMainLoop					; перепрыгиваем
+                                 
+                                 OneWireROMSearching_act_fihish:
+                                 
+000488 912f                      	pop r18									; выталкиваем r18 из STACK
+000489 911f                      	pop r17									; выталкиваем r17 из STACK
+00048a 910f                      	pop r16									; выталкиваем r16 из STACK
+00048b 91ef                      	pop zl									; выталкиваем zl из STACK
+00048c 91ff                      	pop zh									; выталкиваем zh из STACK
+                                 
+00048d 9508                      ret
+                                 
+                                 OneWire_SearchROMError:
+00048e 940e 0597                 	_call ReadROMError						; переходми если поднят
+000490 940c 0488                 	_jump OneWireROMSearching_act_fihish
+                                 
+                                 OneWire_ROM:
+000492 3f40                      	cpi r20, OneWireSearchROMCommand		; узнаем,что ищем Alarm или Normal ROM коды
+000493 f419                      	brne OneWire_ROMAlarm					; если Alarm, то переходим к OneWire_ROMAlarm
+000494 940e 0595                 	_call ROMCodeNormal						; переходим (находится в OneWire_config.inc)
+000496 9508                      	ret
+                                 OneWire_ROMAlarm:
+000497 940e 0596                 	_call ROMCodeAlarm						; переходим (находится в OneWire_config.inc)
+000499 9508                      	ret
+                                 
+                                 .include "OneWire/ROMCommands/OneWire_ReadROM.inc"
+                                 
+                                 	_call OneWire_ReadROM_act
+                                 .endm
+                                 
+                                 OneWire_ReadROM_act:
+00049a 940e 02f0                 	OneWire_InitializationSequence				; инициализация процесса
+                                 
+00049c 930f                      	push r16									; r16  в STACK
+00049d 9100 0221                 	READ_REG OneWireFlags, r16					; копируем регистр SREG в r16
+00049f fd00                      	sbrc r16, OneWireDeviceNotDetected			; проверяем флат отсутствия
+0004a0 940c 04c5                 		_jump OneWire_ReadROM_act_End			; перепрыгиваем
+                                 
+0004a2 930f
+0004a3 e303
+0004a4 940e 0338
+0004a6 910f                      	OneWireSendCommand OneWireReadROMCommand	; отправка команды
+                                 
+0004a7 93ff
+0004a8 93ef
+0004a9 932f
+0004aa e0f2
+0004ab e0e6
+0004ac e028
+0004ad 940e 0345
+0004af 930f
+0004b0 931f
+0004b1 932f
+0004b2 933f
+0004b3 934f
+0004b4 935f
+0004b5 936f
+0004b6 e038
+0004b7 e048
+0004b8 9738
+0004b9 940e 027c
+0004bb 916f
+0004bc 915f
+0004bd 914f
+0004be 913f
+0004bf 912f
+0004c0 911f
+0004c1 910f
+0004c2 912f
+0004c3 91ef
+0004c4 91ff                      	OneWireReadBytes OneWireROMCode, 8			; читаем ROM code устройства
+                                 
+                                 OneWire_ReadROM_act_End:
+0004c5 910f                      	pop r16										; r16 из STACK
+0004c6 9508                      ret
+                                 .include "OneWire/ROMCommands/OneWire_MatchROM.inc"
+                                 
+                                 	push zh								; вталкиваем zh в STACK
+                                 	push zl								; вталкиваем zl в STACK
+                                 
+                                 	ldi zh, high(@0)					; записываем старший байт адреса области памяти
+                                 	ldi zl, low(@0)						; записываем младший байт адреса области памяти
+                                 	_call OneWire_MatchROM_act
+                                 	pop zl								; выталкиваем zl из STACK
+                                 	pop zh								; выталкиваем zh из STACK
+                                 .endm
+                                 OneWire_MatchROM_act:
+0004c7 940e 02f0                 	OneWire_InitializationSequence				; инициализация процесса
+                                 	
+0004c9 930f                      	push r16									; r16  в STACK
+0004ca 9100 0221                 	READ_REG OneWireFlags, r16					; копируем регистр SREG в r16
+0004cc fd00                      	sbrc r16, OneWireDeviceNotDetected			; проверяем флат отсутствия
+0004cd 940c 04da                 		_jump OneWire_MatchROM_End				; перепрыгиваем
+                                 
+0004cf 930f
+0004d0 e505
+0004d1 940e 0338
+0004d3 910f                      	OneWireSendCommand OneWireMachROMCommand	; отправка команды
+                                 
+0004d4 930f
+0004d5 931f
+0004d6 940e 0329
+0004d8 911f
+0004d9 910f                      	OneWireSendROMCode
+                                 
+                                 OneWire_MatchROM_End:
+0004da 910f                      	pop r16										; r16 из STACK
+0004db 9508                      ret
+                                 .include "OneWire/ROMCommands/OneWire_SearchROM.inc"
+                                 
+                                 	_call OneWire_SearchROM_act
+                                 .endm
+                                 OneWire_SearchROM_act:
+                                 
+0004dc 940e 02f0                 	OneWire_InitializationSequence				; инициализация процесса		
+                                 
+0004de 930f                      	push r16									; r16  в STACK
+0004df 9100 0221                 	READ_REG OneWireFlags, r16					; копируем регистр SREG в r16
+0004e1 fd00                      	sbrc r16, OneWireDeviceNotDetected			; проверяем флат отсутствия
+0004e2 940c 04e9                 		_jump OneWire_SearchROM_act_End			; перепрыгиваем
+                                 
+0004e4 934f
+0004e5 ef40
+0004e6 940e 03b0
+0004e8 914f                      	OneWireROMSearching OneWireSearchROMCommand
+                                 	
+                                 OneWire_SearchROM_act_End:
+0004e9 910f                      	pop r16
+0004ea 9508                      ret
+                                 .include "OneWire/ROMCommands/OneWire_AlarmSearch.inc"
+                                 
+                                 	_call OneWire_AlarmSearch_act
+                                 .endm
+                                 OneWire_AlarmSearch_act:
+                                 
+0004eb 940e 02f0                 	OneWire_InitializationSequence					; инициализация процесса		
+                                 
+0004ed 930f                      	push r16										; r16  в STACK
+0004ee 9100 0221                 	READ_REG OneWireFlags, r16						; копируем регистр SREG в r16
+0004f0 fd00                      	sbrc r16, OneWireDeviceNotDetected				; проверяем флат отсутствия
+0004f1 940c 04f8                 		_jump OneWire_AlarmSearch_act_End			; перепрыгиваем
+                                 
+0004f3 934f
+0004f4 ee4c
+0004f5 940e 03b0
+0004f7 914f                      	OneWireROMSearching OneWireAlarmSearchCommand	; запускаем поиск ROM
+                                 	
+                                 OneWire_AlarmSearch_act_End:
+0004f8 910f                      	pop r16
+0004f9 9508                      ret
+                                 .include "OneWire/ROMCommands/OneWire_SkipROM.inc"
+                                 
+                                 	_call OneWire_SkipROM_act
+                                 .endm
+                                 OneWire_SkipROM_act:
+0004fa 940e 02f0                 	OneWire_InitializationSequence				; инициализация процесса
+                                 
+0004fc 930f                      	push r16									; r16  в STACK
+0004fd 9100 0221                 	READ_REG OneWireFlags, r16					; копируем регистр SREG в r16
+0004ff fd00                      	sbrc r16, OneWireDeviceNotDetected			; проверяем флат отсутствия
+000500 940c 0507                 		_jump OneWire_SkipROM_End				; перепрыгиваем
+                                 
+000502 930f
+000503 ec0c
+000504 940e 0338
+000506 910f                      	OneWireSendCommand OneWireSkipROMCommand	; отправка команды
+                                 
+                                 OneWire_SkipROM_End:
+000507 910f                      	pop r16										; r16 из STACK
+000508 9508                      ret
+                                 
+                                 .include "OneWire/FunctionCommands/OneWire_PowerSupply.inc"
+                                 
+                                 * Узнает на каком питании находится датчик (при условии, что он один на шине)
+                                 * и записывает результат в память OneWireFlags (OneWireExternalPower)
+                                 */
+                                 .macro OneWire_PowerSupply
+                                 	OneWireSendCommand OneWirePowerSupplyCommand
+                                 	OneWireReadBit
+                                 	_call OneWireSingleDevicePowerSupply_act
+                                 .endm
+                                 //____________________________________________________________________________________
+                                 //____________________________________________________________________________________
+                                 OneWireSingleDevicePowerSupply_act:
+000509 930f                      	push r16										; вталкиваем r16 в STACK
+00050a b70f                      	READ_REG SREG, r16								; читаем SREG в r16
+                                 
+00050b fd06                      	sbrc r16, 6										; если флаг Т поднят, то пропускаем след строку
+00050c 940c 0517                 		_jump OneWireExternalPowerOn				; переходим на метку
+                                 
+00050e 930f
+00050f 9100 0221
+000511 770f
+000512 9300 0221
+000514 910f                      	CLRB OneWireFlags, OneWireExternalPower			; очищаем флаг внешнего питания
+000515 940c 051e                 	_jump OneWireSingleDevicePowerSupply_act_finish	; переходим к концу функции
+                                 
+                                 OneWireExternalPowerOn:								; метка
+000517 930f
+000518 9100 0221
+00051a 6800
+00051b 9300 0221
+00051d 910f                      	SETB OneWireFlags, OneWireExternalPower			; устанавливаем флаг внешнего питания
+                                 
+                                 OneWireSingleDevicePowerSupply_act_finish:			; метка
+00051e 910f                      	pop r16											; выталкиваем r16 из STACK
+00051f 9508                      ret
+                                 .include "OneWire/FunctionCommands/OneWire_ConvertTemperature.inc"
+                                 
+                                 * Посылает команду начала конвертации температуры
+                                 * и ждет окончания процесса конвертации
+                                 */
+                                 
+                                 .macro OneWire_ConvertTemperature
+                                 	OneWireSendCommand OneWireConvertTemperatureCommand
+                                 	OneWire_DeviceBusy OneWireConvertTemperatureCommand
+                                 .endm
+                                 .include "OneWire/FunctionCommands/OneWire_WriteScratchpad.inc"
+                                 
+                                 * Отсылает 3 байта девайсу, главный байт configuration
+                                 * Принимает один аргумент равный 9, 10, 11 или 12 - количество бит для вычисления температуры
+                                 */
+                                 .macro OneWire_WriteScratchpad
+                                 	OneWireSendCommand OneWireWriteScratchpadCommand
+                                 	OneWireSendConfByte @0
+                                 .endm
+                                 .include "OneWire/FunctionCommands/OneWire_CopyScratchpad.inc"
+                                 
+                                 * Копирует TH, TL и config байты в EEPROM
+                                 * и дожидается окончания копирования
+                                 */
+                                 .macro OneWire_CopyScratchpad
+                                 	OneWireSendCommand OneWireCopyScratchpadCommand
+                                 	OneWire_DeviceBusy OneWireCopyScratchpadCommand
+                                 .endm
+                                 .include "OneWire/FunctionCommands/OneWire_ReadScratchpad.inc"
+                                 
+                                 * Читает scratch pad, проверяет CRC и, если проверка прошла успешна, 
+                                 * записывае результат в память по метке OneWireScratchpad
+                                 * если проверка провалена, то по данной метке будут 00
+                                 */
+                                 .macro OneWire_ReadScratchpad
+                                 	OneWireSendCommand OneWireReadScreatchpadCommand
+                                 	OneWireReadBytes OneWireScratchpad, 9
+                                 .endm
+                                 .include "OneWire/FunctionCommands/OneWire_Recall.inc"
+                                 
+                                 * Копирует TH, TL и config регистров из EEPROM в scratch pad
+                                 * и дожидается окончания операции
+                                 */
+                                 .macro OneWire_Recall
+                                 	OneWireSendCommand OneWireRecallCommand
+                                 	OneWire_ExternalPowerDeviceBusy
+                                 .endm
+                                 
+                                 
+                                 .include "OneWire/Commands/OneWire_TemperatureDataConvertation.inc"
+                                 
+                                 
+                                 	push r16													; вталкиваем r16 в STACK
+                                 	push r17													; вталкиваем r17 в STACK
+                                 	push r18													; вталкиваем r18 в STACK
+                                 	push zh														; вталкиваем zh в STACK
+                                 	push zl														; вталкиваем zl в STACK
+                                 
+                                 	_call OneWireTemperatureConversation_act
+                                 	
+                                 	pop zl														; выталкиваем zl из STACK
+                                 	pop zh														; выталкиваем zh из STACK
+                                 	pop r18														; выталкиваем r18 из STACK
+                                 	pop r17														; выталкиваем r17 из STACK
+                                 	pop r16														; выталкиваем r16 из STACK
+                                 
+                                 .endm
+                                 //____________________________________________________________________________________
+                                 //____________________________________________________________________________________
+                                 OneWireTemperatureConversation_act:
+                                 
+000520 9100 0221                 	READ_REG OneWireFlags, r16							; копируем регистр флагов в r16
+000522 fd00                      	sbrc r16, OneWireDeviceNotDetected					; проверяем флат присутствия на шине
+000523 940c 058b                 		_jump OneWireTemperatureConversation_act_finish	; перепрыгиваем
+000525 9100 0217                 	READ_REG OneWireScratchpad + 1, r16					; копируем старший байт температуры
+000527 9110 0216                 	READ_REG OneWireScratchpad, r17						; копируем младший байт температуры
+                                 
+000529 0f11                      	lsl r17												; сдвиг влево
+00052a 1f00                      	rol r16												; сдвиг влево
+                                 
+00052b 0f11                      	lsl r17												; сдвиг влево
+00052c 1f00                      	rol r16												; сдвиг влево
+                                 
+00052d 0f11                      	lsl r17												; сдвиг влево
+00052e 1f00                      	rol r16												; сдвиг влево
+                                 
+00052f 0f11                      	lsl r17												; сдвиг влево
+000530 1f00                      	rol r16												; сдвиг влево
+                                 
+000531 ff07                      	sbrs r16, 7											; проверяем бит знака температуры
+000532 940c 053f                 		_jump IsPlus									; переходим на плюс
+                                 
+                                 IsMinus:
+000534 930f
+000535 9100 0221
+000537 6004
+000538 9300 0221
+00053a 910f                      	SETB OneWireFlags, OneWireNegativeTemperature		; поднимаем флаг минуса
+00053b 9500                      	com r16												; делаем побитную инверсию старшего байта
+00053c 9510                      	com r17												; делаем побитную инверсию старшего байта
+00053d 940c 0546                 	_jump Is1											; перепрыгиваем дальше
+                                 
+                                 IsPlus:
+00053f 930f
+000540 9100 0221
+000542 7f0b
+000543 9300 0221
+000545 910f                      	CLRB OneWireFlags, OneWireNegativeTemperature		; очищаем флаг минуса
+                                 
+                                 Is1:
+000546 9512                      	swap r17											; меняем местами тетрады младшего байта
+000547 9310 0220                 	WRITE_REG OneWireTemperature + 1, r17				; сохраняем показания температуры после запятой 
+                                 
+                                 DegreesCalc:
+000549 e614                      	ldi r17, $64										; записываем в r17 значение 100
+00054a 930f
+00054b 9100 0221
+00054d 7f07
+00054e 9300 0221
+000550 910f                      	CLRB OneWireFlags, OneWireOneHundredDegrees			; очищаем флаг 100 градусов
+                                 
+                                 loop_100:								
+000551 1b01                      	sub r16, r17										; отнимаем от r16 r17
+000552 f04a                      	brmi loop_100_finish								; если получился -, то переходим
+000553 930f
+000554 9100 0221
+000556 6008
+000557 9300 0221
+000559 910f                      	SETB OneWireFlags, OneWireOneHundredDegrees			; устанавливаем флаг 100 градусов
+00055a 940c 0551                 	_jump loop_100										; перескакиваем по метке
+                                 
+                                 loop_100_finish:
+00055c 0f01                      	add r16, r17										; добавляем к r16 r17
+00055d 2722                      	clr r18												; очищаем r18
+00055e e01a                      	ldi r17, $0a										; записываем в r17 значение 10
+                                 
+                                 loop_10:
+00055f 1b01                      	sub r16, r17										; отнимаем от r16 r17
+000560 f01a                      	brmi loop_10_finish									; если получился -, то переходим
+000561 9523                      	inc r18												; увеличиваем r18 на 1
+000562 940c 055f                 	_jump loop_10										; перепрыгиваем по метке
+                                 		
+                                 loop_10_finish:
+000564 0f01                      	add r16, r17										; добавляем к r16 r17
+000565 9502                      	swap r16											; меняем тетрады r16
+                                 
+000566 0f00                      	lsl r16												; сдвиг влево
+000567 1f22                      	rol r18												; сдвиг влево
+000568 0f00                      	lsl r16												; сдвиг влево
+000569 1f22                      	rol r18												; сдвиг влево
+00056a 0f00                      	lsl r16												; сдвиг влево
+00056b 1f22                      	rol r18												; сдвиг влево
+00056c 0f00                      	lsl r16												; сдвиг влево
+00056d 1f22                      	rol r18												; сдвиг влево
+00056e 9320 021f                 	WRITE_REG OneWireTemperature, r18					; сохраняем целые значения температуры в память
+                                 
+                                 AfterDotCalc:
+000570 e0fb                      	ldi zh, high(TempTable * 2)							; записываем младший байт адреса метки
+000571 e1e8                      	ldi zl, low(TempTable * 2)							; записываем младший байт адреса метки
+000572 9100 0220                 	READ_REG OneWireTemperature + 1, r16				; считываем показания после точки в r16
+000574 0fe0                      	add zl, r16											; добавляем r16 к младшему регистру адреса таблицы
+000575 2700                      	clr r16												; очищаем r16
+000576 1ff0                      	adc zh, r16											; добавляем с переносом r16 к младшему регистру адреса таблицы
+                                 
+000577 9104                      	lpm r16, z											; копируем байт из таблицы
+000578 2722                      	clr r18												; очищаем r18
+000579 e01a                      	ldi r17, $0a										; записываем в r17 значение 10
+                                 
+                                 loop_10th:
+00057a 1b01                      	sub r16, r17										; отнимаем от r16 r17
+00057b f01a                      	brmi loop_10th_finish								; если получился -, то переходим
+00057c 9523                      	inc r18												; увеличиваем r18 на 1
+00057d 940c 057a                 	_jump loop_10th										; перепрыгиваем по метке
+                                 		
+                                 loop_10th_finish:
+00057f 0f01                      	add r16, r17										; добавляем к r16 r17
+000580 9502                      	swap r16
+                                 	
+000581 0f00                      	lsl r16												; сдвиг влево
+000582 1f22                      	rol r18												; сдвиг влево
+000583 0f00                      	lsl r16												; сдвиг влево
+000584 1f22                      	rol r18												; сдвиг влево
+000585 0f00                      	lsl r16												; сдвиг влево
+000586 1f22                      	rol r18												; сдвиг влево
+000587 0f00                      	lsl r16												; сдвиг влево
+000588 1f22                      	rol r18												; сдвиг влево
+000589 9320 0220                 	WRITE_REG OneWireTemperature + 1, r18				; сохраняем значение температуры после запятой в память
+                                 
+                                 OneWireTemperatureConversation_act_finish:
+                                 	
+00058b 9508                      ret
+                                 
+00058c 0600
+00058d 130c
+00058e 1f19
+00058f 2c26
+000590 3832
+000591 453f
+000592 514b
+000593 5e58                      TempTable: .db $00, $06, $0c, $13, $19, $1f, $26, $2c, $32, $38, $3f, $45, $4b, $51, $58, $5e
+                                 	// $00 ; .00
+                                 	// $06 ; .06
+                                 	// $0c ; .13
+                                 	// $13 ; .19
+                                 	// $19 ; .25
+                                 	// $1f ; .31
+                                 	// $26 ; .38
+                                 	// $2c ; .44
+                                 	// $32 ; .50
+                                 	// $38 ; .56
+                                 	// $3f ; .63
+                                 	// $45 ; .69
+                                 	// $4b ; .75
+                                 	// $51 ; .81
+                                 	// $58 ; .88
+                                 	// $5e ; .94
+                                 .include "OneWire/Commands/OneWire_Temperature.inc"
+                                 
+                                 .macro OneWire_SingleDeviceTemperature
+                                 	OneWire_SingleDeviceTempPrepareToReading
+                                 	OneWire_SingleDeviceTempReadind
+                                 .endm
+                                 .macro OneWire_SingleDeviceTempPrepareToReading
+                                 	OneWire_SkipROM
+                                 	OneWire_ConvertTemperature
+                                 .endm 
+                                 .macro OneWire_SingleDeviceTempReadind
+                                 	OneWire_SkipROM
+                                 	OneWire_ReadScratchpad
+                                 .endm
+                                 //////////////////////////////////////////////////
+                                 ; принимает один аргумени - метку в RAM по которой лежит ROM code
+                                 .macro OneWire_ROMDeviceTemperature
+                                 	OneWire_ROMDeviceTempPrepareToReading @0
+                                 	OneWire_ROMDeviceTempTempReadind @0
+                                 	OneWire_TemperatureDataConvertation
+                                 .endm
+                                 .macro OneWire_ROMDeviceTempPrepareToReading
+                                 	OneWire_MatchROM @0
+                                 	OneWire_ConvertTemperature
+                                 .endm
+                                 .macro OneWire_ROMDeviceTempTempReadind
+                                 	OneWire_MatchROM @0
+                                 	OneWire_ReadScratchpad
+                                 .endm
+                                 
+                                 .include"OneWire/Labels.inc"
+                                 
+                                 	// Пишем, что нужно делать
+000594 9508                      ret
+                                 //----------------------------
+                                 ROMCodeNormal:					; когда найден ROM код
+                                 	// Пишем, что нужно делать
+000595 9508                      ret
+                                 //----------------------------
+                                 ROMCodeAlarm:					; когда найден ROM код с алармом
+                                 	// Пишем, что нужно делать
+000596 9508                      ret
+                                 //----------------------------
+                                 ReadROMError:					; когда при поиске ROM кодов возникла ошибка
+                                 	// Пишем, что нужно делать
+000597 9508                      ret
+                                 //----------------------------
+                                 ROMCodeCRCError:				; когда CRC ROM кода не соответствует
+                                 	// Пишем, что нужно делать
+000598 9508                      ret
+                                 //----------------------------
+                                 ScretchpadCRCError:				; когда CRC Scretchpad не соотвествует
+                                 	// Пишем, что нужно делать
+000599 9508                      ret
+                                 
+                                 
+                                 #endif
+                                 
                                  
                                  .include "Main/Inits.inc"
                                  
@@ -4591,74 +6233,129 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\main
                                  	#ifdef HD44780U
                                  		HD44780U_init
                                  	#endif
+                                 	///////////////
+                                 	#ifdef OneWire
+                                 		OneWire_init
+                                 	#endif
                                  
                                  .endm
                                  
                                  ///////////////////////////////////////////////////////////////////////
                                  Reset:
                                  .include "Reset.inc"
-00024c ef0f
-00024d bf0d
-00024e e201
-00024f bf0e                      
-000250 9478                      sei
-000251 e30e
-000252 9300 00b8
-000254 e200
-000255 6008
-000256 9300 0200
-000258 e008
-000259 6004
-00025a 6002
-00025b 6001
-00025c 9300 0201
-00025e e004
-00025f 6002
-000260 9300 0202
-000262 e100
-000263 6004
-000264 9300 0203
-000266 940e 0185                 Inits_Begin		// Инициализация выбранных библиотек
+00059a ef0f
+00059b bf0d
+00059c e201
+00059d bf0e                      
+00059e 9478                      sei
+00059f e30e
+0005a0 9300 00b8
+0005a2 e200
+0005a3 6008
+0005a4 9300 0200
+0005a6 e008
+0005a7 6004
+0005a8 6002
+0005a9 6001
+0005aa 9300 0201
+0005ac e004
+0005ad 6002
+0005ae 9300 0202
+0005b0 e100
+0005b1 6004
+0005b2 9300 0203
+0005b4 940e 0185
+0005b6 930f
+0005b7 9100 0221
+0005b9 6800
+0005ba 9300 0221
+0005bc 910f                      Inits_Begin		// Инициализация выбранных библиотек
                                  
-000268 940e 026b                 _call LCD_TWSI_First_Page
+0005bd 940e 0612                 _call LCD_TWSI_First_Page
+                                 
+0005bf 940e 049a                 OneWire_ReadROM
+0005c1 93ff
+0005c2 93ef
+0005c3 e0f2
+0005c4 e0e6
+0005c5 940e 04c7
+0005c7 91ef
+0005c8 91ff
+0005c9 930f
+0005ca e404
+0005cb 940e 0338
+0005cd 910f
+0005ce 930f
+0005cf 931f
+0005d0 e001
+0005d1 9110 0221
+0005d3 fd17
+0005d4 940e 037d
+0005d6 940e 0375
+0005d8 911f
+0005d9 910f
+0005da 93ff
+0005db 93ef
+0005dc e0f2
+0005dd e0e6
+0005de 940e 04c7
+0005e0 91ef
+0005e1 91ff
+0005e2 930f
+0005e3 eb0e
+0005e4 940e 0338
+0005e6 910f
+0005e7 93ff
+0005e8 93ef
+0005e9 932f
+0005ea e0f2
+0005eb e1e6
+0005ec e029
+0005ed 940e 0345
+0005ef 930f
+0005f0 931f
+0005f1 932f
+0005f2 933f
+0005f3 934f
+0005f4 935f
+0005f5 936f
+0005f6 e039
+0005f7 e049
+0005f8 9739
+0005f9 940e 027c
+0005fb 916f
+0005fc 915f
+0005fd 914f
+0005fe 913f
+0005ff 912f
+000600 911f
+000601 910f
+000602 912f
+000603 91ef
+000604 91ff
+000605 930f
+000606 931f
+000607 932f
+000608 93ff
+000609 93ef
+00060a 940e 0520
+00060c 91ef
+00060d 91ff
+00060e 912f
+00060f 911f
+000610 910f                      OneWire_ROMDeviceTemperature OneWireROMCode 
                                  
                                  Proga:
                                  // Читайте README файл
                                  // Ваша программа
-00026a cfff                      rjmp Proga
+000611 cfff                      rjmp Proga
                                  
                                  LCD_TWSI_First_Page:
                                  	//message: .db $0b, 'T', 'e', 'm', 'p', 'e', 'r', 't', 'u', 'r', 'e', ':'
-00026b 480c
-00026c 6c65
-00026d 6f6c
-00026e 5720
-00026f 726f
-000270 646c
-000271 2021                      	message1: .db $0c, 'H', 'e', 'l', 'l', 'o', ' ', 'W', 'o', 'r', 'l', 'd', '!', ' '
-000272 940e 001d
-000274 930f
-000275 e700
-000276 940e 0025
-000278 931f
-000279 e118
-00027a 940e 000e
-00027c 911f
-00027d 910f                      	TWSI_START TWSI_Address, 'W'
-00027e 930f
-00027f 931f
-000280 e012
-000281 e001
-000282 940e 01d7
-000284 911f
-000285 910f                      	HD44780U_Set_Cursor 2, 1
-000286 93ff
-000287 93ef
-000288 e0f4
-000289 ede6
-00028a 940e 022c
-00028c 91ef
-00028d 91ff                      	HD44780U_Write_cseg_String message1
+                                 	//message1: .db $0c, 'H', 'e', 'l', 'l', 'o', ' ', 'W', 'o', 'r', 'l', 'd', '!', ' '
+                                 	//TWSI_START TWSI_Address, 'W'
+                                 	//HD44780U_Set_Cursor 2, 1
+                                 	//HD44780U_Write_cseg_String message1
                                  	//HD44780U_Set_Cursor 2, 15
                                  	//HD44780U_Write_Symbol $2e
                                  	//HD44780U_Set_Cursor 2, 18
@@ -4668,7 +6365,7 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Gridar_AVR\main
                                  	//HD44780U_Cursor_visible disabled
                                  
                                  	//HD44780U_LCD_LED enabled
-00028e 940e 002d                 	TWSI_STOP
+                                 	//TWSI_STOP
 
 
 RESOURCE USE INFORMATION
@@ -4686,41 +6383,41 @@ counted separately from r26..r31 here.
 .dseg memory usage only counts static data declared with .byte
 
 "ATmega2560" register use summary:
-x  :   0 y  :   0 z  :   4 r0 :   0 r1 :   0 r2 :   0 r3 :   0 r4 :   0 
+x  :   0 y  :   0 z  :  11 r0 :   0 r1 :   0 r2 :   0 r3 :   0 r4 :   0 
 r5 :   0 r6 :   0 r7 :   0 r8 :   0 r9 :   0 r10:   0 r11:   0 r12:   0 
-r13:   0 r14:   0 r15:   0 r16: 205 r17: 102 r18:   0 r19:  38 r20:  25 
-r21:   0 r22:   0 r23:   0 r24:   0 r25:   0 r26:  10 r27:  10 r28:   0 
-r29:   0 r30:   3 r31:   3 
-Registers used: 9 out of 35 (25.7%)
+r13:   0 r14:   0 r15:   0 r16: 499 r17: 189 r18:  36 r19:  54 r20:  45 
+r21:   8 r22:   8 r23:   0 r24:   0 r25:   0 r26:  20 r27:  20 r28:   0 
+r29:   0 r30:  24 r31:  24 
+Registers used: 12 out of 35 (34.3%)
 
 "ATmega2560" instruction use summary:
-.lds  :   0 .sts  :   0 adc   :   0 add   :   4 adiw  :   0 and   :   0 
-andi  :   5 asr   :   0 bclr  :   0 bld   :   0 brbc  :   0 brbs  :   0 
-brcc  :   0 brcs  :   0 break :   0 breq  :   4 brge  :   0 brhc  :   0 
-brhs  :   0 brid  :   0 brie  :   0 brlo  :   0 brlt  :   0 brmi  :   0 
-brne  :   7 brpl  :   0 brsh  :   0 brtc  :   0 brts  :   0 brvc  :   0 
-brvs  :   0 bset  :   0 bst   :   0 call  : 107 cbi   :   0 cbr   :   0 
-clc   :   0 clh   :   0 cli   :   0 cln   :   0 clr   :   0 cls   :   0 
-clt   :   0 clv   :   0 clz   :   0 com   :   0 cp    :   0 cpc   :   0 
-cpi   :   8 cpse  :   1 dec   :   2 eicall:   0 eijmp :   0 elpm  :   0 
-eor   :   0 fmul  :   0 fmuls :   0 fmulsu:   0 icall :   0 ijmp  :   0 
-in    :   0 inc   :   1 jmp   :   1 ld    :   2 ldd   :   0 ldi   :  94 
-lds   :   9 lpm   :   2 lsl   :   0 lsr   :   0 mov   :  23 movw  :   0 
+.lds  :   0 .sts  :   0 adc   :   1 add   :   8 adiw  :   0 and   :   0 
+andi  :  13 asr   :   0 bclr  :   0 bld   :   0 brbc  :   0 brbs  :   0 
+brcc  :   0 brcs  :   0 break :   0 breq  :   6 brge  :   0 brhc  :   0 
+brhs  :   0 brid  :   0 brie  :   0 brlo  :   1 brlt  :   1 brmi  :   3 
+brne  :  24 brpl  :   0 brsh  :   1 brtc  :   0 brts  :   0 brvc  :   0 
+brvs  :   0 bset  :   0 bst   :   0 call  : 164 cbi   :  12 cbr   :   4 
+clc   :   1 clh   :   0 cli   :   5 cln   :   0 clr   :   5 cls   :   0 
+clt   :   1 clv   :   0 clz   :   0 com   :   2 cp    :   2 cpc   :   0 
+cpi   :  17 cpse  :   1 dec   :  12 eicall:   0 eijmp :   0 elpm  :   0 
+eor   :   1 fmul  :   0 fmuls :   0 fmulsu:   0 icall :   0 ijmp  :   0 
+in    :   6 inc   :   5 jmp   :  43 ld    :   5 ldd   :   0 ldi   : 155 
+lds   :  57 lpm   :   4 lsl   :  12 lsr   :   2 mov   :  31 movw  :   0 
 mul   :   0 muls  :   0 mulsu :   0 neg   :   0 nop   :   0 or    :   2 
-ori   :   0 out   :   2 pop   :  94 push  :  90 rcall :   0 ret   :  30 
-reti  :   0 rjmp  :   7 rol   :   0 ror   :   0 sbc   :   0 sbci  :   0 
-sbi   :   0 sbic  :   0 sbis  :   0 sbiw  :   1 sbr   :   7 sbrc  :   2 
-sbrs  :   2 sec   :   0 seh   :   0 sei   :   1 sen   :   0 ser   :   0 
-ses   :   0 set   :   0 sev   :   0 sez   :   0 sleep :   0 spm   :   0 
-st    :   0 std   :   0 sts   :  11 sub   :   0 subi  :   1 swap  :   2 
+ori   :   8 out   :   2 pop   : 199 push  : 195 rcall :  10 ret   :  72 
+reti  :   0 rjmp  :   7 rol   :  12 ror   :   3 sbc   :   0 sbci  :   0 
+sbi   :   8 sbic  :   2 sbis  :   1 sbiw  :   5 sbr   :  11 sbrc  :  29 
+sbrs  :  13 sec   :   1 seh   :   0 sei   :   6 sen   :   0 ser   :   0 
+ses   :   0 set   :   1 sev   :   0 sez   :   0 sleep :   0 spm   :   0 
+st    :   3 std   :   0 sts   :  40 sub   :   3 subi  :   1 swap  :   5 
 tst   :   0 wdr   :   0 
-Instructions used: 29 out of 116 (25.0%)
+Instructions used: 57 out of 116 (49.1%)
 
 "ATmega2560" memory use summary [bytes]:
 Segment   Begin    End      Code   Data   Used    Size   Use%
 ---------------------------------------------------------------
-[.cseg] 0x000000 0x000522   1300     14   1314  262144   0.5%
-[.dseg] 0x000200 0x000206      0      6      6    8192   0.1%
+[.cseg] 0x000000 0x000c26   3094     16   3110  262144   1.2%
+[.dseg] 0x000200 0x000226      0     38     38    8192   0.5%
 [.eseg] 0x000000 0x000000      0      0      0    4096   0.0%
 
 Assembly complete, 0 errors, 0 warnings

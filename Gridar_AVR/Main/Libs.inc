@@ -24,6 +24,11 @@
 	.include "HD44780U/Includes.inc"
 #endif
 
+// Файлы модуля OneWire
+#ifdef OneWire
+	.include "OneWire/Includes.inc"
+#endif
+
 
 .include "Main/Inits.inc"
 

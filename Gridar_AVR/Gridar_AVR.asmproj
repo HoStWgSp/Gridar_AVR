@@ -74,6 +74,9 @@
     <Compile Include="Configs\HD44780U_config.inc">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Configs\OneWire_config.inc">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Configs\TWSI_config.inc">
       <SubType>Code</SubType>
     </Compile>
@@ -147,6 +150,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="main.asm">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Main\Config.inc">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Main\Conf_sets.inc">
@@ -227,6 +233,96 @@
     <Compile Include="Main\Time_Cycles.inc">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="OneWire\Commands\OneWire_Temperature.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="OneWire\Commands\OneWire_TemperatureDataConvertation.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="OneWire\Files\OneWire_Constants.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="OneWire\Files\OneWire_Set_Macs.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="OneWire\Files\OneWire_Times.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="OneWire\FunctionCommands\OneWire_ConvertTemperature.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="OneWire\FunctionCommands\OneWire_CopyScratchpad.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="OneWire\FunctionCommands\OneWire_PowerSupply.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="OneWire\FunctionCommands\OneWire_ReadScratchpad.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="OneWire\FunctionCommands\OneWire_Recall.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="OneWire\FunctionCommands\OneWire_WriteScratchpad.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="OneWire\Functions\OneWire_CRCCheck.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="OneWire\Functions\OneWire_DeviceBusy.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="OneWire\Functions\OneWire_InitializationSequence.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="OneWire\Functions\OneWire_ReadBit.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="OneWire\Functions\OneWire_ReadBytes.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="OneWire\Functions\OneWire_SearchROM.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="OneWire\Functions\OneWire_SendByte.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="OneWire\Functions\OneWire_SendCommand.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="OneWire\Functions\OneWire_SendConfByte.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="OneWire\Functions\OneWire_SendROMCode.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="OneWire\Functions\OneWire_WriteBit.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="OneWire\Includes.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="OneWire\Labels.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="OneWire\OneWire_init.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="OneWire\ROMCommands\OneWire_AlarmSearch.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="OneWire\ROMCommands\OneWire_MatchROM.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="OneWire\ROMCommands\OneWire_ReadROM.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="OneWire\ROMCommands\OneWire_SearchROM.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="OneWire\ROMCommands\OneWire_SkipROM.inc">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="README.inc">
       <SubType>Code</SubType>
     </Compile>
@@ -287,6 +383,12 @@
     <Folder Include="Main\Interrupts" />
     <Folder Include="Configs" />
     <Folder Include="HD44780U" />
+    <Folder Include="OneWire" />
+    <Folder Include="OneWire\Commands" />
+    <Folder Include="OneWire\Files" />
+    <Folder Include="OneWire\FunctionCommands" />
+    <Folder Include="OneWire\Functions" />
+    <Folder Include="OneWire\ROMCommands" />
     <Folder Include="TWSI" />
     <Folder Include="README" />
     <Folder Include="TWSI\Files" />
